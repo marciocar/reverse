@@ -24,13 +24,13 @@ Aplicar todos os templates de um domínio de compliance específico (compliance-
 
 | Domain | Localização | Propósito | Sub-categorias |
 |--------|-------------|----------|-----------------|
-| `security` | `.cursor/commands/docs/compliance/security/` | Segurança da informação | ~15 templates |
-| `soc2` | `.cursor/commands/docs/compliance/soc2/` | Conformidade SOC2 | ~12 templates |
-| `privacy` | `.cursor/commands/docs/compliance/privacy/` | Proteção de dados (LGPD) | ~14 templates |
-| `business-continuity` | `.cursor/commands/docs/compliance/business-continuity/` | Continuidade de negócios | ~8 templates |
-| `ai-governance` | `.cursor/commands/docs/compliance/ai-governance/` | Governança de IA | ~10 templates |
-| `due-diligence` | `.cursor/commands/docs/compliance/due-diligence/` | Avaliação de riscos | ~6 templates |
-| `governance` | `.cursor/commands/docs/compliance/governance/` | Estruturas de compliance | ~20+ templates |
+| `security` | `.cursor/docs/templates/compliance/domains/security/` | Segurança da informação | ~15 templates |
+| `soc2` | `.cursor/docs/templates/compliance/domains/soc2/` | Conformidade SOC2 | ~12 templates |
+| `privacy` | `.cursor/docs/templates/compliance/domains/privacy/` | Proteção de dados (LGPD) | ~14 templates |
+| `business-continuity` | `.cursor/docs/templates/compliance/domains/business-continuity/` | Continuidade de negócios | ~8 templates |
+| `ai-governance` | `.cursor/docs/templates/compliance/domains/ai-governance/` | Governança de IA | ~10 templates |
+| `due-diligence` | `.cursor/docs/templates/compliance/domains/due-diligence/` | Avaliação de riscos | ~6 templates |
+| `governance` | `.cursor/docs/templates/compliance/domains/governance/` | Estruturas de compliance | ~20+ templates |
 
 ## Fluxo de Execução
 
@@ -43,7 +43,7 @@ Input: domain=security
 
 ### 2. Carregar Estrutura
 ```
-.cursor/commands/docs/compliance/{domain}/
+.cursor/docs/templates/compliance/domains/{domain}/
   ✓ Encontra todos os arquivos .md
   ✓ Preserva hierarquia de pastas
   ✓ Valida estrutura
@@ -237,7 +237,7 @@ Estrutura geral de compliance:
 
 ## Dependências
 
-- Templates em: `.cursor/commands/docs/compliance/`
+- Templates em: `.cursor/docs/templates/compliance/domains/`
 - Config (opcional): `.compliance-config.json`
 - Permissões de escrita em: `docs/`
 
