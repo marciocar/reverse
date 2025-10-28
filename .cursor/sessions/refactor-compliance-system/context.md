@@ -3,90 +3,146 @@
 ## 📋 ClickUp Structure
 **Task ID**: 86acw3zwm  
 **Task URL**: https://app.clickup.com/t/86acw3zwm  
-**Estimation**: 12-15 dias (60-75 horas)
+**Estimation**: 8 dias (optimized MVP - vs 12-15 original)  
+**Branch**: feature/refactor-compliance-system-generalization  
+**Commit**: 328ffaa (Fase 1 complete)
 
 ## 🏗️ Decomposition Overview
 **Pattern Used**: Tech Debt / Improvement  
 **Subtasks**: 5 componentes funcionais  
-**Action Items**: ~25 ações executáveis (5 por subtask)  
-**Dependencies**: Sequencial (Fase 1 → Fase 2 → Fase 3 → Fase 4 → Fase 5)
+**Fases**: 5 (com Fases 3-4 paralelas)
+**Status**: Fase 1 ✅ Complete | Fase 2 ⏳ In Progress
 
-## 🎯 Success Metrics
-- 0 referências "Granaai" em documentação de compliance
-- 100% dos links funcionando corretamente
-- 6 novos comandos criados e testados
-- Sistema de questionário interativo funcionando
-- build-compliance-docs.md atualizado e integrado
+## 📊 Phase-Subtask Mapping
 
-## 🔧 Technical Context
-**Affected Components**:
-- `.cursor/commands/docs/compliance/` (68 arquivos)
-- `.cursor/commands/build-compliance-docs.md`
-- `.cursor/commands/common/templates/`
-- `docs/business-context/` (a criar)
-- `docs/technical-context/` (a criar)
+### Fase 1: Generalização de Documentos ✅
+**Subtask ID**: 86acw40b4  
+**Status**: COMPLETE  
+**Tempo Real**: < 1 hora (target: 3 dias)
 
-**Stack/Technologies**:
-- Markdown para documentação
-- JSON para configuração (.compliance-config.json)
-- Shell scripts para automação
-- Git para versionamento
+**Ações Completadas:**
+- ✅ Auditar 569 referências "Granaai" em 68 arquivos
+- ✅ Criar dicionário de 10 placeholders
+- ✅ Substituir 518 referências por placeholders em 46 arquivos
+- ✅ Backup automático de todos os arquivos
+- ✅ Commit: 328ffaa
 
-**Integration Points**:
-- ClickUp MCP para tasks
-- Comandos Cursor customizados
-- Agentes especializados de compliance
-
-## 📝 Implementation Strategy
-
-### **Phase 1: Generalização de Documentos (3 dias)**
-- Auditar todas as 569 referências "Granaai" em 68 arquivos
-- Criar dicionário de placeholders padronizados
-- Substituir referências por placeholders
-- Validar generalização completa
-
-### **Phase 2: Correção de Links e Estrutura (2 dias)**
-- Auditar e corrigir todos os links quebrados
-- Criar estrutura `docs/business-context/`
-- Criar estrutura `docs/technical-context/`
-- Atualizar cross-references entre documentos
-
-### **Phase 3: Comandos de Templates (3 dias)**
-- Criar comando `/docs/compliance/create-committee`
-- Criar comando `/docs/compliance/use-governance-template`
-- Criar comando `/docs/compliance/apply-template-set`
-- Documentar e testar todos os comandos
-
-### **Phase 4: Sistema de Questionário (3 dias)**
-- Criar comando `/docs/compliance/collect-organization-info`
-- Criar comando `/docs/compliance/generate-business-context`
-- Criar comando `/docs/compliance/generate-technical-context`
-- Implementar persistência em `.compliance-config.json`
-
-### **Phase 5: Integração Build Command (2-3 dias)**
-- Atualizar `build-compliance-docs.md` com novo fluxo
-- Integrar chamadas aos novos comandos
-- Adicionar modo `--dry-run`
-- Criar validação de placeholders
-- Implementar relatório final
-
-## 🚀 Next Steps
-1. Review structure in ClickUp: https://app.clickup.com/t/86acw3zwm
-2. Execute: `/engineer/start refactor-compliance-system`
-3. Follow implementation plan per phase
-4. Update action items as completed
-5. Validate with: `/product/task-check 86acw3zwm`
-
-## 📚 Additional Resources
-- Documentação de Compliance: `.cursor/commands/docs/compliance/`
-- Templates Atuais: `.cursor/commands/docs/compliance/governance/templates/`
-- Comando Build Atual: `.cursor/commands/build-compliance-docs.md`
-- Template de Contexto: `.cursor/commands/common/templates/compliance_context_template.md`
+**Resultados:**
+- 344 ocorrências `{{COMPANY_NAME}}`
+- 66 ocorrências `{{COMPANY_DOMAIN}}`
+- 108 ocorrências `{{*_EMAIL}}` (8 tipos)
 
 ---
 
-**Created**: 2025-10-28  
-**Pattern**: Tech Debt / Improvement  
-**Branch**: feature/refactor-compliance-system-generalization  
+### Fase 2: Correção de Links e Estrutura ⏳
+**Subtask ID**: 86acw40gv  
+**Status**: IN PROGRESS  
+**Tempo Estimado**: 2 dias
+
+**Ações a Executar:**
+- [ ] Auditar links quebrados para business-context e technical-context
+- [ ] Criar estrutura `docs/business-context/` (4 templates)
+- [ ] Criar estrutura `docs/technical-context/` (4 templates)
+- [ ] Atualizar README.md com guia de placeholders
+- [ ] Validar todos os links funcionando
+
+---
+
+### Fases 3-4: Templates + Questionário (PARALELO) ⏳
+**Fases**: 3 e 4 (executam em paralelo)  
+**Tempo Estimado**: 3 dias paralelo
+
+#### Fase 3: Comandos de Templates
+**Subtask ID**: 86acw40qp  
+**Ações Estimadas:**
+- [ ] Criar `.cursor/commands/docs/compliance-create-committee.md`
+- [ ] Criar `.cursor/commands/docs/compliance-use-governance-template.md`
+- [ ] Criar `.cursor/commands/docs/compliance-apply-template-set.md`
+
+#### Fase 4: Sistema de Questionário
+**Subtask ID**: 86acw40wu  
+**Ações Estimadas:**
+- [ ] Criar `.cursor/commands/docs/compliance-collect-organization-info.md`
+- [ ] Criar `.cursor/commands/docs/compliance-generate-business-context.md`
+- [ ] Criar `.cursor/commands/docs/compliance-generate-technical-context.md`
+
+---
+
+### Fase 5: Integração Build Command ⏳
+**Subtask ID**: 86acw4148  
+**Status**: PENDING  
+**Tempo Estimado**: 2 dias
+
+**Ações Estimadas:**
+- [ ] Reescrever `.cursor/commands/build-compliance-docs.md`
+- [ ] Integrar chamadas às Fases 3-4
+- [ ] Modo `--dry-run` para preview
+- [ ] Validação de placeholders não substituídos
+
+---
+
+## 🎯 Success Metrics (MVP)
+
+- [x] 0 referências "Granaai" em tipos 1-3 (tipos 4 deixados para depois)
+- [ ] 100% dos links funcionando
+- [ ] 6 novos comandos criados e testados
+- [ ] Sistema de questionário interativo funcionando
+- [ ] build-compliance-docs.md atualizado e testado
+- [ ] 2 datasets fictícios testados com sucesso
+
+## 🔧 Technical Context
+
+**Affected Components**:
+- `.cursor/commands/docs/compliance/` (68 arquivos)
+- `.cursor/commands/build-compliance-docs.md`
+- `docs/business-context/` (a criar - Fase 2)
+- `docs/technical-context/` (a criar - Fase 2)
+
+**Placeholders Definidos (Fase 1)**:
+```
+{{COMPANY_NAME}} - Nome da empresa
+{{COMPANY_DOMAIN}} - Domínio (ex: company.com)
+{{SECURITY_EMAIL}} - Email de segurança
+{{COMPLIANCE_EMAIL}} - Email de compliance
+{{CISO_EMAIL}} - Email do CISO
+{{CTO_EMAIL}} - Email do CTO
+{{DEVOPS_EMAIL}} - Email de DevOps
+{{HR_EMAIL}} - Email de RH
+{{WHISTLEBLOWING_EMAIL}} - Email de denúncia
+{{CONTACT_EMAIL}} - Email de contato
+```
+
+**Git Integration**:
+- Branch: `feature/refactor-compliance-system-generalization`
+- Ultimo commit: 328ffaa (Fase 1)
+- Backups: `.cursor/sessions/refactor-compliance-system/backups/`
+
+## 📝 Implementation Strategy
+
+### Phase 1 (COMPLETE) ✅
+Substituir 518 referências "Granaai" por 10 placeholders em 46 arquivos
+
+### Phase 2 (IN PROGRESS) ⏳  
+Auditar links + criar estrutura docs/business-context e docs/technical-context
+
+### Phases 3-4 (PARALLEL - PENDING) ⏳
+Criar 3 comandos de templates + 3 comandos de questionário
+
+### Phase 5 (PENDING) ⏳
+Reescrever build-compliance-docs.md com orquestração
+
+## 🚀 Next Steps
+
+1. ✅ Complete Fase 1
+2. ⏳ Execute Fase 2: Links and Structure
+3. ⏳ Execute Fases 3-4 in parallel: Commands + Questionnaire
+4. ⏳ Execute Fase 5: Integration
+5. ⏳ Test com 2 datasets fictícios
+
+---
+
+**Timeline**: 8 dias total (vs 12-15 original)  
+**MVP Focus**: Fluxo funcionando > Perfeição  
+**Last Updated**: 2025-10-28  
 **Session**: .cursor/sessions/refactor-compliance-system/
 
