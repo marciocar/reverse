@@ -9,7 +9,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Matriz de Risco de IA
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Identificar, avaliar e gerenciar riscos associados ao desenvolvimento e uso de sistemas de Inteligência Artificial, garantindo governança responsável e mitigação proativa.
 
@@ -22,7 +22,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 **Esta matriz segue:**
 - **NIST AI Risk Management Framework (AI RMF 1.0)**
 - **ISO 31000:2018** (Gestão de Riscos)
-- **AI Governance Policy do Granaai**
+- **AI Governance Policy do {{COMPANY_NAME}}**
 
 **Referências:**
 - [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework)
@@ -373,7 +373,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 #### 3.3 Responsabilidade Civil por Decisões de IA
 
-**Descrição:** Granaai pode ser responsabilizada civilmente por decisões incorretas ou prejudiciais da IA.
+**Descrição:** {{COMPANY_NAME}} pode ser responsabilizada civilmente por decisões incorretas ou prejudiciais da IA.
 
 | Atributo | Valor |
 |----------|-------|
@@ -407,7 +407,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 #### 4.1 Incidente Público de IA
 
-**Descrição:** Incidente de IA (viés, erro grave, vazamento) torna-se público, danificando reputação da Granaai.
+**Descrição:** Incidente de IA (viés, erro grave, vazamento) torna-se público, danificando reputação da {{COMPANY_NAME}}.
 
 | Atributo | Valor |
 |----------|-------|

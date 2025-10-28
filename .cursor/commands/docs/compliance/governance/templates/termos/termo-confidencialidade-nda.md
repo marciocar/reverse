@@ -9,19 +9,19 @@ classification: "CONFIDENCIAL"
 
 # TERMO DE CONFIDENCIALIDADE E SIGILO (NDA)
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
 ## PARTES
 
-### **PARTE DIVULGADORA (Granaai)**
+### **PARTE DIVULGADORA ({{COMPANY_NAME}})**
 
 **Razão Social**: [A DEFINIR - Razão social completa]  
 **CNPJ**: [A DEFINIR]  
 **Endereço**: [A DEFINIR - Endereço completo]
 
-Doravante denominada **"Granaai"** ou **"DIVULGADORA"**.
+Doravante denominada **"{{COMPANY_NAME}}"** ou **"DIVULGADORA"**.
 
 ---
 
@@ -45,7 +45,7 @@ Doravante denominada **"RECEPTORA"**.
 
 ## OBJETO
 
-Este Termo de Confidencialidade e Sigilo (**"NDA"**) tem por objeto estabelecer as condições sob as quais a **RECEPTORA** terá acesso a **Informações Confidenciais** do Granaai, comprometendo-se a mantê-las em sigilo absoluto.
+Este Termo de Confidencialidade e Sigilo (**"NDA"**) tem por objeto estabelecer as condições sob as quais a **RECEPTORA** terá acesso a **Informações Confidenciais** do {{COMPANY_NAME}}, comprometendo-se a mantê-las em sigilo absoluto.
 
 ---
 
@@ -53,7 +53,7 @@ Este Termo de Confidencialidade e Sigilo (**"NDA"**) tem por objeto estabelecer 
 
 ### 1.1 Informações Confidenciais
 
-Consideram-se **Informações Confidenciais** quaisquer informações, dados, documentos, materiais, tecnologias, processos, know-how, segredos comerciais, planos estratégicos e demais informações de propriedade do Granaai, divulgadas ou acessadas pela RECEPTORA, incluindo, mas não se limitando a:
+Consideram-se **Informações Confidenciais** quaisquer informações, dados, documentos, materiais, tecnologias, processos, know-how, segredos comerciais, planos estratégicos e demais informações de propriedade do {{COMPANY_NAME}}, divulgadas ou acessadas pela RECEPTORA, incluindo, mas não se limitando a:
 
 #### **1.1.1 Dados de Clientes e Parceiros**
 -  Nomes, CPF/CNPJ, endereços, dados de contato de clientes
@@ -100,10 +100,10 @@ Consideram-se **Informações Confidenciais** quaisquer informações, dados, do
 
 **NÃO** são consideradas Informações Confidenciais:
 
-❌ Informações de domínio público (antes da divulgação pela Granaai)  
+❌ Informações de domínio público (antes da divulgação pela {{COMPANY_NAME}})  
 ❌ Informações recebidas legitimamente de terceiros sem obrigação de sigilo  
 ❌ Informações desenvolvidas independentemente pela RECEPTORA (comprovável)  
-❌ Informações cuja divulgação seja exigida por lei ou ordem judicial (com notificação prévia à Granaai)
+❌ Informações cuja divulgação seja exigida por lei ou ordem judicial (com notificação prévia à {{COMPANY_NAME}})
 
 ---
 
@@ -115,15 +115,15 @@ A **RECEPTORA** compromete-se a:
 
 ✅ **Manter sigilo absoluto** sobre todas as Informações Confidenciais recebidas.
 
-✅ **Não divulgar, publicar, reproduzir, compartilhar ou comunicar** as Informações Confidenciais a terceiros, exceto quando expressamente autorizado por escrito pela Granaai.
+✅ **Não divulgar, publicar, reproduzir, compartilhar ou comunicar** as Informações Confidenciais a terceiros, exceto quando expressamente autorizado por escrito pela {{COMPANY_NAME}}.
 
 ### 2.2 Uso Restrito
 
-✅ **Utilizar** as Informações Confidenciais **exclusivamente** para os fins relacionados ao objeto do vínculo com o Granaai (trabalho, consultoria, parceria).
+✅ **Utilizar** as Informações Confidenciais **exclusivamente** para os fins relacionados ao objeto do vínculo com o {{COMPANY_NAME}} (trabalho, consultoria, parceria).
 
 ❌ **NÃO utilizar** as Informações Confidenciais para:
 - Benefício próprio ou de terceiros
-- Concorrência com o Granaai
+- Concorrência com o {{COMPANY_NAME}}
 - Qualquer finalidade não autorizada
 
 ### 2.3 Proteção Adequada
@@ -143,7 +143,7 @@ A **RECEPTORA** compromete-se a:
 
 ### 2.5 Notificação de Incidentes
 
-✅ **Notificar imediatamente** o Granaai em caso de:
+✅ **Notificar imediatamente** o {{COMPANY_NAME}} em caso de:
 - Vazamento, perda ou roubo de Informações Confidenciais
 - Acesso não autorizado
 - Solicitação de terceiros (judicial ou extrajudicial)
@@ -155,7 +155,7 @@ A **RECEPTORA** compromete-se a:
 
 ### 3.1 Ao Término do Vínculo
 
-Ao término do vínculo com o Granaai (demissão, término de contrato, fim de projeto), a **RECEPTORA** deve:
+Ao término do vínculo com o {{COMPANY_NAME}} (demissão, término de contrato, fim de projeto), a **RECEPTORA** deve:
 
 ✅ **Devolver imediatamente** todos os materiais físicos contendo Informações Confidenciais (documentos, mídias, equipamentos).
 
@@ -167,7 +167,7 @@ Ao término do vínculo com o Granaai (demissão, término de contrato, fim de p
 
 ### 3.2 Certificado de Destruição
 
-A Granaai pode solicitar **Certificado de Destruição** assinado, atestando a eliminação completa das Informações Confidenciais.
+A {{COMPANY_NAME}} pode solicitar **Certificado de Destruição** assinado, atestando a eliminação completa das Informações Confidenciais.
 
 ---
 
@@ -175,13 +175,13 @@ A Granaai pode solicitar **Certificado de Destruição** assinado, atestando a e
 
 ### 4.1 Titularidade
 
-✅ Todas as Informações Confidenciais permanecem de **propriedade exclusiva** do Granaai.
+✅ Todas as Informações Confidenciais permanecem de **propriedade exclusiva** do {{COMPANY_NAME}}.
 
 ✅ Este NDA **não transfere** nenhum direito de propriedade intelectual à RECEPTORA.
 
 ### 4.2 Criações no Trabalho
 
-✅ Qualquer criação, invenção, desenvolvimento ou melhoria criada pela RECEPTORA durante o vínculo com o Granaai, utilizando Informações Confidenciais ou recursos da empresa, pertence **exclusivamente ao Granaai**.
+✅ Qualquer criação, invenção, desenvolvimento ou melhoria criada pela RECEPTORA durante o vínculo com o {{COMPANY_NAME}}, utilizando Informações Confidenciais ou recursos da empresa, pertence **exclusivamente ao {{COMPANY_NAME}}**.
 
 ---
 
@@ -191,7 +191,7 @@ A Granaai pode solicitar **Certificado de Destruição** assinado, atestando a e
 
 ✅ Este NDA entra em vigor na data de assinatura.
 
-✅ A obrigação de confidencialidade permanece vigente por **prazo indeterminado** ou, no mínimo, **5 anos** após o término do vínculo com o Granaai, **o que for maior**.
+✅ A obrigação de confidencialidade permanece vigente por **prazo indeterminado** ou, no mínimo, **5 anos** após o término do vínculo com o {{COMPANY_NAME}}, **o que for maior**.
 
 ### 5.2 Permanência após Término do Vínculo
 
@@ -217,7 +217,7 @@ A violação deste NDA pode resultar em:
 A violação deste NDA sujeita a RECEPTORA a:
 - ⚖️ **Indenização por perdas e danos** (materiais e morais)
 - ⚖️ **Lucros cessantes**
-- ⚖️ **Danos à imagem e reputação** do Granaai
+- ⚖️ **Danos à imagem e reputação** do {{COMPANY_NAME}}
 
 ### 6.3 Responsabilização Criminal
 
@@ -228,7 +228,7 @@ Dependendo da gravidade, a violação pode configurar crimes:
 
 ### 6.4 Direito de Ação
 
-O Granaai reserva-se o direito de:
+O {{COMPANY_NAME}} reserva-se o direito de:
 - ⚖️ Ajuizar **ação judicial** para reparação de danos
 - ⚖️ Requerer **medidas cautelares** (busca e apreensão, bloqueio de divulgação)
 - ⚖️ Comunicar **autoridades competentes** (Polícia Federal, ANPD, COAF)
@@ -247,7 +247,7 @@ Alterações a este NDA só serão válidas se feitas por escrito e assinadas po
 
 ### 7.3 Cessão
 
-A RECEPTORA não pode ceder, transferir ou subdelegar suas obrigações sem consentimento prévio e por escrito do Granaai.
+A RECEPTORA não pode ceder, transferir ou subdelegar suas obrigações sem consentimento prévio e por escrito do {{COMPANY_NAME}}.
 
 ### 7.4 Renúncia
 
@@ -290,7 +290,7 @@ Declaro que:
 
 ---
 
-### **PARTE DIVULGADORA (Granaai)**
+### **PARTE DIVULGADORA ({{COMPANY_NAME}})**
 
 **_____________________________________________**  
 **Assinatura do Representante Legal**
@@ -328,4 +328,4 @@ Declaro que:
 **📄 Documento controlado - Revisão anual obrigatória**  
 **🔒 CONFIDENCIAL - USO RESTRITO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

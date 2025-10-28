@@ -9,7 +9,7 @@ classification: "USO INTERNO"
 
 # TERMO DE CIÊNCIA - POLÍTICAS DE COMPLIANCE
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -35,7 +35,7 @@ Eu, acima qualificado, **DECLARO** que:
 
 ## 1. RECEBIMENTO E LEITURA DAS POLÍTICAS
 
-Recebi, li integralmente e compreendi as seguintes políticas corporativas do Granaai:
+Recebi, li integralmente e compreendi as seguintes políticas corporativas do {{COMPANY_NAME}}:
 
 ### ✅ **1.1 Código de Conduta e Ética**
 - **Versão**: 1.0
@@ -147,7 +147,7 @@ Ao assinar este termo, **COMPROMETO-ME** a:
 
 ✅ **Agir com integridade**, honestidade e transparência em todas as situações.
 
-✅ **Respeitar** os valores organizacionais do Granaai.
+✅ **Respeitar** os valores organizacionais do {{COMPANY_NAME}}.
 
 ✅ **Promover** cultura ética e de conformidade.
 
@@ -178,7 +178,7 @@ Ao assinar este termo, **COMPROMETO-ME** a:
 ✅ **Não participar** de decisões onde exista conflito de interesse não autorizado.
 
 ✅ **Exemplos de conflitos a declarar**:
-- Parentes trabalhando no Granaai ou em clientes/fornecedores
+- Parentes trabalhando no {{COMPANY_NAME}} ou em clientes/fornecedores
 - Investimentos em clientes, fornecedores ou concorrentes
 - Negócios paralelos (freelas, MEI, sociedades)
 - Relacionamento amoroso com colega de trabalho (se gerar subordinação)
@@ -207,10 +207,10 @@ Ao assinar este termo, **COMPROMETO-ME** a:
 ### 2.8 Reportar Violações
 
 ✅ **Reportar** violações ou suspeitas de violações das políticas através dos canais apropriados:
-- **Canal de denúncia**: denuncia@grana.ai (confidencial, anônimo permitido)
+- **Canal de denúncia**: {{WHISTLEBLOWING_EMAIL}} (confidencial, anônimo permitido)
 - **Gestor direto**
-- **RH**: rh@grana.ai
-- **Compliance**: compliance@grana.ai / CISO
+- **RH**: rh@{{COMPANY_DOMAIN}}
+- **Compliance**: {{COMPLIANCE_EMAIL}} / CISO
 
 ✅ **Cooperar** com investigações internas.
 
@@ -239,7 +239,7 @@ Estou ciente de que deverei preencher **anualmente** (todo mês de janeiro):
 ✅ **Declaração de Conflito de Interesses** (formulário eletrônico)
 
 Seções obrigatórias:
-1. Vínculos familiares (parentes no Granaai, clientes, fornecedores)
+1. Vínculos familiares (parentes no {{COMPANY_NAME}}, clientes, fornecedores)
 2. Interesses financeiros (investimentos, dívidas relevantes)
 3. Atividades externas (negócios paralelos, consultorias, cargos)
 4. Outras situações que possam gerar conflito
@@ -275,28 +275,28 @@ Estou ciente de que o descumprimento das políticas de compliance pode resultar 
 
 ### 6.1 Dúvidas sobre Políticas
 
-- 📧 **compliance@grana.ai**
-- 👤 **CISO**: ciso@grana.ai
+- 📧 **{{COMPLIANCE_EMAIL}}**
+- 👤 **CISO**: {{CISO_EMAIL}}
 - 👤 **Gestor direto**
-- 👤 **RH**: rh@grana.ai
+- 👤 **RH**: rh@{{COMPANY_DOMAIN}}
 
 ### 6.2 Denúncias (Confidencial/Anônimo)
 
-- 📧 **denuncia@grana.ai**
+- 📧 **{{WHISTLEBLOWING_EMAIL}}**
 - 🔒 Confidencialidade garantida
 - 🙈 Anonimato permitido
 - ⚠️ Proteção contra retaliação
 
 ### 6.3 Suporte Operacional
 
-- 📧 **rh@grana.ai** (Questões trabalhistas, benefícios)
-- 📧 **ti@grana.ai** (Suporte técnico, sistemas)
+- 📧 **rh@{{COMPANY_DOMAIN}}** (Questões trabalhistas, benefícios)
+- 📧 **ti@{{COMPANY_DOMAIN}}** (Suporte técnico, sistemas)
 
 ---
 
 ## 7. VIGÊNCIA
 
-✅ Este compromisso é **permanente** durante todo o vínculo com o Granaai.
+✅ Este compromisso é **permanente** durante todo o vínculo com o {{COMPANY_NAME}}.
 
 ✅ Algumas obrigações (confidencialidade, não concorrência) **permanecem vigentes** após término do contrato (5 anos ou prazo indeterminado, conforme NDA).
 
@@ -390,4 +390,4 @@ Declaro que o colaborador acima qualificado recebeu cópias de todas as polític
 **📄 Documento controlado - Revisão anual obrigatória**  
 **🔒 CONFIDENCIAL - USO INTERNO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

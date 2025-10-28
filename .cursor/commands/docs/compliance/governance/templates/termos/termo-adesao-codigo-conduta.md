@@ -9,7 +9,7 @@ classification: "USO INTERNO"
 
 # TERMO DE ADESÃO AO CÓDIGO DE CONDUTA E ÉTICA
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -33,7 +33,7 @@ Eu, acima qualificado, **DECLARO** que:
 
 ### 1. RECEBIMENTO E LEITURA
 
-✅ **Recebi** cópia do **Código de Conduta e Ética** do Granaai (versão 1.0, vigente a partir de 15/01/2025).
+✅ **Recebi** cópia do **Código de Conduta e Ética** do {{COMPANY_NAME}} (versão 1.0, vigente a partir de 15/01/2025).
 
 ✅ **Li integralmente** o Código de Conduta e Ética.
 
@@ -59,7 +59,7 @@ Eu, acima qualificado, **DECLARO** que:
 
 ✅ **Utilizar recursos da empresa** de forma responsável e exclusivamente para finalidades profissionais.
 
-✅ **Reportar** violações ou suspeitas de violações ao Código através do canal de denúncia (denuncia@grana.ai) ou canais oficiais.
+✅ **Reportar** violações ou suspeitas de violações ao Código através do canal de denúncia ({{WHISTLEBLOWING_EMAIL}}) ou canais oficiais.
 
 ✅ **Cooperar** com investigações internas conduzidas pela área de Compliance.
 
@@ -83,7 +83,7 @@ Declaro estar ciente de que, além do Código de Conduta, devo observar as segui
 
 Estou ciente da existência do **Canal de Denúncia confidencial e anônimo**:
 
-📧 **denuncia@grana.ai**
+📧 **{{WHISTLEBLOWING_EMAIL}}**
 
 E sei que:
 -  Posso reportar violações de forma **confidencial** ou **anônima**
@@ -103,7 +103,7 @@ Estou ciente de que o descumprimento do Código de Conduta e Ética pode resulta
 
 Declaro estar ciente de que:
 
--  Este compromisso é **permanente** durante todo o vínculo com o Granaai
+-  Este compromisso é **permanente** durante todo o vínculo com o {{COMPANY_NAME}}
 -  O Código de Conduta pode ser **atualizado** periodicamente, e serei comunicado de revisões
 -  Deverei participar de **treinamentos periódicos** sobre compliance e ética
 -  Algumas obrigações (confidencialidade, não concorrência) podem **permanecer vigentes** após término do contrato
@@ -114,7 +114,7 @@ Declaro estar ciente de que:
 
 Ao assinar este termo, declaro que:
 
-1. Li, compreendi e concordo integralmente com o Código de Conduta e Ética do Granaai
+1. Li, compreendi e concordo integralmente com o Código de Conduta e Ética do {{COMPANY_NAME}}
 2. Comprometo-me a cumprir todas as diretrizes estabelecidas
 3. Estou ciente das consequências em caso de violações
 4. Entendo minha responsabilidade individual em promover cultura ética e de integridade
@@ -181,4 +181,4 @@ Declaro que o colaborador acima qualificado recebeu, leu e assinou o Termo de Ad
 **📄 Documento controlado - Revisão anual obrigatória**  
 **🔒 CONFIDENCIAL - USO INTERNO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

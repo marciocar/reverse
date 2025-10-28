@@ -43,8 +43,8 @@
 
 ## 📞 CANAIS
 
-**Dúvidas:** compliance@grana.ai | Gestor | RH  
-**Denúncias:** denuncia@grana.ai (confidencial, anônimo permitido)
+**Dúvidas:** {{COMPLIANCE_EMAIL}} | Gestor | RH  
+**Denúncias:** {{WHISTLEBLOWING_EMAIL}} (confidencial, anônimo permitido)
 
 **Proteção:** Denunciantes de boa-fé são protegidos contra retaliação
 
@@ -54,4 +54,4 @@
 
 ---
 
-**Granaai © 2025 | Cultura Ética**
+**{{COMPANY_NAME}} © 2025 | Cultura Ética**

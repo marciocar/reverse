@@ -1,4 +1,4 @@
-# SOC 2 Trust Services Criteria (TSC) - Granaai
+# SOC 2 Trust Services Criteria (TSC) - {{COMPANY_NAME}}
 
 > **Framework:** SOC 2 Type II - AICPA Trust Services Criteria  
 > **Versão:** 1.0  
@@ -12,7 +12,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento fornece uma visão abrangente da implementação dos **SOC 2 Trust Services Criteria (TSC)** pela Granaai, demonstrando conformidade com os cinco princípios fundamentais de controles de serviço:
+Este documento fornece uma visão abrangente da implementação dos **SOC 2 Trust Services Criteria (TSC)** pela {{COMPANY_NAME}}, demonstrando conformidade com os cinco princípios fundamentais de controles de serviço:
 
 -  **Security (Segurança)** - Proteger sistema contra acesso não autorizado
 -  **Availability (Disponibilidade)** - Manter sistema disponível conforme acordado
@@ -41,7 +41,7 @@ Este documento fornece uma visão abrangente da implementação dos **SOC 2 Trus
 | **Type I** | Point-in-Time | Design dos controles | Snapshot (1 dia) | Validação inicial, MVP |
 | **Type II** | Operating Effectiveness | Controles em operação | 6-12 meses | Clientes enterprise, RFPs |
 
-**Granaai Target:** SOC 2 Type II (mais rigoroso, preferido por enterprise)
+**{{COMPANY_NAME}} Target:** SOC 2 Type II (mais rigoroso, preferido por enterprise)
 
 ---
 
@@ -90,7 +90,7 @@ Privacy (Adicional - Opcional)
 └── Data subject requests (DSR)
 ```
 
-**Granaai Scope:** Security + Availability + Confidentiality (3 princípios)
+**{{COMPANY_NAME}} Scope:** Security + Availability + Confidentiality (3 princípios)
 
 **Justificativa:**
 - Security: Obrigatório (base de tudo)
@@ -107,7 +107,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade define e documenta políticas de segurança.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Políticas Formais Aprovadas:**
 - [Information Security Policy](../security/information-security-policy.md)
@@ -130,7 +130,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade identifica, analisa e responde a riscos de segurança.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Risk Assessment Anual:**
 - Última execução: Janeiro 2025
@@ -163,7 +163,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade treina pessoal em práticas de segurança.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Training Program:**
 - **Onboarding:** Security basics (2h, obrigatório)
@@ -189,7 +189,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade implementa controles de acesso lógico e físico.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Logical Access:**
 - **SSO (Single Sign-On):** Auth0 para todas aplicações
@@ -219,7 +219,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade monitora e gerencia operações de sistemas.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Monitoring 24/7:**
 - CloudWatch, Grafana, Prometheus (métricas)
@@ -250,7 +250,7 @@ Privacy (Adicional - Opcional)
 
 **Controle:** A entidade identifica, responde e recupera de incidentes de segurança.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Incident Response Plan:**
 - [Security Incident Response Plan](../security/incident-response.md)
@@ -284,7 +284,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade define objetivos de disponibilidade baseados em requisitos de negócio.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **SLA:** 99.5% uptime mensal (máximo 3.6h downtime/mês)  
 ✅ **Alcançado:** 99.95% (Q2 2025) - acima do SLA  
@@ -301,7 +301,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade monitora componentes de sistema e capacidade.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Monitoramento:**
 - CloudWatch (métricas, logs, alertas)
@@ -324,7 +324,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade responde a incidentes de disponibilidade.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Processes:**
 - On-call rotation 24/7
@@ -347,7 +347,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade classifica dados sensíveis.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Classification Levels:**
 
@@ -368,7 +368,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade protege dados confidenciais com encryption.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Encryption At Rest:**
 - RDS (PostgreSQL): AES-256
@@ -392,7 +392,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 
 **Controle:** A entidade descarta dados confidenciais de forma segura.
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Data Retention:**
 - Transações: 7 anos (BACEN requirement)
@@ -500,10 +500,10 @@ s3://granaai-compliance/soc2-evidence/
 
 | Papel | Responsável | Responsabilidades SOC 2 | Contato |
 |-------|-------------|-------------------------|---------|
-| **SOC 2 Owner** | CTO | Aprovar políticas, coordenar auditoria | cto@grana.ai |
-| **Compliance Lead** | CISO | Implementar controles, coletar evidências | ciso@grana.ai |
-| **Technical Controls** | DevOps Lead | Infraestrutura, monitoring, DR | devops-lead@grana.ai |
-| **HR Controls** | HR Manager | Training, background checks | hr@grana.ai |
+| **SOC 2 Owner** | CTO | Aprovar políticas, coordenar auditoria | {{CTO_EMAIL}} |
+| **Compliance Lead** | CISO | Implementar controles, coletar evidências | {{CISO_EMAIL}} |
+| **Technical Controls** | DevOps Lead | Infraestrutura, monitoring, DR | {{DEVOPS_EMAIL}} |
+| **HR Controls** | HR Manager | Training, background checks | {{HR_EMAIL}} |
 | **External Auditor** | Ernst & Young | Validar controles, emitir relatório | ey-auditor@ey.com |
 
 ---
@@ -518,19 +518,19 @@ s3://granaai-compliance/soc2-evidence/
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do CTO]**  
-CTO - Granaai  
+CTO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do CISO]**  
-CISO - Granaai  
+CISO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---

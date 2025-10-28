@@ -1,4 +1,4 @@
-# Risk Assessment (Avaliação de Riscos) - Granaai
+# Risk Assessment (Avaliação de Riscos) - {{COMPANY_NAME}}
 
 > **Framework:** ISO 27001:2022 - Cláusula 6.1.2  
 > **Versão:** 1.0  
@@ -10,7 +10,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento apresenta a **Risk Assessment** (Avaliação de Riscos de Segurança da Informação) da Granaai, realizada conforme ISO 27001:2022 e ISO 27005:2022, identificando:
+Este documento apresenta a **Risk Assessment** (Avaliação de Riscos de Segurança da Informação) da {{COMPANY_NAME}}, realizada conforme ISO 27001:2022 e ISO 27005:2022, identificando:
 
 -  **35 riscos identificados** (completo inventory)
 -  **28 riscos mitigados** (80% com controles implementados)

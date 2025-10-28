@@ -39,7 +39,7 @@ frequency: "Anual"
 
 ## ✅ 5. CANAL DE DENÚNCIA
 
-- [ ] Canal de denúncia (denuncia@grana.ai) está ativo?
+- [ ] Canal de denúncia ({{WHISTLEBLOWING_EMAIL}}) está ativo?
 - [ ] Denúncias recebidas foram investigadas no prazo (20 dias)?
 - [ ] Denunciantes de boa-fé foram protegidos contra retaliação?
 - [ ] Medidas corretivas implementadas?
@@ -96,4 +96,4 @@ frequency: "Anual"
 **Data:** _______________  
 **Aprovado por (CEO):** _______________
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

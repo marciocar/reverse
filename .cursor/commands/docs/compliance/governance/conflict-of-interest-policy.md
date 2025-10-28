@@ -7,14 +7,14 @@ next_review: "2026-01-15"
 owner: "Comitê de Compliance"
 approved_by: "CEO + Board"
 legal_basis: "Código Civil, Lei 12.846/2013, Lei 6.404/1976 (Lei das S.A.)"
-applies_to: "Granaai - Infratech de Recebíveis"
+applies_to: "{{COMPANY_NAME}} - Infratech de Recebíveis"
 classification: "CONFIDENCIAL - USO INTERNO"
 ---
 
 # Política de Gestão de Conflitos de Interesse
 
 > **Mensagem da Liderança**  
-> A confiança é o ativo mais valioso do Granaai. Esta política garante que nossas decisões sejam sempre tomadas com base no melhor interesse da empresa e de nossos stakeholders, livres de influências pessoais inadequadas.
+> A confiança é o ativo mais valioso do {{COMPANY_NAME}}. Esta política garante que nossas decisões sejam sempre tomadas com base no melhor interesse da empresa e de nossos stakeholders, livres de influências pessoais inadequadas.
 >
 > — **Carlos Gustavo Pulga**, COO/CFO
 
@@ -28,7 +28,7 @@ Esta Política de Gestão de Conflitos de Interesse tem como objetivos:
 
 - **Identificar, prevenir e gerenciar** situações onde interesses pessoais possam influenciar decisões profissionais
 - **Garantir transparência** e imparcialidade em todos os processos de tomada de decisão
-- **Proteger** a reputação e integridade do Granaai
+- **Proteger** a reputação e integridade do {{COMPANY_NAME}}
 - **Estabelecer** procedimentos claros de declaração, análise e mitigação de conflitos
 - **Promover** cultura de ética e responsabilidade
 
@@ -123,9 +123,9 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 #### **3.2.1 Investimentos e Participações Societárias**
 
 **Situações de Conflito:**
-- 🔴 Possuir ações/cotas em **clientes**, **fornecedores** ou **concorrentes** do Granaai
-- 🔴 Investir em empresa que está em negociação com Granaai
-- 🔴 Participar de sociedade que compete diretamente com Granaai
+- 🔴 Possuir ações/cotas em **clientes**, **fornecedores** ou **concorrentes** do {{COMPANY_NAME}}
+- 🔴 Investir em empresa que está em negociação com {{COMPANY_NAME}}
+- 🔴 Participar de sociedade que compete diretamente com {{COMPANY_NAME}}
 - 🔴 Usar informações privilegiadas para investimentos pessoais (insider trading)
 
 **Exemplo:** Analista de compras não pode possuir participação societária em fornecedor que ele avalia. Alternativa: Desinvestir ou transferir decisão de compra para outra pessoa.
@@ -133,21 +133,21 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 #### **3.2.2 Negócios Paralelos (Side Business)**
 
 **Situações de Conflito:**
-- 🔴 Negócio paralelo compete diretamente com Granaai
+- 🔴 Negócio paralelo compete diretamente com {{COMPANY_NAME}}
 - 🔴 Usar recursos da empresa (tempo, equipamentos, contatos) no negócio paralelo
-- 🔴 Oferecer serviços do negócio paralelo a clientes/parceiros do Granaai
+- 🔴 Oferecer serviços do negócio paralelo a clientes/parceiros do {{COMPANY_NAME}}
 - 🔴 Negócio paralelo compromete desempenho no trabalho
 
 **Gestão:**
 -  Declarar negócio paralelo na Declaração Anual de Conflito de Interesses
--  Garantir que não compete com Granaai
+-  Garantir que não compete com {{COMPANY_NAME}}
 -  Não usar recursos corporativos (tempo de trabalho, equipamentos, contatos, informações)
 -  Manter desempenho profissional inalterado
 
 **Exemplo:** Desenvolvedor pode ter freela de desenvolvimento web, desde que:
-- Não use horário de trabalho do Granaai
-- Não atenda clientes do Granaai sem autorização
-- Não desenvolva produto concorrente ao Granaai
+- Não use horário de trabalho do {{COMPANY_NAME}}
+- Não atenda clientes do {{COMPANY_NAME}} sem autorização
+- Não desenvolva produto concorrente ao {{COMPANY_NAME}}
 - Declare anualmente o negócio
 
 #### **3.2.3 Presentes, Brindes e Hospitalidades**
@@ -155,7 +155,7 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 **Situações de Conflito:**
 - 🔴 Aceitar presente valioso (> R$ 100) de fornecedor em negociação
 - 🔴 Receber viagens, hospedagens ou entretenimento de parceiros comerciais
-- 🔴 Aceitar pagamento por palestras/consultorias de fornecedores do Granaai
+- 🔴 Aceitar pagamento por palestras/consultorias de fornecedores do {{COMPANY_NAME}}
 
 **Ver detalhes:** [Política de Anticorrupção - Seção de Brindes](./anti-corruption-policy.md)
 
@@ -165,21 +165,21 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 
 **Situações de Conflito:**
 - 🔴 Cargo executivo em empresa concorrente
-- 🔴 Consultoria remunerada para cliente/parceiro do Granaai
-- 🔴 Membro de conselho de empresa que negocia com Granaai
+- 🔴 Consultoria remunerada para cliente/parceiro do {{COMPANY_NAME}}
+- 🔴 Membro de conselho de empresa que negocia com {{COMPANY_NAME}}
 - 🔴 Atividade externa consome tempo significativo (comprometendo desempenho)
 
 **Gestão:**
 -  Solicitar autorização prévia para atividades externas relevantes
 -  Declarar na Declaração Anual
--  Avaliar compatibilidade com horário e dedicação ao Granaai
+-  Avaliar compatibilidade com horário e dedicação ao {{COMPANY_NAME}}
 
 **Exemplo:** CTO não pode ser conselheiro de startup de tecnologia financeira (concorrente potencial). Alternativa: Ser mentor (sem remuneração e sem acesso a informações estratégicas).
 
 #### **3.3.2 Uso de Informações Privilegiadas**
 
 **Situações de Conflito:**
-- 🔴 Usar informação confidencial do Granaai para benefício pessoal
+- 🔴 Usar informação confidencial do {{COMPANY_NAME}} para benefício pessoal
 - 🔴 Compartilhar informação estratégica com empresa onde possui vínculo
 - 🔴 Insider trading (negociar ações com base em informação não pública)
 
@@ -191,13 +191,13 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 
 **Situações de Conflito:**
 - 🔴 Usar recursos da empresa (e-mail, tempo, equipamentos) para campanha política
-- 🔴 Candidato a cargo político usa associação com Granaai para promover campanha
-- 🔴 Exercer cargo político que impacta regulação do setor financeiro (conflito com papel no Granaai)
+- 🔴 Candidato a cargo político usa associação com {{COMPANY_NAME}} para promover campanha
+- 🔴 Exercer cargo político que impacta regulação do setor financeiro (conflito com papel no {{COMPANY_NAME}})
 
 **Gestão:**
 -  Atividade política pessoal é direito constitucional (não é vedada)
 -  Deve ser exercida fora do horário de trabalho e sem recursos corporativos
--  Não associar Granaai à campanha ou partido
+-  Não associar {{COMPANY_NAME}} à campanha ou partido
 -  Se eleito para cargo público, avaliar compatibilidade (pode exigir afastamento temporário ou definitivo)
 
 ---
@@ -213,18 +213,18 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 **Conteúdo mínimo da declaração:**
 
 #### **Seção 1: Vínculos Familiares**
-- Possui parentes (até 2º grau + cônjuge) trabalhando no Granaai?
+- Possui parentes (até 2º grau + cônjuge) trabalhando no {{COMPANY_NAME}}?
 - Possui parentes em **clientes**, **fornecedores** ou **concorrentes**?
 - Possui relacionamento amoroso com colega de trabalho?
 
 #### **Seção 2: Interesses Financeiros**
 - Possui participação societária (ações, cotas) em **clientes**, **fornecedores** ou **concorrentes**?
 - Possui investimentos relevantes (> R$ 10.000) em empresas do setor financeiro?
-- Possui dívidas relevantes (> R$ 50.000) com pessoas/empresas que negociam com Granaai?
+- Possui dívidas relevantes (> R$ 50.000) com pessoas/empresas que negociam com {{COMPANY_NAME}}?
 
 #### **Seção 3: Atividades Externas**
 - Possui negócio paralelo (CNPJ próprio, MEI, sociedade)?
-- Exerce consultoria, freela ou atividade remunerada fora do Granaai?
+- Exerce consultoria, freela ou atividade remunerada fora do {{COMPANY_NAME}}?
 - É membro de conselho, comitê ou diretoria de outra organização?
 - Exerce cargo político ou é candidato?
 
@@ -245,7 +245,7 @@ Pessoas físicas ou jurídicas com as quais o colaborador possui vínculo que po
 - Qualquer mudança que altere declaração anual
 
 **Como declarar:**
-- 📧 E-mail para: compliance@grana.ai
+- 📧 E-mail para: {{COMPLIANCE_EMAIL}}
 - 📋 Ou preencher formulário online de Declaração Pontual
 
 **Prazo:** Até **5 dias úteis** após surgimento da situação.
@@ -522,14 +522,14 @@ Além de sanções internas, algumas violações podem resultar em:
 ### 11.1 Dúvidas
 
 **Para esclarecer dúvidas sobre conflitos:**
-- 📧 compliance@grana.ai
+- 📧 {{COMPLIANCE_EMAIL}}
 - 👤 Gestor direto
 - 👤 RH
 
 ### 11.2 Denúncias (Violações)
 
 **Para reportar violação desta política:**
-- 📧 **denuncia@grana.ai** (confidencial, anônimo permitido)
+- 📧 **{{WHISTLEBLOWING_EMAIL}}** (confidencial, anônimo permitido)
 - Ver: [Código de Conduta - Canal de Denúncia](./code-of-conduct.md#10-canais-de-comunicação-e-denúncia)
 
 **Proteção ao denunciante:** Não retaliação garantida.
@@ -589,7 +589,7 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 
 ### Caso 2: Investimento em Fornecedor
 
-**Situação:** Você recebe proposta de investir R$ 50.000 (15% de participação) em startup que pode se tornar fornecedora de software do Granaai. Você não trabalha diretamente em compras, mas pode influenciar a decisão técnica.
+**Situação:** Você recebe proposta de investir R$ 50.000 (15% de participação) em startup que pode se tornar fornecedora de software do {{COMPANY_NAME}}. Você não trabalha diretamente em compras, mas pode influenciar a decisão técnica.
 
 **Análise:**
 - **Conflito:** Financeiro (participação societária relevante em fornecedor)
@@ -609,22 +609,22 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 
 ### Caso 3: Freela Competitivo
 
-**Situação:** Você é desenvolvedor no Granaai e recebe proposta de freela para desenvolver plataforma de crédito para MEI (mercado adjacente ao Granaai). Remuneração: R$ 15.000.
+**Situação:** Você é desenvolvedor no {{COMPANY_NAME}} e recebe proposta de freela para desenvolver plataforma de crédito para MEI (mercado adjacente ao {{COMPANY_NAME}}). Remuneração: R$ 15.000.
 
 **Análise:**
-- **Conflito:** Profissional (negócio paralelo em setor similar) + Possível uso de conhecimento adquirido no Granaai
+- **Conflito:** Profissional (negócio paralelo em setor similar) + Possível uso de conhecimento adquirido no {{COMPANY_NAME}}
 - **Gravidade:** **Alta** (competição direta ou adjacente)
 
 **O que fazer:**
 - ⛔ **NÃO aceitar antes de declarar**
 -  **Declarar a proposta** ao Compliance
 -  **Fornecer detalhes:** Descrição do produto, público-alvo, tecnologia
--  **Aguardar decisão:** Comitê avaliará se compete com Granaai
--  **Resultado provável:** **Vedação** (produto muito similar ao core business do Granaai)
+-  **Aguardar decisão:** Comitê avaliará se compete com {{COMPANY_NAME}}
+-  **Resultado provável:** **Vedação** (produto muito similar ao core business do {{COMPANY_NAME}})
 
 **Alternativa:** Recusar o freela ou buscar oportunidade em setor não competitivo (ex: e-commerce, educação).
 
-**Lição:** Freelas são permitidos, mas não em setores competitivos com o Granaai.
+**Lição:** Freelas são permitidos, mas não em setores competitivos com o {{COMPANY_NAME}}.
 
 ---
 
@@ -690,7 +690,7 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 
 **R:** Depende:
 -  **Investimento passivo** (fundos, ETFs com diversas ações de bancos): **Permitido** (baixo risco de conflito)
-- ⚠️ **Ações diretas de bancos parceiros** do Granaai: **Declarar** (Comitê avaliará se você tem acesso a informações privilegiadas sobre essas instituições)
+- ⚠️ **Ações diretas de bancos parceiros** do {{COMPANY_NAME}}: **Declarar** (Comitê avaliará se você tem acesso a informações privilegiadas sobre essas instituições)
 - ⛔ **Compra/venda baseada em informação privilegiada** (insider trading): **CRIME**
 
 **Regra geral:** Investimentos passivos e diversificados são OK. Investimentos diretos em parceiros/clientes/concorrentes devem ser declarados.
@@ -700,9 +700,9 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 ### Q3: Posso ter um blog sobre finanças?
 
 **R:** **Sim**, desde que:
--  Deixe claro que são **opiniões pessoais** (não do Granaai)
-- ⛔ **NÃO divulgue** informações confidenciais do Granaai
-- ⛔ **NÃO use** marca/logo do Granaai sem autorização
+-  Deixe claro que são **opiniões pessoais** (não do {{COMPANY_NAME}})
+- ⛔ **NÃO divulgue** informações confidenciais do {{COMPANY_NAME}}
+- ⛔ **NÃO use** marca/logo do {{COMPANY_NAME}} sem autorização
 -  **Declare** na Declaração Anual (atividade externa)
 
 **Se o blog gera receita relevante (ex: monetização, parcerias):** Declarar como negócio paralelo.
@@ -735,15 +735,15 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 ## 📞 Contatos
 
 **Dúvidas sobre conflitos de interesse:**
-- 📧 compliance@grana.ai
-- 👤 CISO: ciso@grana.ai
+- 📧 {{COMPLIANCE_EMAIL}}
+- 👤 CISO: {{CISO_EMAIL}}
 
 **Declarações:**
 - 📋 Formulário Anual: [Disponível em janeiro]
-- 📋 Declaração Pontual: compliance@grana.ai
+- 📋 Declaração Pontual: {{COMPLIANCE_EMAIL}}
 
 **Denúncias de violações:**
-- 📧 **denuncia@grana.ai** (confidencial/anônimo)
+- 📧 **{{WHISTLEBLOWING_EMAIL}}** (confidencial/anônimo)
 
 ---
 
@@ -773,4 +773,4 @@ Esta política entra em vigor em **15 de janeiro de 2025**.
 **⚖️ Transparência é a chave para a integridade.**
 
 **Política de Conflito de Interesses v1.0**  
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

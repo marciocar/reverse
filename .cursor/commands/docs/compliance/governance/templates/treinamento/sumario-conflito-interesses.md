@@ -6,12 +6,12 @@
 
 ## 🎯 O QUE É?
 
-Situação onde interesse pessoal pode influenciar decisões profissionais no Granaai.
+Situação onde interesse pessoal pode influenciar decisões profissionais no {{COMPANY_NAME}}.
 
 ## 📋 TIPOS DE CONFLITO
 
 ### **1. Familiar**
-- Parente trabalhando no Granaai (principalmente se subordinação)
+- Parente trabalhando no {{COMPANY_NAME}} (principalmente se subordinação)
 - Parente em cliente/fornecedor/concorrente
 
 ### **2. Financeiro**
@@ -34,7 +34,7 @@ Situação onde interesse pessoal pode influenciar decisões profissionais no Gr
 
 ## 📝 O QUE DECLARAR?
 
--  Parentes no Granaai/clientes/fornecedores
+-  Parentes no {{COMPANY_NAME}}/clientes/fornecedores
 -  Relacionamento afetivo com colega
 -  Investimentos em clientes/fornecedores/concorrentes
 -  Negócio próprio ou atividade paralela
@@ -46,7 +46,7 @@ Situação onde interesse pessoal pode influenciar decisões profissionais no Gr
 
 ❌ Participar de decisão onde há conflito não autorizado  
 ❌ Negócio concorrente direto  
-❌ Usar informações do Granaai para benefício próprio  
+❌ Usar informações do {{COMPANY_NAME}} para benefício próprio  
 ❌ Intermediar negócios em benefício próprio
 
 ## ✅ COMO GERENCIAR?
@@ -57,7 +57,7 @@ Situação onde interesse pessoal pode influenciar decisões profissionais no Gr
 
 ## 📞 DÚVIDAS?
 
-compliance@grana.ai | Gestor | RH
+{{COMPLIANCE_EMAIL}} | Gestor | RH
 
 ## 📋 DOCUMENTOS
 
@@ -67,4 +67,4 @@ compliance@grana.ai | Gestor | RH
 
 ---
 
-**Granaai © 2025 | Transparência & Integridade**
+**{{COMPANY_NAME}} © 2025 | Transparência & Integridade**

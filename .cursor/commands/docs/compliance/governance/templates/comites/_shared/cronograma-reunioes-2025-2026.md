@@ -9,9 +9,9 @@ classification: "INTERNO"
 
 # Cronograma de Reuniões dos Comitês - 2025-2026
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
-> **Objetivo:** Consolidar em um único calendário todas as reuniões ordinárias e extraordinárias dos comitês de governança do Granaai, evitando conflitos de agenda e garantindo planejamento eficiente.
+> **Objetivo:** Consolidar em um único calendário todas as reuniões ordinárias e extraordinárias dos comitês de governança do {{COMPANY_NAME}}, evitando conflitos de agenda e garantindo planejamento eficiente.
 
 ---
 
@@ -217,7 +217,7 @@ _Atualizar conforme reuniões extraordinárias forem realizadas_
 
 ### **Sala Board (Presencial)**
 
-**Endereço:** [Endereço do escritório Granaai]
+**Endereço:** [Endereço do escritório {{COMPANY_NAME}}]
 
 **Capacidade:** 8-10 pessoas
 
@@ -375,12 +375,12 @@ _Atualizar conforme reuniões extraordinárias forem realizadas_
 ## 📞 Contatos
 
 **Dúvidas sobre agendamento:**
-- **Secretaria dos Comitês:** secretaria-comites@grana.ai
-- **Presidente Comitê Compliance (CISO):** ciso@grana.ai
-- **Presidente Comitê IA (CTO):** cto@grana.ai
+- **Secretaria dos Comitês:** secretaria-comites@{{COMPANY_DOMAIN}}
+- **Presidente Comitê Compliance (CISO):** {{CISO_EMAIL}}
+- **Presidente Comitê IA (CTO):** {{CTO_EMAIL}}
 
 **Suporte Técnico (remoto):**
-- **TI:** suporte-ti@grana.ai
+- **TI:** suporte-ti@{{COMPANY_DOMAIN}}
 - **Slack:** #suporte-reunioes
 
 ---

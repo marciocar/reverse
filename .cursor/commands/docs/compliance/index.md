@@ -1,4 +1,4 @@
-# 📋 Compliance Documentation - Granaai
+# 📋 Compliance Documentation - {{COMPANY_NAME}}
 
 > **Gerado automaticamente pelo comando** `/docs/build-compliance-docs`  
 > **Data:** 06 de Outubro de 2025  
@@ -8,7 +8,7 @@
 
 ## 🎯 **Objetivo**
 
-Este diretório centraliza toda a documentação de **Compliance e Governança** do Granaai, atendendo a requisitos de:
+Este diretório centraliza toda a documentação de **Compliance e Governança** do {{COMPANY_NAME}}, atendendo a requisitos de:
 
 -  **Certificações internacionais** (ISO 27001, ISO 22301, SOC2)
 -  **Due Diligence de clientes enterprise** (Serasa Experian e outros)
@@ -370,23 +370,23 @@ SOC2 Type II
 ## 📞 **Contatos de Emergência**
 
 ### **Incidentes de Segurança**
-- **Email:** security@grana.ai (24/7)
+- **Email:** {{SECURITY_EMAIL}} (24/7)
 - **Slack:** #security-incidents (alertas automáticos)
 - **PagerDuty:** On-call CISO
 
 ### **Business Continuity / Disaster**
-- **Email:** crisis@grana.ai (24/7)
+- **Email:** crisis@{{COMPANY_DOMAIN}} (24/7)
 - **Telefone:** +55 11 XXXX-XXXX (CTO)
-- **Status Page:** https://status.grana.ai
+- **Status Page:** https://status.{{COMPANY_DOMAIN}}
 
 ### **Clientes Enterprise (Serasa e outros)**
-- **Email:** enterprise-support@grana.ai
+- **Email:** enterprise-support@{{COMPANY_DOMAIN}}
 - **Telefone:** +55 11 YYYY-YYYY (Account Manager)
 - **SLA Updates:** Automáticos via portal
 
 ### **⭐ Compliance e Denúncias** (NOVO)
-- **Email:** compliance@grana.ai
-- **Denúncias:** denuncia@grana.ai (anônimo disponível)
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **Denúncias:** {{WHISTLEBLOWING_EMAIL}} (anônimo disponível)
 - **Canal Confidencial:** 0800-XXX-XXXX
 
 ---

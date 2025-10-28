@@ -9,7 +9,7 @@ required_for: "100% dos colaboradores"
 
 # FORMULÁRIO: DECLARAÇÃO ANUAL DE CONFLITO DE INTERESSES
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -18,9 +18,9 @@ required_for: "100% dos colaboradores"
 ### **Configurações Gerais:**
 -  Coletar endereço de e-mail (obrigatório)
 -  Restringir a 1 resposta por e-mail
--  Limitar ao domínio @grana.ai
+-  Limitar ao domínio @{{COMPANY_DOMAIN}}
 -  Enviar cópia da resposta ao respondente
--  Notificar compliance@grana.ai a cada nova resposta
+-  Notificar {{COMPLIANCE_EMAIL}} a cada nova resposta
 -  Respostas em Google Sheets
 
 ### **Periodicidade:**
@@ -54,7 +54,7 @@ required_for: "100% dos colaboradores"
 
 **[Campo de texto curto - Obrigatório]**  
 **E-mail Corporativo:**  
-*Validação: @grana.ai*
+*Validação: @{{COMPANY_DOMAIN}}*
 
 ---
 
@@ -93,7 +93,7 @@ Esta seção identifica vínculos familiares que possam gerar conflito de intere
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**2.1 Você possui parentes trabalhando no Granaai?**
+**2.1 Você possui parentes trabalhando no {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 
@@ -107,7 +107,7 @@ Esta seção identifica vínculos familiares que possam gerar conflito de intere
 Para cada parente, informe:
 - Nome completo:
 - Grau de parentesco:
-- Cargo no Granaai:
+- Cargo no {{COMPANY_NAME}}:
 - Departamento:
 
 *Exemplo: João Silva, irmão, Desenvolvedor Sênior, Desenvolvimento*
@@ -115,7 +115,7 @@ Para cada parente, informe:
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**2.2 Você possui parentes trabalhando em clientes, fornecedores ou parceiros do Granaai?**
+**2.2 Você possui parentes trabalhando em clientes, fornecedores ou parceiros do {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 
@@ -131,7 +131,7 @@ Para cada parente, informe:
 - Grau de parentesco:
 - Empresa onde trabalha:
 - Cargo:
-- Tipo de relacionamento com Granaai (cliente/fornecedor/parceiro):
+- Tipo de relacionamento com {{COMPANY_NAME}} (cliente/fornecedor/parceiro):
 
 ---
 
@@ -163,7 +163,7 @@ Relacionamentos amorosos/afetivos entre colegas de trabalho **não são proibido
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**3.1 Você possui relacionamento amoroso/afetivo com outro(a) colaborador(a) do Granaai?**
+**3.1 Você possui relacionamento amoroso/afetivo com outro(a) colaborador(a) do {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 - [ ] Prefiro não declarar
@@ -198,7 +198,7 @@ Esta seção identifica investimentos, sociedades ou interesses financeiros que 
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**4.1 Você possui ações, quotas ou participação em clientes, fornecedores ou parceiros do Granaai?**
+**4.1 Você possui ações, quotas ou participação em clientes, fornecedores ou parceiros do {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 
@@ -211,14 +211,14 @@ Esta seção identifica investimentos, sociedades ou interesses financeiros que 
 
 Para cada investimento, informe:
 - Nome da empresa:
-- Tipo de relacionamento com Granaai (cliente/fornecedor/parceiro):
+- Tipo de relacionamento com {{COMPANY_NAME}} (cliente/fornecedor/parceiro):
 - Percentual de participação (se aplicável):
 - Valor aproximado do investimento (faixas):
 
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**4.2 Você possui investimentos em empresas concorrentes do Granaai?**
+**4.2 Você possui investimentos em empresas concorrentes do {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 
@@ -237,7 +237,7 @@ Para cada investimento, informe:
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**4.3 Você possui dívidas ou obrigações financeiras relevantes com clientes, fornecedores ou parceiros do Granaai?**
+**4.3 Você possui dívidas ou obrigações financeiras relevantes com clientes, fornecedores ou parceiros do {{COMPANY_NAME}}?**
 - [ ] Sim
 - [ ] Não
 
@@ -258,7 +258,7 @@ Para cada dívida, informe:
 ### **SEÇÃO 5: ATIVIDADES EXTERNAS**
 
 **[Informação]**  
-Atividades paralelas ao vínculo com o Granaai (freelas, consultorias, negócios próprios, cargos em outras empresas).
+Atividades paralelas ao vínculo com o {{COMPANY_NAME}} (freelas, consultorias, negócios próprios, cargos em outras empresas).
 
 **⚠️ Atenção:** Algumas atividades externas podem ser permitidas com aprovação prévia. Outras são vedadas (ex: concorrência).
 
@@ -282,7 +282,7 @@ Atividades paralelas ao vínculo com o Granaai (freelas, consultorias, negócios
 - CNPJ/CPF:
 - Atividade principal:
 - Horas semanais dedicadas (estimativa):
-- O negócio compete ou se relaciona com o Granaai? (Sim/Não/Parcialmente)
+- O negócio compete ou se relaciona com o {{COMPANY_NAME}}? (Sim/Não/Parcialmente)
 
 ---
 
@@ -302,7 +302,7 @@ Para cada atividade, informe:
 - Tipo de serviço:
 - Clientes principais (se aplicável):
 - Horas semanais dedicadas (estimativa):
-- Relação com atividades do Granaai (se houver):
+- Relação com atividades do {{COMPANY_NAME}} (se houver):
 
 ---
 
@@ -323,7 +323,7 @@ Para cada cargo, informe:
 - Cargo/função:
 - Tipo de atividade da empresa:
 - Remunerado ou voluntário:
-- Relação com o Granaai (cliente/fornecedor/concorrente/neutro):
+- Relação com o {{COMPANY_NAME}} (cliente/fornecedor/concorrente/neutro):
 
 ---
 
@@ -343,7 +343,7 @@ Para cada participação, informe:
 - Nome da entidade:
 - Tipo de participação (conselheiro, membro, voluntário):
 - Atividade da entidade:
-- Relação com o Granaai (se houver):
+- Relação com o {{COMPANY_NAME}} (se houver):
 
 ---
 
@@ -451,7 +451,7 @@ Ao submeter este formulário, **DECLARO** que:
 
 1. ✅ Todas as informações fornecidas são **verdadeiras, completas e atualizadas**.
 
-2. ✅ Li e compreendo a [Política de Conflito de Interesses](../../conflict-of-interest-policy.md) e o [Código de Conduta](../../code-of-conduct.md) do Granaai.
+2. ✅ Li e compreendo a [Política de Conflito de Interesses](../../conflict-of-interest-policy.md) e o [Código de Conduta](../../code-of-conduct.md) do {{COMPANY_NAME}}.
 
 3. ✅ Comprometo-me a **atualizar esta declaração** caso surjam novas situações de conflito de interesse (Declaração Pontual - prazo de 5 dias úteis).
 
@@ -461,9 +461,9 @@ Ao submeter este formulário, **DECLARO** que:
    - Algumas situações podem ser **aprovadas com restrições** ou **negadas** (ex: participação em decisões específicas).
 
 5. ✅ Estou ciente dos **canais de dúvidas**:
-   - 📧 compliance@grana.ai
+   - 📧 {{COMPLIANCE_EMAIL}}
    - 👤 Gestor direto
-   - 👤 RH: rh@grana.ai
+   - 👤 RH: rh@{{COMPANY_DOMAIN}}
 
 ---
 
@@ -492,10 +492,10 @@ Obrigado por preencher a Declaração Anual de Conflito de Interesses.
 
 🔒 Suas informações são tratadas com confidencialidade conforme LGPD.
 
-📞 Dúvidas? compliance@grana.ai
+📞 Dúvidas? {{COMPLIANCE_EMAIL}}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-Granaai © 2025 - Governança Corporativa
+{{COMPANY_NAME}} © 2025 - Governança Corporativa
 ```
 
 ---
@@ -553,4 +553,4 @@ Granaai © 2025 - Governança Corporativa
 **📄 Documento controlado - Revisão anual**  
 **🔒 CONFIDENCIAL - USO INTERNO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

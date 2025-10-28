@@ -12,7 +12,7 @@ related_policies:
 
 # POLÍTICA DE COMUNICAÇÃO CORPORATIVA E USO DE REDES SOCIAIS
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -40,7 +40,7 @@ related_policies:
 Esta política estabelece diretrizes para:
 
 -  Uso adequado de canais de comunicação (e-mail, mensagens, redes sociais)
--  Proteção da reputação e imagem do Granaai
+-  Proteção da reputação e imagem do {{COMPANY_NAME}}
 -  Segurança da informação e proteção de dados
 -  Comunicação profissional e ética
 -  Prevenção de riscos legais, regulatórios e reputacionais
@@ -53,7 +53,7 @@ Aplica-se a:
 -  **Estagiários e Aprendizes**
 -  **Terceiros** (prestadores de serviços, consultores)
 -  **Uso de recursos corporativos** (e-mail, dispositivos, redes)
--  **Comunicação em nome do Granaai** (mesmo em canais pessoais)
+-  **Comunicação em nome do {{COMPANY_NAME}}** (mesmo em canais pessoais)
 
 ### 1.3 Base Legal e Normativa
 
@@ -70,7 +70,7 @@ Aplica-se a:
 
 ### 2.1 Valores Organizacionais
 
-Toda comunicação deve refletir os valores do Granaai:
+Toda comunicação deve refletir os valores do {{COMPANY_NAME}}:
 
 1. **Integridade** - Comunicação honesta e transparente
 2. **Respeito** - Tratar todos com dignidade (clientes, colegas, comunidade)
@@ -92,7 +92,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ### 3.1 Uso Apropriado
 
-**E-mail corporativo (@grana.ai) é para:**
+**E-mail corporativo (@{{COMPANY_DOMAIN}}) é para:**
 
 ✅ Comunicação profissional (clientes, fornecedores, parceiros)  
 ✅ Comunicação interna (colegas, gestores)  
@@ -129,7 +129,7 @@ Toda comunicação deve refletir os valores do Granaai:
 ⚠️ **Importante:**
 
 - O e-mail corporativo é **propriedade da empresa**
-- O Granaai pode **monitorar** e-mails corporativos (conforme CLT e legislação)
+- O {{COMPANY_NAME}} pode **monitorar** e-mails corporativos (conforme CLT e legislação)
 - **Não há expectativa de privacidade absoluta** em e-mail corporativo
 - Monitoramento é feito para: segurança, compliance, investigações internas
 
@@ -166,7 +166,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 #### **4.1.2 WhatsApp Business (Se Implementado)**
 
-- Usar apenas canal oficial do Granaai
+- Usar apenas canal oficial do {{COMPANY_NAME}}
 - Seguir scripts e templates aprovados
 - Responder em horário comercial
 - Registrar interações no CRM
@@ -197,14 +197,14 @@ Toda comunicação deve refletir os valores do Granaai:
 **Incentivado e permitido:**
 
 ✅ Manter perfil profissional atualizado  
-✅ Incluir "Granaai" em experiência profissional  
+✅ Incluir "{{COMPANY_NAME}}" em experiência profissional  
 ✅ Compartilhar conteúdo relevante do setor (fintechs, recebíveis, tecnologia)  
 ✅ Interagir com conteúdo da empresa  
 ✅ Participar de discussões profissionais
 
 **Boas Práticas:**
 
--  **Descrição clara** do seu papel no Granaai
+-  **Descrição clara** do seu papel no {{COMPANY_NAME}}
 -  **Foto profissional**
 -  **Disclaimer** (se falar em nome próprio): "Opiniões são pessoais"
 -  **Respeito**: Evite criticar concorrentes, clientes ou ex-empregadores
@@ -213,11 +213,11 @@ Toda comunicação deve refletir os valores do Granaai:
 **Proibido:**
 
 ❌ Compartilhar informações confidenciais (roadmap, estratégias, dados financeiros)  
-❌ Falar em nome oficial do Granaai (sem autorização de Marketing/CEO)  
+❌ Falar em nome oficial do {{COMPANY_NAME}} (sem autorização de Marketing/CEO)  
 ❌ Postar conteúdo ofensivo, discriminatório ou político  
-❌ Recrutar ativamente clientes de concorrentes usando posição no Granaai
+❌ Recrutar ativamente clientes de concorrentes usando posição no {{COMPANY_NAME}}
 
-### 5.2 Página Corporativa do Granaai
+### 5.2 Página Corporativa do {{COMPANY_NAME}}
 
 **Responsável:** CMO + Marketing
 
@@ -225,7 +225,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ✅ Curtir, comentar e compartilhar posts oficiais  
 ✅ Marcar a empresa em conquistas profissionais (prêmios, certificações)  
-✅ Sugerir conteúdo (enviar para marketing@grana.ai)
+✅ Sugerir conteúdo (enviar para marketing@{{COMPANY_DOMAIN}})
 
 **Colaboradores NÃO podem:**
 
@@ -240,11 +240,11 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ✅ **Liberdade de expressão** é respeitada  
 ✅ Você pode ter redes sociais pessoais  
-✅ Pode mencionar que trabalha no Granaai (opcional)
+✅ Pode mencionar que trabalha no {{COMPANY_NAME}} (opcional)
 
 **MAS:**
 
-⚠️ **Você representa o Granaai indiretamente** (mesmo em perfis pessoais)  
+⚠️ **Você representa o {{COMPANY_NAME}} indiretamente** (mesmo em perfis pessoais)  
 ⚠️ **Conduta pública reflete na empresa**  
 ⚠️ **Violações graves podem resultar em sanções**
 
@@ -252,7 +252,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ✅ **Configurações de privacidade**: Ajuste quem pode ver seus posts  
 ✅ **Separação clara**: Diferencie vida pessoal de profissional  
-✅ **Disclaimer**: Se menciona o Granaai, adicione "Opiniões são pessoais"  
+✅ **Disclaimer**: Se menciona o {{COMPANY_NAME}}, adicione "Opiniões são pessoais"  
 ✅ **Respeito**: Evite conteúdo ofensivo, discriminatório, violento
 
 ### 6.3 Proibido
@@ -261,15 +261,15 @@ Toda comunicação deve refletir os valores do Granaai:
 ❌ **Difamação**: Falar mal da empresa, colegas, clientes, concorrentes  
 ❌ **Assédio e discriminação**: Conteúdo racista, sexista, homofóbico, xenofóbico  
 ❌ **Fake news**: Espalhar informações falsas  
-❌ **Uso indevido da marca**: Logo do Granaai sem autorização, fazer-se passar pela empresa  
+❌ **Uso indevido da marca**: Logo do {{COMPANY_NAME}} sem autorização, fazer-se passar pela empresa  
 ❌ **Conflito de interesse**: Promover concorrente direto
 
 ### 6.4 Situações Sensíveis
 
-**Se você for abordado por mídia sobre o Granaai:**
+**Se você for abordado por mídia sobre o {{COMPANY_NAME}}:**
 
 1. ⚠️ **NÃO dê entrevistas** sem autorização
-2. 📧 Redirecione para: marketing@grana.ai ou CEO
+2. 📧 Redirecione para: marketing@{{COMPANY_DOMAIN}} ou CEO
 3. 📞 Informe RH/Compliance imediatamente
 
 **Se você testemunhar crise/incidente:**
@@ -288,7 +288,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ✅ Participar de comunidades técnicas  
 ✅ Compartilhar conhecimento (responder perguntas, contribuir com código open-source)  
-✅ Mencionar o Granaai como empregador (opcional)  
+✅ Mencionar o {{COMPANY_NAME}} como empregador (opcional)  
 ✅ Aprender e se desenvolver
 
 **Boas Práticas:**
@@ -300,7 +300,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 **Proibido:**
 
-❌ **Vazar código proprietário** do Granaai  
+❌ **Vazar código proprietário** do {{COMPANY_NAME}}  
 ❌ **Compartilhar vulnerabilidades** não corrigidas  
 ❌ **Revelar arquitetura confidencial** (APIs internas, integrações sensíveis)  
 ❌ **Falar em nome oficial** da empresa sobre decisões técnicas
@@ -352,7 +352,7 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ### 9.1 Porta-vozes Oficiais
 
-**Apenas as seguintes pessoas podem falar OFICIALMENTE em nome do Granaai:**
+**Apenas as seguintes pessoas podem falar OFICIALMENTE em nome do {{COMPANY_NAME}}:**
 
 - **CEO** (Thiago Karan)
 - **CMO** (Arthur Simoneto)
@@ -366,7 +366,7 @@ Toda comunicação deve refletir os valores do Granaai:
 1. ✅ **Informe Marketing/CEO** antes de aceitar
 2. ✅ **Alinhe conteúdo**: O que pode/não pode ser divulgado
 3. ✅ **Disclaimer**: "Opiniões são pessoais" (se falar de temas gerais)
-4. ✅ **Promova o Granaai** positivamente (quando apropriado)
+4. ✅ **Promova o {{COMPANY_NAME}}** positivamente (quando apropriado)
 
 **Proibido:**
 
@@ -380,8 +380,8 @@ Toda comunicação deve refletir os valores do Granaai:
 
 ⚠️ **Toda solicitação de imprensa deve ser redirecionada para Marketing/CEO**
 
-- 📧 marketing@grana.ai
-- 📧 ceo@grana.ai
+- 📧 marketing@{{COMPANY_DOMAIN}}
+- 📧 ceo@{{COMPANY_DOMAIN}}
 
 **Não improvise respostas** para jornalistas, mesmo que pareçam simples.
 
@@ -442,7 +442,7 @@ Violações desta política podem resultar em:
 
 ### 11.2 Processo de Investigação
 
-1. Denúncia recebida (denuncia@grana.ai ou RH)
+1. Denúncia recebida ({{WHISTLEBLOWING_EMAIL}} ou RH)
 2. Investigação preliminar (Compliance + RH)
 3. Oitiva do denunciado (direito de defesa)
 4. Decisão (CISO + CEO)
@@ -459,15 +459,15 @@ Violações desta política podem resultar em:
 
 **Antes de publicar algo, consulte:**
 
-- 📧 **Marketing:** marketing@grana.ai (conteúdo, marca, posicionamento)
-- 📧 **Compliance:** compliance@grana.ai (políticas, ética)
-- 📧 **RH:** rh@grana.ai (questões trabalhistas)
-- 📧 **TI/CISO:** ti@grana.ai (segurança, dados)
+- 📧 **Marketing:** marketing@{{COMPANY_DOMAIN}} (conteúdo, marca, posicionamento)
+- 📧 **Compliance:** {{COMPLIANCE_EMAIL}} (políticas, ética)
+- 📧 **RH:** rh@{{COMPANY_DOMAIN}} (questões trabalhistas)
+- 📧 **TI/CISO:** ti@{{COMPANY_DOMAIN}} (segurança, dados)
 - 👤 **Seu gestor**
 
 ### 12.2 Denúncias
 
-**Canal confidencial:** denuncia@grana.ai (anônimo permitido)
+**Canal confidencial:** {{WHISTLEBLOWING_EMAIL}} (anônimo permitido)
 
 **Reportar:**
 - Assédio, bullying online
@@ -477,9 +477,9 @@ Violações desta política podem resultar em:
 
 ### 12.3 Suporte Técnico
 
-- **Senha esquecida:** ti@grana.ai
-- **Acesso bloqueado:** ti@grana.ai
-- **Incidente de segurança:** ciso@grana.ai (URGENTE)
+- **Senha esquecida:** ti@{{COMPANY_DOMAIN}}
+- **Acesso bloqueado:** ti@{{COMPANY_DOMAIN}}
+- **Incidente de segurança:** {{CISO_EMAIL}} (URGENTE)
 
 ---
 
@@ -515,4 +515,4 @@ Violações desta política podem resultar em:
 **📄 Documento controlado - Revisão anual obrigatória**  
 **🔒 USO INTERNO - Distribuição livre aos colaboradores**
 
-**Granaai © 2025 | Comunicação Responsável**
+**{{COMPANY_NAME}} © 2025 | Comunicação Responsável**

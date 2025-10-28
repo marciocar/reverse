@@ -1,8 +1,8 @@
 # Templates Operacionais dos Comitês de Governança
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
-> **📦 Pacote Completo de Templates** para operação dos comitês de governança corporativa do Granaai: Compliance, IA, Investimentos e Riscos.
+> **📦 Pacote Completo de Templates** para operação dos comitês de governança corporativa do {{COMPANY_NAME}}: Compliance, IA, Investimentos e Riscos.
 
 ---
 
@@ -236,7 +236,7 @@ templates/comites/
 **Se você é membro de um comitê e identificou oportunidade de melhoria:**
 
 1. Documente o problema/sugestão
-2. Envie para: secretaria-comites@grana.ai
+2. Envie para: secretaria-comites@{{COMPANY_DOMAIN}}
 3. Equipe de Compliance avaliará
 4. Se aprovado, template será atualizado
 5. Nova versão será distribuída
@@ -246,16 +246,16 @@ templates/comites/
 ## 📞 Contatos e Suporte
 
 **Dúvidas sobre Templates:**
-- **Secretaria dos Comitês:** secretaria-comites@grana.ai
-- **CISO (Presidente Compliance):** ciso@grana.ai
-- **CTO (Presidente IA):** cto@grana.ai
+- **Secretaria dos Comitês:** secretaria-comites@{{COMPANY_DOMAIN}}
+- **CISO (Presidente Compliance):** {{CISO_EMAIL}}
+- **CTO (Presidente IA):** {{CTO_EMAIL}}
 
 **Suporte Técnico (IA):**
-- **AI Engineer:** ai-team@grana.ai
+- **AI Engineer:** ai-team@{{COMPANY_DOMAIN}}
 
 **Compliance Geral:**
-- **Email:** compliance@grana.ai
-- **Canal de Denúncias:** denuncia@grana.ai
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **Canal de Denúncias:** {{WHISTLEBLOWING_EMAIL}}
 
 ---
 

@@ -31,4 +31,4 @@ version: "1.0"
 **Data Conclusão:** _______________  
 **RH/Compliance:** _______________
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

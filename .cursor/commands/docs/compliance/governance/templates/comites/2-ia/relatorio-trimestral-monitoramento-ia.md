@@ -10,7 +10,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Relatório Trimestral de Monitoramento de IA
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Consolidar trimestralmente todos os processos de monitoramento de IA (revisão humana semanal, automated bias detection diário, red team testing mensal), fornecendo visão executiva para o Comitê de IA e Board sobre performance, fairness e segurança dos modelos em produção.
 

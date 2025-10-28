@@ -21,7 +21,7 @@ Esta pasta contém as estruturas markdown dos formulários que devem ser impleme
 4. Configure:
    - Respostas em planilha (Google Sheets)
    - Notificações por e-mail
-   - Restrição para domínio @grana.ai (quando aplicável)
+   - Restrição para domínio @{{COMPANY_DOMAIN}} (quando aplicável)
 5. Compartilhe link com colaboradores
 
 ### **Configurações Recomendadas:**
@@ -29,7 +29,7 @@ Esta pasta contém as estruturas markdown dos formulários que devem ser impleme
 -  Coletar endereço de e-mail
 -  Limitar a 1 resposta (quando aplicável)
 -  Enviar cópia da resposta ao respondente
--  Notificar proprietário (compliance@grana.ai)
+-  Notificar proprietário ({{COMPLIANCE_EMAIL}})
 -  Respostas obrigatórias marcadas com *
 
 ## 📊 Gestão de Respostas
@@ -41,4 +41,4 @@ Esta pasta contém as estruturas markdown dos formulários que devem ser impleme
 
 ---
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

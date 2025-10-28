@@ -10,7 +10,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Pauta Trimestral Padrão - Comitê de Compliance
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Fornecer agenda estruturada para reuniões ordinárias trimestrais do Comitê de Compliance, garantindo cobertura sistemática de todos os tópicos obrigatórios de governança.
 
@@ -203,7 +203,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 **Objetivo:** Revisar status de denúncias recebidas e investigações em andamento.
 
-**Canal de Denúncia:** denuncia@grana.ai (confidencial)
+**Canal de Denúncia:** {{WHISTLEBLOWING_EMAIL}} (confidencial)
 
 **Estatísticas do Trimestre:**
 

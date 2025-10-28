@@ -1,4 +1,4 @@
-# AI Governance Policy (Política de Governança de IA) - Granaai
+# AI Governance Policy (Política de Governança de IA) - {{COMPANY_NAME}}
 
 > **Framework:** Best Practices + LGPD + Serasa Due Diligence Requirements  
 > **Versão:** 1.0  
@@ -12,7 +12,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento estabelece a **Política de Governança de Inteligência Artificial** da Granaai, garantindo uso ético, seguro e transparente de IA nos serviços prestados, incluindo:
+Este documento estabelece a **Política de Governança de Inteligência Artificial** da {{COMPANY_NAME}}, garantindo uso ético, seguro e transparente de IA nos serviços prestados, incluindo:
 
 -  **Assistente de Atendimento Nível 1** (ChatBot baseado em LLM)
 -  **Guardrails de segurança e privacidade** implementados
@@ -29,7 +29,7 @@ Este documento estabelece a **Política de Governança de Inteligência Artifici
 
 ---
 
-## 🤖 **Casos de Uso de IA na Granaai**
+## 🤖 **Casos de Uso de IA na {{COMPANY_NAME}}**
 
 ### 1. Assistente de Atendimento Nível 1 (ChatBot)
 
@@ -44,7 +44,7 @@ Chatbot inteligente baseado em Large Language Model (LLM) para atendimento autom
 
 **Tecnologia:**
 - **Base Model:** OpenAI GPT-4 (API, sem fine-tuning)
-- **Knowledge Base:** Ontologia Granaai + Base vetorial de documentação
+- **Knowledge Base:** Ontologia {{COMPANY_NAME}} + Base vetorial de documentação
 - **Framework:** LangChain + RAG (Retrieval-Augmented Generation)
 - **Hosting:** AWS Lambda + Amazon S3 (vetores) + Amazon CloudWatch (logs)
 
@@ -183,7 +183,7 @@ Revisão de Respostas:
 ```
 User: "O cliente (homem) é mais confiável que a cliente (mulher)?"
 ❌ Bad Response: "Sim, estatisticamente..."
-✅ Good Response: "Na Granaai, avaliamos crédito com base em dados objetivos 
+✅ Good Response: "Na {{COMPANY_NAME}}, avaliamos crédito com base em dados objetivos 
 (histórico de pagamento, receita, etc.), independente de gênero. 
 Todos os clientes são tratados igualmente."
 ```
@@ -200,27 +200,27 @@ User: "Clientes jovens têm mais risco de inadimplência?"
 
 ## 🚫 **Controle Antiplágio e Propriedade Intelectual**
 
-### Posicionamento Granaai
+### Posicionamento {{COMPANY_NAME}}
 
 **Não Implementamos Controle Antiplágio Tradicional porque:**
 
 1. **Knowledge Base Proprietária:**
    - Baseada em ontologia e regras de negócio desenvolvidas internamente
-   - Documentação técnica e operacional exclusiva da Granaai
+   - Documentação técnica e operacional exclusiva da {{COMPANY_NAME}}
    - Sem conteúdo de terceiros protegido por copyright
 
 2. **RAG Pattern (Retrieval-Augmented Generation):**
    - Respostas são **geradas**, não copiadas
-   - Base vetorial contém apenas documentação Granaai
+   - Base vetorial contém apenas documentação {{COMPANY_NAME}}
    - LLM (GPT-4) reformula informações, não reproduz verbatim
 
 3. **Validação de Originalidade:**
    - Respostas são sempre contextualizadas ao mercado de recebíveis
-   - Linguagem adaptada à ontologia Granaai (termos técnicos específicos)
+   - Linguagem adaptada à ontologia {{COMPANY_NAME}} (termos técnicos específicos)
    - Não há risco de reproduzir conteúdo protegido de terceiros
 
 **Garantias:**
--  100% do knowledge base é propriedade intelectual Granaai
+-  100% do knowledge base é propriedade intelectual {{COMPANY_NAME}}
 -  Respostas são originais e adequadas ao contexto
 -  Nenhum conteúdo externo protegido é incluído na base
 
@@ -369,19 +369,19 @@ Log Entry Structure:
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---
 
 **[Nome do CTO]**  
-CTO - Granaai  
+CTO - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---
 
 **[Nome do AI Lead]**  
-AI Engineering Lead - Granaai  
+AI Engineering Lead - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---

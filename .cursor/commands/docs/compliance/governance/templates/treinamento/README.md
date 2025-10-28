@@ -28,4 +28,4 @@ Material resumido para treinamento e onboarding de colaboradores.
 
 ---
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

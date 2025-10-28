@@ -142,7 +142,7 @@ Todos os templates usam `[PLACEHOLDERS]` para elementos variáveis. Faça busca 
 
 | Placeholder | Substituir Por | Exemplo |
 |-------------|----------------|---------|
-| `[NOME DA EMPRESA]` | Nome legal da empresa | Granaai Tecnologia Ltda. |
+| `[NOME DA EMPRESA]` | Nome legal da empresa | {{COMPANY_NAME}} Tecnologia Ltda. |
 | `[NOME DO CLIENTE]` | Nome do cliente | [Cliente Enterprise] |
 | `[DATA]` | Data específica | 09/10/2025 |
 | `[NOME - CARGO]` | Nome e cargo real | João Silva - CTO |

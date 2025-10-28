@@ -11,7 +11,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Relatório de Auditoria de IA
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Avaliar conformidade, performance, fairness e segurança de modelo(s) de IA em produção, fornecendo evidências para governança e compliance regulatório (LGPD, Serasa Due Diligence).
 
@@ -20,7 +20,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 ## 📋 Identificação da Auditoria
 
 **Tipo de Auditoria:**
-- [ ] Interna (conduzida por equipe Granaai)
+- [ ] Interna (conduzida por equipe {{COMPANY_NAME}})
 - [ ] Externa (auditor independente)
 
 **Modelo Auditado:** [Ex: "GPT-4 (gpt-4-2024-08) - ChatBot Atendimento Nível 1"]
@@ -441,7 +441,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 **Incidentes de Downtime:**
 
-| Data | Duração | Motivo (OpenAI) | Impacto Granaai | Compensação |
+| Data | Duração | Motivo (OpenAI) | Impacto {{COMPANY_NAME}} | Compensação |
 |------|---------|-----------------|----------------|-------------|
 | [DD/MM] | [X] min | [Descrição] | [Impacto] | [Sim/Não] |
 

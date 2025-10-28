@@ -1,4 +1,4 @@
-# Resilience Testing Plan (Plano de Testes de Resiliência) - Granaai
+# Resilience Testing Plan (Plano de Testes de Resiliência) - {{COMPANY_NAME}}
 
 > **Framework:** ISO 22301:2019 - Cláusula 8.5  
 > **Versão:** 1.0  
@@ -12,7 +12,7 @@
 
 ## 📋 **Executive Summary**
 
-O **Resilience Testing Plan** da Granaai estabelece uma abordagem estruturada e recorrente para validar a efetividade dos planos de continuidade de negócios e recuperação de desastres, garantindo:
+O **Resilience Testing Plan** da {{COMPANY_NAME}} estabelece uma abordagem estruturada e recorrente para validar a efetividade dos planos de continuidade de negócios e recuperação de desastres, garantindo:
 
 -  **Testes regulares de BC/DR:** Semanal (PITR), Mensal (Simulation), Semestral (Full DR)
 -  **Validação de RTOs/RPOs:** 100% dos testes atingiram metas em 2025
@@ -237,7 +237,7 @@ curl -X POST https://hooks.slack.com/services/xxx/yyy/zzz \
 
 **Métricas:**
 - CloudWatch metrics export: `s3://granaai-compliance/tests/dr-2025-06-10-metrics.json`
-- Grafana dashboard snapshot: https://grafana.grana.ai/d/dr-test-2025-06-10
+- Grafana dashboard snapshot: https://grafana.{{COMPANY_DOMAIN}}/d/dr-test-2025-06-10
 
 **Comunicações:**
 - Pre-test notification email (stakeholders)
@@ -369,7 +369,7 @@ Simular resposta a cenários de crise em formato de discussão (sem execução t
 
 **Módulo 1: Fundamentos de BC/DR (1h)**
 - Conceitos: RTO, RPO, MTPD, WRT
-- Arquitetura multi-region da Granaai
+- Arquitetura multi-region da {{COMPANY_NAME}}
 - DR strategy: Warm standby
 - Tour pela infraestrutura (VPC, RDS, EKS)
 
@@ -397,7 +397,7 @@ Simular resposta a cenários de crise em formato de discussão (sem execução t
 - Certificação emitida se passar (≥80%)
 
 **Certificação:**
-- Nome: "Granaai DR Runbook Practitioner"
+- Nome: "{{COMPANY_NAME}} DR Runbook Practitioner"
 - Validade: 1 ano (re-certificação anual)
 - Evidência: Certificado PDF armazenado em RH + badge no Slack
 
@@ -421,7 +421,7 @@ Simular resposta a cenários de crise em formato de discussão (sem execução t
 - Casos reais de desastres (AWS outages, cyberattacks)
 - SLAs com clientes (ex: Serasa)
 
-**Módulo 2: Arquitetura de Resiliência da Granaai (45min)**
+**Módulo 2: Arquitetura de Resiliência da {{COMPANY_NAME}} (45min)**
 - Multi-AZ, Multi-Region
 - Health checks e auto-healing
 - Chaos engineering
@@ -605,7 +605,7 @@ s3://granaai-compliance/tests/
 | 2026-03-07 | DR Simulation | DevOps Lead | 📅 Scheduled |
 | 2026-03-20 | CMT Training | CTO | 📅 Scheduled |
 
-**Calendário Completo:** Google Calendar compartilhado (`bc-dr-tests@grana.ai`)
+**Calendário Completo:** Google Calendar compartilhado (`bc-dr-tests@{{COMPANY_DOMAIN}}`)
 
 ---
 
@@ -630,10 +630,10 @@ s3://granaai-compliance/tests/
 
 | Papel | Responsável | Responsabilidades Testing | Contato |
 |-------|-------------|---------------------------|---------|
-| **Testing Coordinator** | DevOps Lead | Planejar e executar testes, evidências | devops-lead@grana.ai |
-| **Training Coordinator** | CTO | Planejar treinamentos, certificações | cto@grana.ai |
-| **Evidence Custodian** | CISO | Armazenar e proteger evidências | ciso@grana.ai |
-| **Compliance Liaison** | COO | Interface com auditores externos | coo@grana.ai |
+| **Testing Coordinator** | DevOps Lead | Planejar e executar testes, evidências | {{DEVOPS_EMAIL}} |
+| **Training Coordinator** | CTO | Planejar treinamentos, certificações | {{CTO_EMAIL}} |
+| **Evidence Custodian** | CISO | Armazenar e proteger evidências | {{CISO_EMAIL}} |
+| **Compliance Liaison** | COO | Interface com auditores externos | coo@{{COMPANY_DOMAIN}} |
 
 ---
 
@@ -662,19 +662,19 @@ s3://granaai-compliance/tests/
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do CTO]**  
-CTO - Granaai  
+CTO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do DevOps Lead]**  
-DevOps Lead - Granaai  
+DevOps Lead - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---

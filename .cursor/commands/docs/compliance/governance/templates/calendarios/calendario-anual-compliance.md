@@ -5,7 +5,7 @@ version: "1.0"
 
 # 📅 CALENDÁRIO ANUAL DE COMPLIANCE 2025
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -115,8 +115,8 @@ version: "1.0"
 ## 📞 RESPONSÁVEL
 
 **CISO + Compliance Officer**  
-compliance@grana.ai
+{{COMPLIANCE_EMAIL}}
 
 ---
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

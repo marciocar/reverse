@@ -14,7 +14,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 # Política de Anticorrupção e Antissuborno
 
 > **Mensagem da Liderança**  
-> O Granaai tem o compromisso inabalável com a ética, integridade e conformidade legal. Esta política reflete nossos valores fundamentais e estabelece as diretrizes para prevenção de atos de corrupção e suborno em todas as nossas operações.
+> O {{COMPANY_NAME}} tem o compromisso inabalável com a ética, integridade e conformidade legal. Esta política reflete nossos valores fundamentais e estabelece as diretrizes para prevenção de atos de corrupção e suborno em todas as nossas operações.
 >
 > — **Thiago Karan**, CEO
 
@@ -29,7 +29,7 @@ Esta Política de Anticorrupção e Antissuborno tem como objetivos:
 - **Estabelecer diretrizes** claras para prevenção de atos de corrupção e suborno
 - **Assegurar conformidade** com a Lei 12.846/2013 (Lei Anticorrupção Brasileira) e legislação correlata
 - **Promover cultura ética** de integridade e transparência em todas as operações
-- **Proteger** a reputação e sustentabilidade do Granaai
+- **Proteger** a reputação e sustentabilidade do {{COMPANY_NAME}}
 - **Orientar** colaboradores, parceiros e terceiros sobre comportamentos esperados
 
 ### 1.2 Escopo de Aplicação
@@ -39,7 +39,7 @@ Esta política aplica-se a:
 -  **Todos os colaboradores** (CLT, PJ, estagiários, temporários)
 -  **Liderança executiva** (CEO, COO/CFO, CMO, CSO, CTO)
 -  **Parceiros comerciais** (fornecedores, prestadores de serviço, consultores)
--  **Terceiros** que atuam em nome do Granaai
+-  **Terceiros** que atuam em nome do {{COMPANY_NAME}}
 -  **Todas as operações** no Brasil e internacionais (quando aplicável)
 
 ### 1.3 Abrangência Geográfica
@@ -91,7 +91,7 @@ Qualquer benefício impróprio oferecido ou recebido, incluindo mas não limitad
 ### 2.6 Facilitação de Pagamentos (Facilitation Payments)
 Pequenos pagamentos informais feitos para "acelerar" ou "facilitar" serviços de rotina aos quais a empresa já tem direito.
 
-**⚠️ IMPORTANTE**: Pagamentos de facilitação são **PROIBIDOS** pelo Granaai, mesmo que permitidos em algumas jurisdições.
+**⚠️ IMPORTANTE**: Pagamentos de facilitação são **PROIBIDOS** pelo {{COMPANY_NAME}}, mesmo que permitidos em algumas jurisdições.
 
 ---
 
@@ -99,7 +99,7 @@ Pequenos pagamentos informais feitos para "acelerar" ou "facilitar" serviços de
 
 ### 3.1 Princípios Fundamentais
 
-O Granaai adota **TOLERÂNCIA ZERO** para atos de corrupção e suborno.
+O {{COMPANY_NAME}} adota **TOLERÂNCIA ZERO** para atos de corrupção e suborno.
 
 **Princípios orientadores:**
 1. ✅ **Integridade**: Agir de forma ética em todas as circunstâncias
@@ -147,7 +147,7 @@ Excepcionalmente, são permitidos:
 
 | Tipo | Limite | Condições |
 |------|--------|-----------|
-| **Brindes Corporativos** | Até R$ 100 | Material promocional com logo Granaai |
+| **Brindes Corporativos** | Até R$ 100 | Material promocional com logo {{COMPANY_NAME}} |
 | **Refeições de Trabalho** | Até R$ 300/pessoa | Contexto profissional, documentado |
 | **Eventos Corporativos** | Até R$ 500/pessoa | Evento empresarial, convite formal |
 | **Treinamentos** | Razoável | Relacionado à parceria, transparente |
@@ -219,7 +219,7 @@ Doações a instituições de caridade, educacionais ou culturais são permitida
 
 ### 4.1 Princípio
 
-Todo terceiro que atue em nome do Granaai deve passar por processo de **due diligence** antes da contratação.
+Todo terceiro que atue em nome do {{COMPANY_NAME}} deve passar por processo de **due diligence** antes da contratação.
 
 ### 4.2 Terceiros Abrangidos
 
@@ -272,7 +272,7 @@ Todo contrato com terceiros deve conter:
 
 ✅ **Cláusula anticorrupção**: Compromisso de conformidade  
 ✅ **Declaração de não envolvimento** em atos ilícitos  
-✅ **Direito de auditoria**: Granaai pode auditar terceiro  
+✅ **Direito de auditoria**: {{COMPANY_NAME}} pode auditar terceiro  
 ✅ **Rescisão por justa causa**: Em caso de violação  
 ✅ **Penalidades**: Multas e indenizações por descumprimento
 
@@ -315,12 +315,12 @@ Operações que requerem **atenção reforçada**:
 
 ### 6.1 Compromisso com Transparência
 
-O Granaai incentiva a denúncia de **qualquer suspeita** de violação desta política ou de atos de corrupção.
+O {{COMPANY_NAME}} incentiva a denúncia de **qualquer suspeita** de violação desta política ou de atos de corrupção.
 
 ### 6.2 Como Denunciar
 
 **Canal oficial:**
-- 📧 **Email**: denuncia@grana.ai
+- 📧 **Email**: {{WHISTLEBLOWING_EMAIL}}
 - 🔒 **Anonimato**: Permitido (mas recomendamos identificação para follow-up)
 - 📞 **Telefone**: [A ser definido - Hotline 24/7]
 - 💻 **Portal**: [A ser definido - Plataforma dedicada]
@@ -382,7 +382,7 @@ Além das sanções internas, violações podem resultar em:
 ⚖️ **Multas** de até 20% do faturamento bruto (pessoa jurídica)  
 ⚖️ **Proibição de contratar** com o poder público  
 ⚖️ **Danos à reputação** pessoal e profissional  
-⚖️ **Ações de ressarcimento** de danos causados ao Granaai
+⚖️ **Ações de ressarcimento** de danos causados ao {{COMPANY_NAME}}
 
 ---
 
@@ -434,7 +434,7 @@ Além das sanções internas, violações podem resultar em:
 **Conteúdo:**
 - Conceitos de corrupção e suborno
 - Legislação aplicável (Lei 12.846/2013)
-- Políticas e procedimentos Granaai
+- Políticas e procedimentos {{COMPANY_NAME}}
 - Estudos de caso e exemplos práticos
 - Canal de denúncia
 
@@ -457,7 +457,7 @@ Além das sanções internas, violações podem resultar em:
 
 ### 10.1 Controles Internos
 
-O Granaai mantém controles para prevenir e detectar corrupção:
+O {{COMPANY_NAME}} mantém controles para prevenir e detectar corrupção:
 
 ✅ **Segregação de funções**: Aprovação ≠ Execução ≠ Controle  
 ✅ **Dupla aprovação**: Transações sensíveis requerem 2 aprovadores  
@@ -584,17 +584,17 @@ Esta política foi desenvolvida em conformidade com:
 ## 📞 Contatos
 
 **Dúvidas sobre esta política:**
-- 📧 compliance@grana.ai
-- 👤 CISO: ciso@grana.ai
+- 📧 {{COMPLIANCE_EMAIL}}
+- 👤 CISO: {{CISO_EMAIL}}
 
 **Denúncias:**
-- 📧 denuncia@grana.ai (confidencial)
+- 📧 {{WHISTLEBLOWING_EMAIL}} (confidencial)
 
 **Treinamentos:**
-- 👤 RH: rh@grana.ai
+- 👤 RH: rh@{{COMPANY_DOMAIN}}
 
 ---
 
 **🔒 CONFIDENCIAL - USO INTERNO**  
 **Política de Anticorrupção e Antissuborno v1.0**  
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

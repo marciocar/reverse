@@ -7,7 +7,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Template de Decisão com Votação
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Estruturar de forma padronizada todas as decisões colegiadas dos comitês que requerem votação formal, garantindo rastreabilidade, transparência e conformidade com regimentos internos.
 

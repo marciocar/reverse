@@ -1,4 +1,4 @@
-# SOC2 Availability Controls (TSC A1) - Granaai
+# SOC2 Availability Controls (TSC A1) - {{COMPANY_NAME}}
 
 > **Framework:** SOC 2 Type II - Trust Services Criteria A1 (Availability)  
 > **Versão:** 1.0  
@@ -12,7 +12,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento descreve os **Availability Controls** (Controles de Disponibilidade) implementados pela Granaai em conformidade com o **SOC 2 Trust Services Criteria A1**, garantindo:
+Este documento descreve os **Availability Controls** (Controles de Disponibilidade) implementados pela {{COMPANY_NAME}} em conformidade com o **SOC 2 Trust Services Criteria A1**, garantindo:
 
 -  **99.95% uptime** alcançado (Q2 2025) - acima do SLA de 99.5%
 -  **Monitoramento 24/7** com alertas automáticos e on-call rotation
@@ -30,7 +30,7 @@ Este documento descreve os **Availability Controls** (Controles de Disponibilida
 
 **"A entity defines availability objectives for systems based on business requirements"**
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Availability Objectives Definidos:**
 - SLA: 99.5% uptime mensal (máximo 3.6h downtime/mês)
@@ -48,7 +48,7 @@ Este documento descreve os **Availability Controls** (Controles de Disponibilida
 
 **"The entity monitors system components and operations to identify anomalies and ensure capacity meets availability objectives"**
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Monitoramento Abrangente:**
 - CloudWatch Metrics (AWS native)
@@ -71,7 +71,7 @@ Este documento descreve os **Availability Controls** (Controles de Disponibilida
 
 **"The entity implements controls to respond to system availability incidents"**
 
-**Implementação Granaai:**
+**Implementação {{COMPANY_NAME}}:**
 
 ✅ **Incident Response Process:**
 - On-call rotation 24/7 (SRE team)
@@ -120,7 +120,7 @@ Uptime = (43.200 - 22) / 43.200 × 100 = 99.95% ✅
 
 **Exceções (não contam como downtime):**
 - Manutenções planejadas notificadas com 7 dias de antecedência
-- Problemas fora do controle da Granaai (ex: falhas da AWS region)
+- Problemas fora do controle da {{COMPANY_NAME}} (ex: falhas da AWS region)
 - Ataques DDoS confirmados (desde que mitigação < 4h)
 - Problemas causados pelo cliente (ex: API abuse)
 
@@ -276,7 +276,7 @@ Primary (us-east-1)                 DR (us-west-2)
 
 #### 1. Availability Dashboard (Grafana)
 
-**URL:** `https://grafana.grana.ai/d/availability`
+**URL:** `https://grafana.{{COMPANY_DOMAIN}}/d/availability`
 
 **Panels:**
 - Uptime % (current month, trailing 30d)
@@ -291,7 +291,7 @@ Primary (us-east-1)                 DR (us-west-2)
 
 #### 2. Infrastructure Health (Grafana)
 
-**URL:** `https://grafana.grana.ai/d/infrastructure`
+**URL:** `https://grafana.{{COMPANY_DOMAIN}}/d/infrastructure`
 
 **Panels:**
 - EKS nodes status (ready/not ready)
@@ -306,7 +306,7 @@ Primary (us-east-1)                 DR (us-west-2)
 
 #### 3. Application Performance (Grafana)
 
-**URL:** `https://grafana.grana.ai/d/application`
+**URL:** `https://grafana.{{COMPANY_DOMAIN}}/d/application`
 
 **Panels:**
 - Request rate (req/s)
@@ -352,9 +352,9 @@ Info Alert (P3) → Slack #alerts-info (no paging)
 **Checks:**
 | Endpoint | Frequency | Timeout | Locations | Alert After |
 |----------|-----------|---------|-----------|-------------|
-| https://api.grana.ai/health | 60s | 10s | 5 (US, EU, APAC) | 2 failures |
-| https://admin.grana.ai/ | 60s | 15s | 3 (US, BR) | 2 failures |
-| https://status.grana.ai/ | 300s | 10s | 1 (US) | 3 failures |
+| https://api.{{COMPANY_DOMAIN}}/health | 60s | 10s | 5 (US, EU, APAC) | 2 failures |
+| https://admin.{{COMPANY_DOMAIN}}/ | 60s | 15s | 3 (US, BR) | 2 failures |
+| https://status.{{COMPANY_DOMAIN}}/ | 300s | 10s | 1 (US) | 3 failures |
 
 **Integration:** Pingdom → PagerDuty (alerts)
 
@@ -663,10 +663,10 @@ CPU Stress: Stress 1 node (valida auto-scaling)
 
 | Papel | Responsável | Responsabilidades Availability | Contato |
 |-------|-------------|-------------------------------|---------|
-| **Availability Owner** | CTO | Aprovar políticas, revisar SLAs | cto@grana.ai |
-| **SRE Lead** | DevOps Lead | Monitoramento 24/7, incident response | devops-lead@grana.ai |
+| **Availability Owner** | CTO | Aprovar políticas, revisar SLAs | {{CTO_EMAIL}} |
+| **SRE Lead** | DevOps Lead | Monitoramento 24/7, incident response | {{DEVOPS_EMAIL}} |
 | **On-Call SRE** | Rotação semanal | Responder alertas, iniciar recovery | PagerDuty |
-| **Capacity Planner** | DevOps Lead | Forecast, resource planning | devops-lead@grana.ai |
+| **Capacity Planner** | DevOps Lead | Forecast, resource planning | {{DEVOPS_EMAIL}} |
 | **SOC2 Auditor** | External (Ernst & Young) | Validar controles, evidências | ey-auditor@ey.com |
 
 ---
@@ -681,19 +681,19 @@ CPU Stress: Stress 1 node (valida auto-scaling)
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do CTO]**  
-CTO - Granaai  
+CTO - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---
 
 **[Nome do DevOps Lead]**  
-DevOps Lead - Granaai  
+DevOps Lead - {{COMPANY_NAME}}  
 Data: 01 de Março de 2025
 
 ---

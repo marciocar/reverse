@@ -12,13 +12,13 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Ata de Reunião - Comitê de Compliance
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Tipo:** [Ordinária/Extraordinária]  
 > **Número:** [001/2025]  
 > **Data:** [DD/MM/YYYY]  
 > **Horário:** [HH:MM] às [HH:MM]  
-> **Local:** [Escritório Granaai / Videoconferência via Teams/Zoom]
+> **Local:** [Escritório {{COMPANY_NAME}} / Videoconferência via Teams/Zoom]
 
 ---
 
@@ -396,7 +396,7 @@ Documentos anexos a esta ata:
 
 **Data:** 15 de março de 2025  
 **Horário:** 14:00 às 16:30  
-**Local:** Sala de Reuniões - Sede Granaai (Videoconferência)
+**Local:** Sala de Reuniões - Sede {{COMPANY_NAME}} (Videoconferência)
 
 ## 1. Participantes
 

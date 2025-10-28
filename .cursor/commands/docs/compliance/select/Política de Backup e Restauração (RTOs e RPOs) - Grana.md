@@ -21,9 +21,9 @@ A estratégia de backup para EC2 é gerenciada pelo serviço **AWS Backup**. •
 
 **3\. Estratégia de Backup (RDS)** 
 
-Os bancos de dados RDS possuem uma estratégia de backup robusta com  múltiplos objetivos, gerenciada pelo plano “grana.ai-rds-plan” no AWS Backup,  além dos backups automatizados nativos do RDS. 
+Os bancos de dados RDS possuem uma estratégia de backup robusta com  múltiplos objetivos, gerenciada pelo plano “{{COMPANY_DOMAIN}}-rds-plan” no AWS Backup,  além dos backups automatizados nativos do RDS. 
 
-• **Nome do Plano:** grana.ai-rds-plan 
+• **Nome do Plano:** {{COMPANY_DOMAIN}}-rds-plan 
 
 • **Recursos Abrangidos:** O plano cobre explicitamente a instância granaai production. 
 
@@ -60,7 +60,7 @@ A tabela abaixo detalha a configuração de backup para as instâncias RDS.
 
 | DB Identifier  | Coberto por AWS Backup?  | Retenção (PITR) RPO (PITR) |  |
 | :---- | :---- | ----- | ----- |
-|  | granaai-production Sim (Plano grana.ai-rds-plan) 7 dias  |  | \~ 5 minutos |
+|  | granaai-production Sim (Plano {{COMPANY_DOMAIN}}-rds-plan) 7 dias  |  | \~ 5 minutos |
 
 ![][image6]**5\. Política para ECS e ECR** 
 

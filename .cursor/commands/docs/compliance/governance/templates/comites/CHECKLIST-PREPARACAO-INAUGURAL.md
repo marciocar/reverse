@@ -8,7 +8,7 @@ classification: "INTERNO"
 
 # 📋 Checklist de Preparação - Reuniões Inaugurais
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Garantir preparação completa e sucesso das primeiras reuniões inaugurais dos Comitês de Compliance e IA em 24-25/10/2025.
 
@@ -213,13 +213,13 @@ SEMANA 2: CONVOCAÇÃO (14-17/10)
 
 | Papel | Nome | E-mail |
 |-------|------|--------|
-| **CEO** | Thiago Karan | ceo@grana.ai |
-| **CISO** (Presidente Compliance) | [DEFINIR] | ciso@grana.ai |
-| **CTO** (Presidente IA) | Marcio Carvalho | cto@grana.ai |
-| **COO/CFO** | Carlos Gustavo Pulga | coo@grana.ai |
-| **CSO** | Andrey Colombo | cso@grana.ai |
-| **CMO** | Arthur Simoneto | cmo@grana.ai |
-| **Secretaria Comitês** | [DEFINIR] | secretaria.comites@grana.ai |
+| **CEO** | Thiago Karan | ceo@{{COMPANY_DOMAIN}} |
+| **CISO** (Presidente Compliance) | [DEFINIR] | {{CISO_EMAIL}} |
+| **CTO** (Presidente IA) | Marcio Carvalho | {{CTO_EMAIL}} |
+| **COO/CFO** | Carlos Gustavo Pulga | coo@{{COMPANY_DOMAIN}} |
+| **CSO** | Andrey Colombo | cso@{{COMPANY_DOMAIN}} |
+| **CMO** | Arthur Simoneto | cmo@{{COMPANY_DOMAIN}} |
+| **Secretaria Comitês** | [DEFINIR] | secretaria.comites@{{COMPANY_DOMAIN}} |
 
 ---
 
@@ -332,11 +332,11 @@ SEMANA 2: CONVOCAÇÃO (14-17/10)
 ## 📝 TEMPLATE DE E-MAIL CONVITE INICIAL (06/10)
 
 ```
-Assunto: [CONFIDENCIAL] Convite - Comitê de [Compliance/IA] do Granaai
+Assunto: [CONFIDENCIAL] Convite - Comitê de [Compliance/IA] do {{COMPANY_NAME}}
 
 Olá [NOME],
 
-Estamos formalizando a Governança Corporativa do Granaai e gostaríamos 
+Estamos formalizando a Governança Corporativa do {{COMPANY_NAME}} e gostaríamos 
 de convidá-lo(a) para fazer parte do Comitê de [Compliance/IA].
 
 📅 Primeira Reunião INAUGURAL:
@@ -368,7 +368,7 @@ COMITÊ DE [COMPLIANCE / IA]
 Prezado(a) membro,
 
 Convocamos V.Sa. para a Reunião Inaugural do Comitê de [Compliance/IA] 
-do Granaai Infratech de Recebíveis.
+do {{COMPANY_NAME}} Infratech de Recebíveis.
 
 DATA: [24 ou 25]/10/2025 (Quinta ou Sexta-feira)
 HORÁRIO: 14:00 às 18:00 (4 horas)

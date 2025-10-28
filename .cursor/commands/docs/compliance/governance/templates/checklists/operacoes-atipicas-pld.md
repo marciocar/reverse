@@ -45,4 +45,4 @@ policy_reference: "aml-policy.md"
 
 **Se SIM:** Comunicar ao COAF conforme [Seção 3.7 da Política PLD](../../aml-policy.md#37-comunicações-ao-coaf-siscoaf)
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

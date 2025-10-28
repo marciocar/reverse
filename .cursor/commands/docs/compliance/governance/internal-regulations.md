@@ -7,15 +7,15 @@ next_review: "2026-01-15"
 owner: "CEO + Board"
 approved_by: "A DEFINIR (CEO + Board)"
 legal_basis: "Código Civil, CLT, Lei 6.404/1976 (Lei das S.A.)"
-applies_to: "Granaai - Infratech de Recebíveis"
+applies_to: "{{COMPANY_NAME}} - Infratech de Recebíveis"
 classification: "CONFIDENCIAL - USO INTERNO"
 status: "DRAFT - Aguardando Preenchimento e Aprovação"
 ---
 
-# Regimento Interno - Granaai
+# Regimento Interno - {{COMPANY_NAME}}
 
 > **⚠️ NOTA: Este é um TEMPLATE ESTRUTURAL**  
-> Este documento fornece a estrutura base de um Regimento Interno adaptado para fintechs/infratechs. Seções marcadas com **[A DEFINIR]** ou **[PLACEHOLDER]** devem ser preenchidas conforme a evolução da governança corporativa do Granaai.
+> Este documento fornece a estrutura base de um Regimento Interno adaptado para fintechs/infratechs. Seções marcadas com **[A DEFINIR]** ou **[PLACEHOLDER]** devem ser preenchidas conforme a evolução da governança corporativa do {{COMPANY_NAME}}.
 
 ---
 
@@ -42,7 +42,7 @@ status: "DRAFT - Aguardando Preenchimento e Aprovação"
 ### 1.1 Denominação Social
 
 **Razão Social:** [A DEFINIR - Razão social completa]  
-**Nome Fantasia:** Granaai  
+**Nome Fantasia:** {{COMPANY_NAME}}  
 **CNPJ:** [A DEFINIR]
 
 ### 1.2 Natureza Jurídica
@@ -69,7 +69,7 @@ Prazo de duração: **Indeterminado**
 
 ### 2.1 Objeto Social
 
-O Granaai tem como objeto social principal:
+O {{COMPANY_NAME}} tem como objeto social principal:
 
 > Plataforma tecnológica para **antecipação de recebíveis** de cartão de crédito e débito, atuando como infraestrutura de conexão entre **credores** (fundos, FIDCs, bancos) e **estabelecimentos comerciais**, com integração às 4 registradoras brasileiras (TAG, Nuclea, CERC, B3).
 
@@ -703,7 +703,7 @@ O Granaai tem como objeto social principal:
 
 ### 10.1 Sistema de Compliance
 
-O Granaai mantém **sistema de gestão de compliance** baseado em:
+O {{COMPANY_NAME}} mantém **sistema de gestão de compliance** baseado em:
 
 - 📋 [Política de Anticorrupção](./anti-corruption-policy.md)
 - 📋 [Política de PLD/FT](./aml-policy.md)
@@ -904,11 +904,11 @@ Lista de todas as políticas vigentes:
 ## 📞 Contatos
 
 **Dúvidas sobre este Regimento:**
-- 📧 ceo@grana.ai (Thiago Karan)
-- 📧 coo@grana.ai (Carlos Gustavo Pulga)
+- 📧 ceo@{{COMPANY_DOMAIN}} (Thiago Karan)
+- 📧 coo@{{COMPANY_DOMAIN}} (Carlos Gustavo Pulga)
 
 **Propostas de alteração:**
-- 📧 ceo@grana.ai
+- 📧 ceo@{{COMPANY_DOMAIN}}
 
 ---
 
@@ -916,7 +916,7 @@ Lista de todas as políticas vigentes:
 
 ### Para Liderança Executiva:
 
-Este é um **template estrutural** que deve ser **customizado e aprovado** conforme a realidade e o estágio do Granaai.
+Este é um **template estrutural** que deve ser **customizado e aprovado** conforme a realidade e o estágio do {{COMPANY_NAME}}.
 
 **Próximos passos sugeridos:**
 1. **Preencher placeholders** (valores financeiros, nomes, processos específicos)
@@ -939,4 +939,4 @@ Este é um **template estrutural** que deve ser **customizado e aprovado** confo
 **⚖️ Estrutura clara, decisões ágeis, crescimento sustentável.**
 
 **Regimento Interno v1.0 (Draft)**  
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

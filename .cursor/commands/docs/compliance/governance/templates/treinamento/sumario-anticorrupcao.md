@@ -6,7 +6,7 @@
 
 ## 🎯 O QUE É?
 
-Política que estabelece **TOLERÂNCIA ZERO** para corrupção e suborno no Granaai.
+Política que estabelece **TOLERÂNCIA ZERO** para corrupção e suborno no {{COMPANY_NAME}}.
 
 ## ⚠️ O QUE É PROIBIDO?
 
@@ -26,15 +26,15 @@ Política que estabelece **TOLERÂNCIA ZERO** para corrupção e suborno no Gran
 
 ## 👥 RELACIONAMENTO COM AGENTES PÚBLICOS
 
--  Reuniões com ≥2 pessoas do Granaai
+-  Reuniões com ≥2 pessoas do {{COMPANY_NAME}}
 -  Documentar todos os contatos
 -  Jamais oferecer pagamento ou vantagem indevida
 - ⚠️ Hospitalidades (jantares, eventos) requerem aprovação prévia
 
 ## 📞 CANAIS
 
-**Dúvidas:** compliance@grana.ai  
-**Denúncias:** denuncia@grana.ai (anônimo permitido)
+**Dúvidas:** {{COMPLIANCE_EMAIL}}  
+**Denúncias:** {{WHISTLEBLOWING_EMAIL}} (anônimo permitido)
 
 ## 📋 DOCUMENTO COMPLETO
 
@@ -42,4 +42,4 @@ Política que estabelece **TOLERÂNCIA ZERO** para corrupção e suborno no Gran
 
 ---
 
-**Granaai © 2025 | ZERO TOLERÂNCIA**
+**{{COMPANY_NAME}} © 2025 | ZERO TOLERÂNCIA**

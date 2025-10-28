@@ -214,7 +214,7 @@ Conforme especificado no **[08-confirmacao-slas.md](08-confirmacao-slas.md)** - 
 **Exemplo de Nome de Arquivo:**
 ```
 [NOME-EMPRESA]-SLA-Report-[CLIENTE]-[ANO]-[MÊS].pdf
-Granaai-SLA-Report-Serasa-2025-Jan.pdf
+{{COMPANY_NAME}}-SLA-Report-Serasa-2025-Jan.pdf
 ```
 
 ### 5.3 Alertas em Tempo Real

@@ -7,14 +7,14 @@ next_review: "2026-01-15"
 owner: "CEO + Comitê de Compliance"
 approved_by: "CEO + Board"
 legal_basis: "Constituição Federal, CLT, Lei 12.846/2013, LGPD"
-applies_to: "Granaai - Infratech de Recebíveis"
+applies_to: "{{COMPANY_NAME}} - Infratech de Recebíveis"
 classification: "PÚBLICO - DIVULGAÇÃO AMPLA"
 ---
 
 # Código de Conduta e Ética
 
 > **Mensagem do CEO**  
-> O Granaai foi construído sobre pilares sólidos de integridade, transparência e respeito. Este Código de Conduta é a bússola que guia nossas decisões diárias e define quem somos como organização. Espero que todos nós - colaboradores, parceiros e lideranças - não apenas sigamos estas diretrizes, mas que as vivamos em cada interação.
+> O {{COMPANY_NAME}} foi construído sobre pilares sólidos de integridade, transparência e respeito. Este Código de Conduta é a bússola que guia nossas decisões diárias e define quem somos como organização. Espero que todos nós - colaboradores, parceiros e lideranças - não apenas sigamos estas diretrizes, mas que as vivamos em cada interação.
 >
 > — **Thiago Karan**, CEO
 
@@ -24,7 +24,7 @@ classification: "PÚBLICO - DIVULGAÇÃO AMPLA"
 
 ### 1.1 Propósito
 
-Este Código de Conduta e Ética estabelece os **valores, princípios e padrões de comportamento** esperados de todos que fazem parte do ecossistema Granaai.
+Este Código de Conduta e Ética estabelece os **valores, princípios e padrões de comportamento** esperados de todos que fazem parte do ecossistema {{COMPANY_NAME}}.
 
 **Objetivos:**
 - **Orientar decisões éticas** em situações complexas
@@ -40,12 +40,12 @@ Este código aplica-se a:
 -  **Todos os colaboradores** (efetivos, temporários, estagiários, aprendizes)
 -  **Liderança executiva** (CEO, COO/CFO, CMO, CSO, CTO)
 -  **Membros de comitês** (Comitê de IA, Comitê de Compliance)
--  **Terceiros** que atuem em nome do Granaai (consultores, prestadores de serviço)
--  **Parceiros comerciais** (quando representando o Granaai)
+-  **Terceiros** que atuem em nome do {{COMPANY_NAME}} (consultores, prestadores de serviço)
+-  **Parceiros comerciais** (quando representando o {{COMPANY_NAME}})
 
 ### 1.3 Compromisso Pessoal
 
-Ao fazer parte do Granaai, cada indivíduo compromete-se a:
+Ao fazer parte do {{COMPANY_NAME}}, cada indivíduo compromete-se a:
 
 - 📖 **Conhecer** este Código e as políticas relacionadas
 -  **Cumprir** as diretrizes aqui estabelecidas
@@ -271,7 +271,7 @@ Consideramos impactos de longo prazo (social, ambiental, econômico) em nossas d
 ### 6.1 Informações Confidenciais
 
 **Definição:**
-Qualquer informação não pública sobre o Granaai, clientes, parceiros ou projetos.
+Qualquer informação não pública sobre o {{COMPANY_NAME}}, clientes, parceiros ou projetos.
 
 **Exemplos:**
 - Dados de clientes (nomes, CPF/CNPJ, transações)
@@ -310,7 +310,7 @@ Qualquer informação não pública sobre o Granaai, clientes, parceiros ou proj
 ### 6.3 Propriedade Intelectual
 
 **Criações no trabalho:**
-Toda propriedade intelectual (código, documentação, processos, marcas) desenvolvida durante o vínculo com Granaai **pertence à empresa**.
+Toda propriedade intelectual (código, documentação, processos, marcas) desenvolvida durante o vínculo com {{COMPANY_NAME}} **pertence à empresa**.
 
 **Obrigações:**
 -  Documentar criações e inovações
@@ -333,7 +333,7 @@ Toda propriedade intelectual (código, documentação, processos, marcas) desenv
 **Exemplos comuns:**
 - Contratar/supervisionar parente próximo
 - Investir em concorrente ou fornecedor
-- Ter negócio paralelo que compete com Granaai
+- Ter negócio paralelo que compete com {{COMPANY_NAME}}
 - Usar informações privilegiadas para investimentos pessoais (insider trading)
 - Aceitar presentes valiosos de fornecedores
 
@@ -359,10 +359,10 @@ Toda propriedade intelectual (código, documentação, processos, marcas) desenv
 ### 8.1 Comunicação Externa
 
 **Porta-vozes oficiais:**
-Apenas **CEO, COO/CFO, CMO** estão autorizados a falar em nome do Granaai para mídia, eventos públicos ou posicionamentos oficiais.
+Apenas **CEO, COO/CFO, CMO** estão autorizados a falar em nome do {{COMPANY_NAME}} para mídia, eventos públicos ou posicionamentos oficiais.
 
 **Outros colaboradores:**
--  Podem mencionar que trabalham no Granaai (LinkedIn, networking)
+-  Podem mencionar que trabalham no {{COMPANY_NAME}} (LinkedIn, networking)
 - ⚠️ Não devem fazer declarações oficiais ou divulgar informações confidenciais
 
 ### 8.2 Redes Sociais (Pessoais)
@@ -372,12 +372,12 @@ Respeitamos o direito individual de expressão em redes sociais pessoais.
 
 **Responsabilidades:**
 -  Deixar claro que opiniões são pessoais ("opiniões próprias, não da empresa")
-- ⚠️ Não associar posicionamentos pessoais polêmicos ao Granaai
+- ⚠️ Não associar posicionamentos pessoais polêmicos ao {{COMPANY_NAME}}
 - ⚠️ Não divulgar informações confidenciais
 - ⚠️ Não atacar clientes, parceiros ou colegas publicamente
 
 **Proibições:**
-- ⛔ Usar marca Granaai sem autorização (logo, slogans)
+- ⛔ Usar marca {{COMPANY_NAME}} sem autorização (logo, slogans)
 - ⛔ Postar conteúdo discriminatório, ofensivo ou ilegal
 - ⛔ Fazer declarações falsas sobre a empresa
 
@@ -433,7 +433,7 @@ Respeitamos o direito individual de expressão em redes sociais pessoais.
 
 ### 10.1 Canal de Denúncia Oficial
 
-**E-mail confidencial:** 📧 **denuncia@grana.ai**
+**E-mail confidencial:** 📧 **{{WHISTLEBLOWING_EMAIL}}**
 
 **Características:**
 -  **Confidencialidade**: Identidade protegida
@@ -463,7 +463,7 @@ Respeitamos o direito individual de expressão em redes sociais pessoais.
 ### 10.3 Proteção ao Denunciante
 
 **Compromisso:**
-O Granaai **proíbe absolutamente** qualquer forma de retaliação contra denunciantes de boa-fé.
+O {{COMPANY_NAME}} **proíbe absolutamente** qualquer forma de retaliação contra denunciantes de boa-fé.
 
 **Retaliação inclui:**
 - Demissão ou rebaixamento
@@ -681,7 +681,7 @@ Este Código de Conduta foi desenvolvido com base em:
 
 **O que fazer?**
 -  **Oferecer apoio à colega** (perguntar se ela está bem, se quer reportar)
--  **Encorajar denúncia** (canal oficial: denuncia@grana.ai)
+-  **Encorajar denúncia** (canal oficial: {{WHISTLEBLOWING_EMAIL}})
 -  **Você também pode denunciar** (testemunha de assédio)
 - ⚠️ Não confrontar o gestor sozinho (risco de retaliação)
 -  Garantir proteção: denúncia será tratada com seriedade e confidencialidade
@@ -712,7 +712,7 @@ Este Código de Conduta foi desenvolvido com base em:
 ### Q2: Posso ter um negócio paralelo (freela, startup)?
 
 **R:** Sim, desde que:
--  Não compete diretamente com Granaai
+-  Não compete diretamente com {{COMPANY_NAME}}
 -  Não use recursos da empresa (tempo de trabalho, equipamentos, informações confidenciais)
 -  Não comprometa seu desempenho
 -  **Declare na Declaração de Conflito de Interesses** (anual)
@@ -721,7 +721,7 @@ Se houver dúvida, consulte Compliance antes de iniciar.
 
 ---
 
-### Q3: Posso publicar no LinkedIn que trabalho no Granaai?
+### Q3: Posso publicar no LinkedIn que trabalho no {{COMPANY_NAME}}?
 
 **R:** **Sim!** Encorajamos. Porém:
 -  Deixe claro que opiniões são pessoais (se postar conteúdos polêmicos)
@@ -744,7 +744,7 @@ Se houver dúvida, consulte Compliance antes de iniciar.
 ### Q5: Posso denunciar anonimamente? Vou sofrer retaliação?
 
 **R:** 
-- **Anonimato:** Sim, permitido (mas não obrigatório). E-mail denuncia@grana.ai aceita denúncias anônimas.
+- **Anonimato:** Sim, permitido (mas não obrigatório). E-mail {{WHISTLEBLOWING_EMAIL}} aceita denúncias anônimas.
 - **Retaliação:** **PROIBIDA**. Retaliar denunciante de boa-fé = demissão por justa causa.
 - **Má-fé:** Denúncias falsas com intenção de prejudicar = sanção ao denunciante.
 
@@ -755,18 +755,18 @@ Se houver dúvida, consulte Compliance antes de iniciar.
 ## 📞 Contatos
 
 **Dúvidas sobre este Código:**
-- 📧 compliance@grana.ai
-- 👤 CISO: ciso@grana.ai
+- 📧 {{COMPLIANCE_EMAIL}}
+- 👤 CISO: {{CISO_EMAIL}}
 
 **Denúncias (confidencial/anônimo):**
-- 📧 **denuncia@grana.ai**
+- 📧 **{{WHISTLEBLOWING_EMAIL}}**
 
 **RH (questões trabalhistas):**
-- 📧 rh@grana.ai
+- 📧 rh@{{COMPANY_DOMAIN}}
 
 ---
 
 **🤝 Juntos, construímos uma cultura de integridade e excelência.**
 
 **Código de Conduta e Ética v1.0**  
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

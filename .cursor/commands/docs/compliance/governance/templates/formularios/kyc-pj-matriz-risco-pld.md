@@ -9,24 +9,24 @@ compliance: "Lei 9.613/1998, Resolução COAF 40/2021"
 
 # FORMULÁRIO: KYC PESSOA JURÍDICA + MATRIZ DE RISCO PLD/FT
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
-## ⚠️ CONTEXTO DE NEGÓCIO DO GRANAAI
+## ⚠️ CONTEXTO DE NEGÓCIO DO {{COMPANY_NAME}}
 
 ### **Quem precisa preencher este KYC?**
 
-✅ **FORNECEDORES** do Granaai (serviços de TI, consultorias, etc.)  
+✅ **FORNECEDORES** do {{COMPANY_NAME}} (serviços de TI, consultorias, etc.)  
 ✅ **PARCEIROS COMERCIAIS** (não registradoras)  
 ✅ **OUTROS TERCEIROS** com relacionamento comercial
 
 ❌ **CREDORES NÃO PREENCHEM** este formulário
 
 **Por quê?**  
-O Granaai é uma **infratech que conecta credores às 4 registradoras brasileiras**. O **KYC dos credores é executado pelas próprias registradoras**, que fazem due diligence completa e liberam chaves de integração após aprovação. O Granaai **não executa KYC direto dos credores** - esse processo é responsabilidade das registradoras, conforme regulação.
+O {{COMPANY_NAME}} é uma **infratech que conecta credores às 4 registradoras brasileiras**. O **KYC dos credores é executado pelas próprias registradoras**, que fazem due diligence completa e liberam chaves de integração após aprovação. O {{COMPANY_NAME}} **não executa KYC direto dos credores** - esse processo é responsabilidade das registradoras, conforme regulação.
 
-**📚 Contexto:** [Modelo de Negócio Granaai](../../../../business-context/business-model.md)
+**📚 Contexto:** [Modelo de Negócio {{COMPANY_NAME}}](../../../../business-context/business-model.md)
 
 ---
 
@@ -345,7 +345,7 @@ Beneficiário Final = Pessoa física que, em última instância, de forma direta
 ### **SEÇÃO 7: INFORMAÇÕES FINANCEIRAS E OPERACIONAIS**
 
 **[Múltipla escolha - Obrigatório]**  
-**Volume Mensal Estimado de Transações com Granaai:**
+**Volume Mensal Estimado de Transações com {{COMPANY_NAME}}:**
 - [ ] Até R$ 50 mil/mês
 - [ ] R$ 50 mil - R$ 200 mil/mês
 - [ ] R$ 200 mil - R$ 500 mil/mês
@@ -488,7 +488,7 @@ Anexe os seguintes documentos (todos obrigatórios):
 ### **SEÇÃO 10: TIPO DE RELACIONAMENTO**
 
 **[Múltipla escolha - Obrigatório]**  
-**Tipo de relacionamento com o Granaai:**
+**Tipo de relacionamento com o {{COMPANY_NAME}}:**
 - [ ] Fornecedor de Serviços de TI
 - [ ] Fornecedor de Consultoria
 - [ ] Fornecedor de Infraestrutura (cloud, servidores, etc.)
@@ -496,7 +496,7 @@ Anexe os seguintes documentos (todos obrigatórios):
 - [ ] Prestador de Serviços Gerais
 - [ ] Outro: _____
 
-**⚠️ Nota:** Se você é um **credor** buscando integração com registradoras, o KYC é realizado diretamente pelas registradoras. Entre em contato com suporte@grana.ai para mais informações.
+**⚠️ Nota:** Se você é um **credor** buscando integração com registradoras, o KYC é realizado diretamente pelas registradoras. Entre em contato com suporte@{{COMPANY_DOMAIN}} para mais informações.
 
 ---
 
@@ -514,7 +514,7 @@ A empresa declara que:
 
 4. ✅ Compromete-se a **atualizar** as informações caso haja mudanças relevantes (alteração de sócios, endereço, atividade, etc.).
 
-5. ✅ Autoriza o Granaai a:
+5. ✅ Autoriza o {{COMPANY_NAME}} a:
    - Consultar bancos de dados públicos e privados para verificação cadastral
    - Realizar monitoramento contínuo conforme Política PLD/FT
    - Comunicar operações suspeitas ao COAF (sem comunicação ao cliente - Lei 9.613/1998)
@@ -742,4 +742,4 @@ Independente do score, **REJEITAR ou ESCALAR** se:
 **📄 Documento controlado - Revisão semestral**  
 **🔒 CONFIDENCIAL - USO INTERNO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

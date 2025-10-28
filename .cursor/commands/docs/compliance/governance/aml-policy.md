@@ -7,7 +7,7 @@ next_review: "2026-01-15"
 owner: "CISO + Comitê de Compliance"
 approved_by: "CEO + Board"
 legal_basis: "Lei 9.613/1998, Lei 12.683/2012, Resolução COAF 40/2021, FATF Recommendations"
-applies_to: "Granaai - Infratech de Recebíveis"
+applies_to: "{{COMPANY_NAME}} - Infratech de Recebíveis"
 classification: "CONFIDENCIAL - USO INTERNO"
 regulatory_bodies: "COAF, BACEN, Receita Federal"
 ---
@@ -15,7 +15,7 @@ regulatory_bodies: "COAF, BACEN, Receita Federal"
 # Política de Prevenção à Lavagem de Dinheiro e Financiamento ao Terrorismo (PLD/FT)
 
 > **Mensagem da Liderança**  
-> O Granaai está comprometido com a prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Esta política estabelece procedimentos robustos de conformidade regulatória, proteção do sistema financeiro e mitigação de riscos.
+> O {{COMPANY_NAME}} está comprometido com a prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Esta política estabelece procedimentos robustos de conformidade regulatória, proteção do sistema financeiro e mitigação de riscos.
 >
 > — **Carlos Gustavo Pulga**, COO/CFO
 
@@ -27,7 +27,7 @@ regulatory_bodies: "COAF, BACEN, Receita Federal"
 
 Esta Política de Prevenção à Lavagem de Dinheiro e Financiamento ao Terrorismo (PLD/FT) tem como objetivos:
 
-- **Prevenir** a utilização dos serviços Granaai para lavagem de dinheiro ou financiamento do terrorismo
+- **Prevenir** a utilização dos serviços {{COMPANY_NAME}} para lavagem de dinheiro ou financiamento do terrorismo
 - **Assegurar conformidade** com a Lei 9.613/1998, Lei 12.683/2012 e Resolução COAF 40/2021
 - **Identificar e mitigar riscos** de PLD/FT nas operações de recebíveis
 - **Detectar operações atípicas** e comunicar ao COAF quando necessário
@@ -41,9 +41,9 @@ Esta política aplica-se a:
 -  **Todas as operações** de recebíveis de cartão (antecipação, crédito, garantias)
 -  **Todos os clientes** (credores, estabelecimentos comerciais, parceiros)
 -  **Todos os colaboradores** envolvidos em onboarding e operações
--  **Terceiros** que atuem em nome do Granaai (parceiros, intermediários)
+-  **Terceiros** que atuem em nome do {{COMPANY_NAME}} (parceiros, intermediários)
 
-### 1.3 Natureza do Negócio Granaai
+### 1.3 Natureza do Negócio {{COMPANY_NAME}}
 
 **Modelo de Negócio**: Infratech de Recebíveis de Cartão de Crédito e Débito
 
@@ -122,7 +122,7 @@ Unidade de Inteligência Financeira (UIF) do Brasil, responsável por:
 
 ### 3.1 Legislação Brasileira
 
-| Norma | Descrição | Aplicação ao Granaai |
+| Norma | Descrição | Aplicação ao {{COMPANY_NAME}} |
 |-------|-----------|----------------------|
 | **Lei 9.613/1998** | Lei de Lavagem de Dinheiro (LLD) | Define crimes e obrigações PLD |
 | **Lei 12.683/2012** | Alteração da Lei 9.613/1998 | Amplia rol de setores obrigados |
@@ -192,7 +192,7 @@ Unidade de Inteligência Financeira (UIF) do Brasil, responsável por:
 
 ### 5.1 Metodologia de Avaliação
 
-O Granaai adota metodologia de avaliação de risco **baseada em fatores múltiplos**:
+O {{COMPANY_NAME}} adota metodologia de avaliação de risco **baseada em fatores múltiplos**:
 
 #### **Fatores de Risco Analisados:**
 
@@ -322,7 +322,7 @@ O Granaai adota metodologia de avaliação de risco **baseada em fatores múltip
 
 ### 7.1 Monitoramento Contínuo
 
-O Granaai mantém **sistema de monitoramento automatizado** para detectar operações atípicas.
+O {{COMPANY_NAME}} mantém **sistema de monitoramento automatizado** para detectar operações atípicas.
 
 #### **7.1.1 Regras de Monitoramento (Exemplos)**
 
@@ -410,7 +410,7 @@ Toda análise deve ser **documentada** com:
 
 ### 8.1 Obrigação Legal
 
-Conforme Lei 9.613/1998 e Resolução COAF 40/2021, o Granaai **deve comunicar ao COAF**:
+Conforme Lei 9.613/1998 e Resolução COAF 40/2021, o {{COMPANY_NAME}} **deve comunicar ao COAF**:
 
 1. **Operações Suspeitas**: Independente do valor
 2. **Tentativas de Operações Suspeitas**: Mesmo não concretizadas
@@ -457,7 +457,7 @@ Se o cliente **desiste** da operação após solicitação de documentos/informa
 
 ### 9.1 Obrigações de Registro (Resolução COAF 40/2021)
 
-O Granaai deve **manter registros** de:
+O {{COMPANY_NAME}} deve **manter registros** de:
 
 | Registro | Prazo de Retenção | Responsável |
 |----------|-------------------|-------------|
@@ -627,7 +627,7 @@ Conforme Lei 9.613/1998:
 
 ### 14.1 Obrigação Legal
 
-Conforme Resolução COAF 40/2021, o Granaai deve enviar **relatório anual** ao COAF até **31 de março** de cada ano.
+Conforme Resolução COAF 40/2021, o {{COMPANY_NAME}} deve enviar **relatório anual** ao COAF até **31 de março** de cada ano.
 
 ### 14.2 Conteúdo do Relatório
 
@@ -768,12 +768,12 @@ Esta política foi desenvolvida em conformidade com:
 ## 📞 Contatos
 
 **Dúvidas sobre esta política:**
-- 📧 compliance@grana.ai
-- 👤 CISO: ciso@grana.ai
+- 📧 {{COMPLIANCE_EMAIL}}
+- 👤 CISO: {{CISO_EMAIL}}
 
 **Reportar operações atípicas (INTERNO):**
-- 📧 pld@grana.ai
-- 👤 CISO: ciso@grana.ai
+- 📧 pld@{{COMPANY_DOMAIN}}
+- 👤 CISO: {{CISO_EMAIL}}
 
 **COAF (Oficial):**
 - 🌐 [gov.br/coaf](https://www.gov.br/coaf)
@@ -784,4 +784,4 @@ Esta política foi desenvolvida em conformidade com:
 
 **🔒 CONFIDENCIAL - USO INTERNO**  
 **Política de Prevenção à Lavagem de Dinheiro (PLD/FT) v1.0**  
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

@@ -47,14 +47,14 @@ Confirmamos que os níveis de serviço estabelecidos atendem plenamente aos requ
 
 ## **6\. Evidência de Disponibilidade Monitorada (Zabbix / CloudWatch)**
 
-Com base no Relatório de SLA – AWS – GRANAAI-PRD (01 a 30 de setembro de 2025):
+Com base no Relatório de SLA – AWS – {{COMPANY_NAME}}-PRD (01 a 30 de setembro de 2025):
 
 | Serviço / Componente | Uptime (%) | Indisponibilidade Total | Fonte |
 | :---- | :---- | :---- | :---- |
-| app.grana.ai (URL principal) | 99,94% | 24 min (4 eventos em 08/09/2025) | Zabbix |
+| app.{{COMPANY_DOMAIN}} (URL principal) | 99,94% | 24 min (4 eventos em 08/09/2025) | Zabbix |
 | mattermost-n8n | 100,00% | 0 min | Zabbix |
 | granaai-openvpn-prd-us-east-1 | 100,00% | 0 min | Zabbix |
 | keycloak | 100,00% | 0 min | Zabbix |
 | Média Global de Disponibilidade (set/2025) | 99,98% | \- | Consolidado |
 
-Evidência anexa: Relatório de SLA – AWS – GRANAAI-PRD (09/10/2025)
+Evidência anexa: Relatório de SLA – AWS – {{COMPANY_NAME}}-PRD (09/10/2025)

@@ -9,7 +9,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Pauta Trimestral Padrão - Comitê de Inteligência Artificial
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Esta pauta serve como template para reuniões ordinárias trimestrais do Comitê de IA, garantindo cobertura consistente de todos os tópicos críticos de governança de IA.
 
@@ -304,7 +304,7 @@ User Satisfaction: Q1: 4.2 → Q2: 4.1 → Q3: 4.3 → Q4: [X.X]
 
 **Incidentes de Indisponibilidade:**
 
-| Data | Duração | Motivo (OpenAI) | Impacto no Granaai | Compensação |
+| Data | Duração | Motivo (OpenAI) | Impacto no {{COMPANY_NAME}} | Compensação |
 |------|---------|-----------------|-------------------|-------------|
 | [DD/MM] | [X] min | [Descrição] | [Impacto] | [Sim/Não - Descrição] |
 

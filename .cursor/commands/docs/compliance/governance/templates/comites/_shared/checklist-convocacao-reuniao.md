@@ -8,7 +8,7 @@ classification: "INTERNO"
 
 # Checklist de Convocação de Reunião
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Garantir que todas as reuniões de comitês sejam convocadas de forma padronizada, com antecedência adequada e todos os materiais necessários, evitando atrasos e garantindo produtividade.
 
@@ -449,9 +449,9 @@ Nos vemos em breve!
 ## 📞 Contatos
 
 **Dúvidas sobre convocação:**
-- **Secretaria dos Comitês:** secretaria-comites@grana.ai
-- **Presidente Comitê Compliance:** ciso@grana.ai
-- **Presidente Comitê IA:** cto@grana.ai
+- **Secretaria dos Comitês:** secretaria-comites@{{COMPANY_DOMAIN}}
+- **Presidente Comitê Compliance:** {{CISO_EMAIL}}
+- **Presidente Comitê IA:** {{CTO_EMAIL}}
 
 ---
 

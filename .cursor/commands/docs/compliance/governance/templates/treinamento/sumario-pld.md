@@ -6,7 +6,7 @@
 
 ## 🎯 O QUE É?
 
-Procedimentos para prevenir que o Granaai seja usado para lavar dinheiro ou financiar terrorismo.
+Procedimentos para prevenir que o {{COMPANY_NAME}} seja usado para lavar dinheiro ou financiar terrorismo.
 
 ## ⚠️ O QUE OBSERVAR?
 
@@ -21,9 +21,9 @@ Procedimentos para prevenir que o Granaai seja usado para lavar dinheiro ou fina
 
 ## 🔍 KYC (KNOW YOUR CUSTOMER)
 
-**No Granaai:**
--  **Credores:** KYC feito pelas **Registradoras** (não pelo Granaai)
--  **Fornecedores/Parceiros:** KYC feito pelo Granaai
+**No {{COMPANY_NAME}}:**
+-  **Credores:** KYC feito pelas **Registradoras** (não pelo {{COMPANY_NAME}})
+-  **Fornecedores/Parceiros:** KYC feito pelo {{COMPANY_NAME}}
 
 ### **Documentos Obrigatórios (Fornecedores):**
 - Contrato Social
@@ -41,7 +41,7 @@ Consulta obrigatória:
 
 ## 🚨 REPORTAR IMEDIATAMENTE
 
-Se identificar operação suspeita → **compliance@grana.ai** ou **CISO**
+Se identificar operação suspeita → **{{COMPLIANCE_EMAIL}}** ou **CISO**
 
 ⚠️ **NÃO comunique ao cliente** (Lei 9.613/1998)
 
@@ -51,4 +51,4 @@ Se identificar operação suspeita → **compliance@grana.ai** ou **CISO**
 
 ---
 
-**Granaai © 2025 | Conformidade COAF**
+**{{COMPANY_NAME}} © 2025 | Conformidade COAF**

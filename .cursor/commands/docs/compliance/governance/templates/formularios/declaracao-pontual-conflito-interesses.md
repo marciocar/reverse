@@ -9,7 +9,7 @@ deadline: "5 dias úteis após surgimento da situação"
 
 # FORMULÁRIO: DECLARAÇÃO PONTUAL DE CONFLITO DE INTERESSES
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -41,7 +41,7 @@ Este formulário deve ser preenchido **imediatamente** (prazo máximo de 5 dias 
 
 **[Campo de texto curto - Obrigatório]**  
 **E-mail Corporativo:**  
-*Validação: @grana.ai*
+*Validação: @{{COMPANY_DOMAIN}}*
 
 ---
 
@@ -76,7 +76,7 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 
 **[Múltipla escolha - Obrigatório]**  
 **3.1 Categoria da situação:**
-- [ ] Vínculo familiar (parente no Granaai/cliente/fornecedor/concorrente)
+- [ ] Vínculo familiar (parente no {{COMPANY_NAME}}/cliente/fornecedor/concorrente)
 - [ ] Relacionamento afetivo (com colega de trabalho)
 - [ ] Interesse financeiro (investimento, sociedade, dívida)
 - [ ] Atividade externa (negócio próprio, freela, consultoria, outro cargo)
@@ -126,11 +126,11 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 
 **[Múltipla escolha]**  
 **Onde esta pessoa trabalha?**
-- [ ] No Granaai
-- [ ] Em cliente do Granaai
-- [ ] Em fornecedor do Granaai
-- [ ] Em parceiro do Granaai
-- [ ] Em concorrente do Granaai
+- [ ] No {{COMPANY_NAME}}
+- [ ] Em cliente do {{COMPANY_NAME}}
+- [ ] Em fornecedor do {{COMPANY_NAME}}
+- [ ] Em parceiro do {{COMPANY_NAME}}
+- [ ] Em concorrente do {{COMPANY_NAME}}
 - [ ] Outro: _____
 
 ---
@@ -200,7 +200,7 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 ---
 
 **[Múltipla escolha]**  
-**Relacionamento com Granaai:**
+**Relacionamento com {{COMPANY_NAME}}:**
 - [ ] Cliente
 - [ ] Fornecedor
 - [ ] Parceiro
@@ -252,7 +252,7 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 ---
 
 **[Múltipla escolha]**  
-**Esta atividade compete ou se relaciona com o Granaai?**
+**Esta atividade compete ou se relaciona com o {{COMPANY_NAME}}?**
 - [ ] Sim, compete diretamente
 - [ ] Parcialmente (há sobreposição)
 - [ ] Não há concorrência
@@ -315,7 +315,7 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 ---
 
 **[Múltipla escolha]**  
-**Relacionamento com Granaai:**
+**Relacionamento com {{COMPANY_NAME}}:**
 - [ ] Cliente
 - [ ] Fornecedor
 - [ ] Parceiro
@@ -357,12 +357,12 @@ Descreva de forma clara e completa a situação que pode gerar conflito de inter
 ### **SEÇÃO 5: IMPACTO NO TRABALHO**
 
 **[Informação]**  
-Avalie se e como esta situação pode impactar suas atividades no Granaai.
+Avalie se e como esta situação pode impactar suas atividades no {{COMPANY_NAME}}.
 
 ---
 
 **[Múltipla escolha - Obrigatório]**  
-**5.1 Esta situação pode influenciar decisões que você toma no Granaai?**
+**5.1 Esta situação pode influenciar decisões que você toma no {{COMPANY_NAME}}?**
 - [ ] Sim, diretamente
 - [ ] Sim, indiretamente
 - [ ] Não
@@ -487,10 +487,10 @@ Obrigado por reportar esta situação.
    • Mantenha confidencialidade sobre a declaração
    • Não tome ações unilaterais
 
-📞 Dúvidas urgentes: compliance@grana.ai
+📞 Dúvidas urgentes: {{COMPLIANCE_EMAIL}}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-Granaai © 2025 - Governança Corporativa
+{{COMPANY_NAME}} © 2025 - Governança Corporativa
 ```
 
 ---
@@ -498,7 +498,7 @@ Granaai © 2025 - Governança Corporativa
 ## 📈 FLUXO DE ANÁLISE
 
 ### **1. Recebimento (D+0)**
-- Notificação automática: compliance@grana.ai
+- Notificação automática: {{COMPLIANCE_EMAIL}}
 - Classificação automática de urgência
 - Atribuição de analista
 
@@ -549,4 +549,4 @@ Granaai © 2025 - Governança Corporativa
 **📄 Documento controlado - Revisão anual**  
 **🔒 CONFIDENCIAL - USO INTERNO**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

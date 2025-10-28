@@ -8,7 +8,7 @@
 
 ### **1. Por que temos políticas de compliance?**
 
-Para proteger o Granaai e todos os colaboradores, garantir conformidade legal (Lei Anticorrupção, Lei PLD, LGPD) e preparar a empresa para auditorias e certificações (ISO 27001, SOC2).
+Para proteger o {{COMPANY_NAME}} e todos os colaboradores, garantir conformidade legal (Lei Anticorrupção, Lei PLD, LGPD) e preparar a empresa para auditorias e certificações (ISO 27001, SOC2).
 
 ### **2. O que acontece se eu não seguir as políticas?**
 
@@ -16,7 +16,7 @@ Dependendo da gravidade: advertência, suspensão ou demissão por justa causa. 
 
 ### **3. Posso denunciar anonimamente?**
 
-✅ SIM. O canal denuncia@grana.ai aceita denúncias anônimas. Você também pode se identificar se preferir. **Proteção contra retaliação é garantida** para denunciantes de boa-fé.
+✅ SIM. O canal {{WHISTLEBLOWING_EMAIL}} aceita denúncias anônimas. Você também pode se identificar se preferir. **Proteção contra retaliação é garantida** para denunciantes de boa-fé.
 
 ---
 
@@ -40,9 +40,9 @@ Avalie o valor estimado e siga a matriz acima. Brindes promocionais de baixo val
 
 ## 🔹 PLD/FT
 
-### **7. O Granaai faz KYC dos credores?**
+### **7. O {{COMPANY_NAME}} faz KYC dos credores?**
 
-❌ **NÃO**. O KYC dos **credores** é feito pelas **4 Registradoras** (conforme regulação). O Granaai faz KYC apenas de **fornecedores e parceiros comerciais**.
+❌ **NÃO**. O KYC dos **credores** é feito pelas **4 Registradoras** (conforme regulação). O {{COMPANY_NAME}} faz KYC apenas de **fornecedores e parceiros comerciais**.
 
 ### **8. O que é uma operação suspeita que devo reportar?**
 
@@ -53,7 +53,7 @@ Exemplos:
 - Fracionamento de valores (smurfing)
 - Transações com países de alto risco
 
-**Reportar:** compliance@grana.ai ou CISO (**NÃO comunique ao cliente**).
+**Reportar:** {{COMPLIANCE_EMAIL}} ou CISO (**NÃO comunique ao cliente**).
 
 ---
 
@@ -70,8 +70,8 @@ Depende. Se vocês trabalham em áreas diferentes sem subordinação, geralmente
 ### **11. Posso ter um negócio próprio (MEI, freela)?**
 
 ✅ **SIM**, desde que:
-- Não concorra com o Granaai
-- Não use informações/recursos do Granaai
+- Não concorra com o {{COMPANY_NAME}}
+- Não use informações/recursos do {{COMPANY_NAME}}
 - Seja declarado na Declaração de Conflito de Interesses
 - Não comprometa seu desempenho/horário de trabalho
 
@@ -105,17 +105,17 @@ Conduta abusiva que humilha, intimida ou desqualifica. Exemplos:
 
 ### **15. Posso compartilhar dados de clientes com colegas de outra área?**
 
-⚠️ **SOMENTE se necessário** para o trabalho (princípio do need-to-know). Nunca compartilhe por e-mail pessoal, WhatsApp ou com pessoas fora do Granaai. Dados pessoais são protegidos pela LGPD.
+⚠️ **SOMENTE se necessário** para o trabalho (princípio do need-to-know). Nunca compartilhe por e-mail pessoal, WhatsApp ou com pessoas fora do {{COMPANY_NAME}}. Dados pessoais são protegidos pela LGPD.
 
 ---
 
 ## 📞 AINDA TEM DÚVIDAS?
 
-- **Compliance:** compliance@grana.ai
-- **CISO:** ciso@grana.ai
-- **RH:** rh@grana.ai
+- **Compliance:** {{COMPLIANCE_EMAIL}}
+- **CISO:** {{CISO_EMAIL}}
+- **RH:** rh@{{COMPANY_DOMAIN}}
 - **Seu Gestor**
-- **Canal de Denúncia (confidencial):** denuncia@grana.ai
+- **Canal de Denúncia (confidencial):** {{WHISTLEBLOWING_EMAIL}}
 
 ---
 
@@ -129,4 +129,4 @@ Conduta abusiva que humilha, intimida ou desqualifica. Exemplos:
 
 ---
 
-**Granaai © 2025 | Compliance & Ética**
+**{{COMPANY_NAME}} © 2025 | Compliance & Ética**

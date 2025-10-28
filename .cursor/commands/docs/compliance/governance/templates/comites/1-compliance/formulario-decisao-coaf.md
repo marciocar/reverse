@@ -10,7 +10,7 @@ audience: "CISO, Comitê de Compliance, Auditoria"
 
 # Formulário de Decisão - Comunicação ao COAF
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **⚠️ ULTRA-CONFIDENCIAL**  
 > Este documento contém informações sensíveis relacionadas a suspeitas de lavagem de dinheiro. Acesso estritamente limitado a: CISO, Membros do Comitê de Compliance, Auditoria Interna.
@@ -19,7 +19,7 @@ audience: "CISO, Comitê de Compliance, Auditoria"
 
 ## 📋 Objetivo
 
-Este formulário tem como objetivo **estruturar a análise** de operações atípicas identificadas pelo Granaai e **fundamentar a decisão** do Comitê de Compliance sobre comunicar ou não ao COAF (Conselho de Controle de Atividades Financeiras) via SISCOAF.
+Este formulário tem como objetivo **estruturar a análise** de operações atípicas identificadas pelo {{COMPANY_NAME}} e **fundamentar a decisão** do Comitê de Compliance sobre comunicar ou não ao COAF (Conselho de Controle de Atividades Financeiras) via SISCOAF.
 
 **Base Legal:**
 - **Lei 9.613/1998**: Obriga pessoas/entidades sujeitas a comunicar operações suspeitas
@@ -546,8 +546,8 @@ Este formulário deve ser preenchido quando:
 ## 📞 Contatos de Emergência
 
 **Dúvidas sobre este formulário:**
-- **CISO:** ciso@grana.ai
-- **Comitê de Compliance:** compliance@grana.ai
+- **CISO:** {{CISO_EMAIL}}
+- **Comitê de Compliance:** {{COMPLIANCE_EMAIL}}
 
 **COAF (Dúvidas técnicas):**
 - **Telefone:** 0800-xxx-xxxx

@@ -8,7 +8,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Matriz de Responsabilidades (RACI) - Compliance
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Definir claramente papéis e responsabilidades para cada atividade do Programa de Compliance, evitando lacunas ou sobreposições.
 
@@ -364,8 +364,8 @@ classification: "CONFIDENCIAL - USO INTERNO"
 ## 📞 Contatos
 
 **Dúvidas sobre esta matriz:**
-- **Email:** compliance@grana.ai
-- **CISO:** ciso@grana.ai
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **CISO:** {{CISO_EMAIL}}
 
 ---
 

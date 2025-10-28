@@ -10,7 +10,7 @@ policy_reference: "code-of-conduct.md"
 
 ## ✅ FASE 1: RECEBIMENTO (D+0 a D+2)
 
-- [ ] Denúncia recebida via: ☐ denuncia@grana.ai ☐ Gestor ☐ RH ☐ Outro
+- [ ] Denúncia recebida via: ☐ {{WHISTLEBLOWING_EMAIL}} ☐ Gestor ☐ RH ☐ Outro
 - [ ] Protocolo gerado: __________
 - [ ] Denunciante: ☐ Identificado ☐ Anônimo
 - [ ] Classificação preliminar: ☐ Leve ☐ Média ☐ Grave
@@ -51,4 +51,4 @@ policy_reference: "code-of-conduct.md"
 **Investigador:** _______________  
 **Data Conclusão:** _______________
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

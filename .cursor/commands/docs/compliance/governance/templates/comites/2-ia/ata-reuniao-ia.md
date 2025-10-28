@@ -12,7 +12,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Ata de Reunião - Comitê de Inteligência Artificial
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 ---
 
@@ -491,5 +491,5 @@ classification: "CONFIDENCIAL - USO INTERNO"
 ---
 
 **📞 Contatos:**
-- **Comitê de IA:** comite-ia@grana.ai
-- **CTO:** cto@grana.ai
+- **Comitê de IA:** comite-ia@{{COMPANY_DOMAIN}}
+- **CTO:** {{CTO_EMAIL}}

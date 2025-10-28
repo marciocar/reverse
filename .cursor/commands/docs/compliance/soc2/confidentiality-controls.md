@@ -1,4 +1,4 @@
-# SOC 2 Confidentiality Controls (TSC C2) - Granaai
+# SOC 2 Confidentiality Controls (TSC C2) - {{COMPANY_NAME}}
 
 > **Framework:** SOC 2 Type II - Trust Services Criteria C2 (Confidentiality)  
 > **Versão:** 1.0  
@@ -10,7 +10,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento descreve os **Confidentiality Controls** implementados pela Granaai para proteger dados confidenciais contra acesso, uso ou divulgação não autorizados, cobrindo:
+Este documento descreve os **Confidentiality Controls** implementados pela {{COMPANY_NAME}} para proteger dados confidenciais contra acesso, uso ou divulgação não autorizados, cobrindo:
 
 -  **Data Classification:** 4 níveis (Public, Internal, Confidential, Restricted)
 -  **Encryption:** At rest (AES-256) e in transit (TLS 1.3)

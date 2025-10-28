@@ -1,4 +1,4 @@
-# SOC 2 Security Controls (TSC C1) - Granaai
+# SOC 2 Security Controls (TSC C1) - {{COMPANY_NAME}}
 
 > **Framework:** SOC 2 Type II - Trust Services Criteria C1 (Security Common Criteria)  
 > **Versão:** 1.0  
@@ -10,7 +10,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento detalha os **Security Controls** implementados pela Granaai em conformidade com SOC 2 Trust Services Criteria C1 (Security Common Criteria), cobrindo:
+Este documento detalha os **Security Controls** implementados pela {{COMPANY_NAME}} em conformidade com SOC 2 Trust Services Criteria C1 (Security Common Criteria), cobrindo:
 
 -  **Access Controls:** SSO, MFA, RBAC, least privilege
 -  **Authentication & Authorization:** Auth0, JWT, session management
@@ -460,7 +460,7 @@ Outbound Rules:
 
 **LGPD (Lei Geral de Proteção de Dados):**
 - DPO (Data Protection Officer): Designated
-- Privacy Policy: Published (https://grana.ai/privacy)
+- Privacy Policy: Published (https://{{COMPANY_DOMAIN}}/privacy)
 - Data Subject Requests: 5 atendidos em 2025 (100% < 30 dias)
 
 **BACEN (Banco Central):**

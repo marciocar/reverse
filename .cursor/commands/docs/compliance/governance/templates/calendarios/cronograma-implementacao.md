@@ -5,7 +5,7 @@ version: "1.0"
 
 # 📅 CRONOGRAMA DE IMPLEMENTAÇÃO
 
-**GOVERNANÇA CORPORATIVA - GRANAAI**
+**GOVERNANÇA CORPORATIVA - {{COMPANY_NAME}}**
 
 **Pacote:** 5 Políticas + Instrumentos Operacionais
 
@@ -56,7 +56,7 @@ version: "1.0"
 - [ ] **Setup de Infraestrutura**
   - Google Forms (3 formulários ativos)
   - Google Sheets (Matriz de Risco PLD)
-  - Canal de denúncia: denuncia@grana.ai
+  - Canal de denúncia: {{WHISTLEBLOWING_EMAIL}}
   - Portal interno ou drive compartilhado
 
 - [ ] **Comunicação Prévia**
@@ -213,4 +213,4 @@ version: "1.0"
 
 ---
 
-**Granaai © 2025 | Governança em Ação**
+**{{COMPANY_NAME}} © 2025 | Governança em Ação**

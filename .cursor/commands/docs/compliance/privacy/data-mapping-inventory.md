@@ -1,4 +1,4 @@
-# Data Mapping & Inventory (Mapeamento de Dados) - Granaai
+# Data Mapping & Inventory (Mapeamento de Dados) - {{COMPANY_NAME}}
 
 > **Framework:** LGPD Art. 37 + ISO 27001:2022 - Cláusula A.5.9  
 > **Versão:** 1.0  
@@ -12,7 +12,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento apresenta o **mapeamento completo dos processos de tratamento de dados pessoais** da Granaai, desde a coleta até o descarte ou guarda, conforme requisitos da LGPD e item 9.12 do Due Diligence Serasa.
+Este documento apresenta o **mapeamento completo dos processos de tratamento de dados pessoais** da {{COMPANY_NAME}}, desde a coleta até o descarte ou guarda, conforme requisitos da LGPD e item 9.12 do Due Diligence Serasa.
 
 **Escopo:**
 -  Tipos de dados tratados (PII, financeiros, operacionais)
@@ -71,7 +71,7 @@ Este documento apresenta o **mapeamento completo dos processos de tratamento de 
 **Origem dos Dados:**
 ```
 Coleta Direta (Usuário):
-├── Formulário de cadastro (dashboard.grana.ai)
+├── Formulário de cadastro (dashboard.{{COMPANY_DOMAIN}})
 ├── Onboarding KYC (upload de documentos)
 └── Configurações de conta (preferências)
 
@@ -111,7 +111,7 @@ Input: CPF + dados cadastrais + histórico financeiro
 Consulta APIs:
 ├── Serasa Experian (score de crédito)
 ├── Registradoras (recebíveis disponíveis)
-└── Internal DB (histórico Granaai)
+└── Internal DB (histórico {{COMPANY_NAME}})
 ↓
 Modelo de Scoring (algoritmo proprietário):
 ├── Credit score externo: 30%
@@ -303,7 +303,7 @@ Preservation (compliance):
 ### Processos Implementados
 
 **1. Acesso (Art. 18, I)**
-- **Canal:** Email contato@grana.ai ou Dashboard
+- **Canal:** Email {{CONTACT_EMAIL}} ou Dashboard
 - **Prazo:** 15 dias (LGPD permite até 15 dias)
 - **Formato:** PDF exportável (dados estruturados)
 - **Histórico 2025:** 2 solicitações atendidas (100% no prazo)
@@ -314,12 +314,12 @@ Preservation (compliance):
 - **Validação:** Re-verificação se dados críticos (CPF, dados bancários)
 
 **3. Portabilidade (Art. 18, V)**
-- **Canal:** Email contato@grana.ai
+- **Canal:** Email {{CONTACT_EMAIL}}
 - **Prazo:** 15 dias
 - **Formato:** JSON ou CSV (interoperável)
 
 **4. Exclusão (Art. 18, VI)**
-- **Canal:** Email contato@grana.ai ou Dashboard
+- **Canal:** Email {{CONTACT_EMAIL}} ou Dashboard
 - **Prazo:** 30 dias (com confirmação)
 - **Exceções:** Dados sujeitos a retenção legal (7 anos BACEN)
 - **Processo:** Anonymization (não deletion física)
@@ -331,7 +331,7 @@ Preservation (compliance):
 - **Não afeta:** Dados necessários para execução de contrato
 
 **6. Oposição (Art. 18, § 2º)**
-- **Canal:** Email contato@grana.ai
+- **Canal:** Email {{CONTACT_EMAIL}}
 - **Análise:** DPO avalia se base legal permite oposição
 - **Resposta:** 15 dias com justificativa
 
@@ -367,19 +367,19 @@ Preservation (compliance):
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---
 
 **[Nome do DPO]**  
-Data Protection Officer - Granaai  
+Data Protection Officer - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---
 
 **[Nome do CISO]**  
-CISO - Granaai  
+CISO - {{COMPANY_NAME}}  
 Data: 03 de Outubro de 2025
 
 ---

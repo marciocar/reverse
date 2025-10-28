@@ -11,7 +11,7 @@ audience: "CEO, Board, Comitê de Compliance, Auditoria Externa"
 
 # Relatório Anual de Compliance
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 **Exercício:** [YYYY]  
 **Período:** 01 de janeiro de [YYYY] a 31 de dezembro de [YYYY]
@@ -45,7 +45,7 @@ audience: "CEO, Board, Comitê de Compliance, Auditoria Externa"
 
 ### 1.1 Visão Geral
 
-O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Programa de Compliance do Granaai" ou "o primeiro ano completo de operação do Comitê"].
+O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Programa de Compliance do {{COMPANY_NAME}}" ou "o primeiro ano completo de operação do Comitê"].
 
 **Principais Conquistas:**
 -  [Ex: 100% dos colaboradores treinados em Compliance]
@@ -67,7 +67,7 @@ O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Program
 
 [Espaço para mensagem pessoal do CISO]
 
-*"No exercício de [YYYY], o Comitê de Compliance do Granaai atuou de forma proativa para garantir [...]"*
+*"No exercício de [YYYY], o Comitê de Compliance do {{COMPANY_NAME}} atuou de forma proativa para garantir [...]"*
 
 ---
 
@@ -454,7 +454,7 @@ O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Program
 
 | Canal | Quantidade | % |
 |-------|-----------|---|
-| E-mail (denuncia@grana.ai) | [N] | [%]% |
+| E-mail ({{WHISTLEBLOWING_EMAIL}}) | [N] | [%]% |
 | Formulário Web | [N] | [%]% |
 | Telefone/WhatsApp | [N] | [%]% |
 | Presencial | [N] | [%]% |
@@ -784,14 +784,14 @@ O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Program
 ---
 
 **Nome:** [Nome do CEO]  
-**Cargo:** CEO - Granaai  
+**Cargo:** CEO - {{COMPANY_NAME}}  
 **Data:** [DD/MM/YYYY]  
 **Assinatura:** ______________________________
 
 ---
 
 **Nome:** [Nome do Presidente do Board]  
-**Cargo:** Presidente do Board - Granaai  
+**Cargo:** Presidente do Board - {{COMPANY_NAME}}  
 **Data:** [DD/MM/YYYY]  
 **Assinatura:** ______________________________
 
@@ -800,8 +800,8 @@ O ano de **[YYYY]** marcou [descrever contexto: ex: "a consolidação do Program
 ## 📞 Contatos
 
 **Dúvidas sobre este relatório:**
-- **Email:** compliance@grana.ai
-- **CISO:** ciso@grana.ai
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **CISO:** {{CISO_EMAIL}}
 
 ---
 

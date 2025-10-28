@@ -29,4 +29,4 @@ Esta pasta contém checklists práticos para operacionalização das políticas 
 
 ---
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

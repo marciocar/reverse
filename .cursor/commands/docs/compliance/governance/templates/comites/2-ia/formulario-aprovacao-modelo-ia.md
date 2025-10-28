@@ -9,7 +9,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Formulário de Aprovação de Modelo de IA
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Objetivo:** Este formulário estrutura a avaliação técnica, ética e regulatória de novos modelos de IA ou mudanças significativas em modelos existentes, fundamentando a decisão do Comitê de IA sobre aprovar ou rejeitar a implementação.
 

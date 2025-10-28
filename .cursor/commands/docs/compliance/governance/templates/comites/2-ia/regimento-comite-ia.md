@@ -9,7 +9,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 # Regimento do Comitê de Inteligência Artificial
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 > **Versão:** 1.0  
 > **Data de Aprovação:** [DD/MM/YYYY]  
@@ -37,7 +37,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 ### 1.1 Natureza
 
-O **Comitê de Inteligência Artificial** é um órgão **consultivo e deliberativo** da Granaai, com caráter **multidisciplinar**, responsável por garantir governança ética, segura e transparente no desenvolvimento e uso de sistemas de IA.
+O **Comitê de Inteligência Artificial** é um órgão **consultivo e deliberativo** da {{COMPANY_NAME}}, com caráter **multidisciplinar**, responsável por garantir governança ética, segura e transparente no desenvolvimento e uso de sistemas de IA.
 
 **Status:** ✅ **Ativo** (Janeiro 2025)
 
@@ -666,14 +666,14 @@ Membro pode se abster se:
 ---
 
 **Nome:** [Nome do CEO]  
-**Cargo:** CEO - Granaai  
+**Cargo:** CEO - {{COMPANY_NAME}}  
 **Data:** [DD/MM/YYYY]  
 **Assinatura:** ______________________________
 
 ---
 
 **Nome:** [Nome do Presidente do Board]  
-**Cargo:** Presidente do Board - Granaai  
+**Cargo:** Presidente do Board - {{COMPANY_NAME}}  
 **Data:** [DD/MM/YYYY]  
 **Assinatura:** ______________________________
 
@@ -682,9 +682,9 @@ Membro pode se abster se:
 ## 📞 Contatos
 
 **Dúvidas sobre este regimento:**
-- **Email:** ai-governance@grana.ai
-- **CTO:** cto@grana.ai
-- **Comitê de IA:** comite-ia@grana.ai
+- **Email:** ai-governance@{{COMPANY_DOMAIN}}
+- **CTO:** {{CTO_EMAIL}}
+- **Comitê de IA:** comite-ia@{{COMPANY_DOMAIN}}
 
 ---
 

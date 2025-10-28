@@ -7,7 +7,7 @@ next_review: "2026-01-15"
 owner: "CISO (Chief Information Security Officer)"
 approved_by: "CEO + Board"
 legal_basis: "Lei 12.846/2013, Lei 9.613/1998, Resolução COAF 40/2021"
-applies_to: "Granaai - Infratech de Recebíveis"
+applies_to: "{{COMPANY_NAME}} - Infratech de Recebíveis"
 classification: "CONFIDENCIAL - USO INTERNO"
 related_docs:
   - "../../internal-regulations.md (Seção 6.1)"
@@ -19,9 +19,9 @@ related_docs:
 
 # Regimento do Comitê de Compliance
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
-> **Função:** Órgão de governança responsável pela supervisão, monitoramento e aprimoramento do Programa de Compliance Corporativo do Granaai.
+> **Função:** Órgão de governança responsável pela supervisão, monitoramento e aprimoramento do Programa de Compliance Corporativo do {{COMPANY_NAME}}.
 
 ---
 
@@ -45,12 +45,12 @@ related_docs:
 
 ### 1.1 Natureza
 
-O **Comitê de Compliance** é um órgão colegiado de caráter consultivo e deliberativo, vinculado à Alta Direção do Granaai, responsável pela governança do Programa de Compliance Corporativo.
+O **Comitê de Compliance** é um órgão colegiado de caráter consultivo e deliberativo, vinculado à Alta Direção do {{COMPANY_NAME}}, responsável pela governança do Programa de Compliance Corporativo.
 
 ### 1.2 Finalidade
 
 **Objetivo Primário:**
-Assegurar a conformidade das atividades do Granaai com:
+Assegurar a conformidade das atividades do {{COMPANY_NAME}} com:
 - Legislação brasileira aplicável (Anticorrupção, PLD/FT, LGPD)
 - Políticas corporativas internas
 - Padrões éticos e de integridade
@@ -232,7 +232,7 @@ O Comitê é responsável por **conduzir ou supervisionar** investigações de v
 - Violações da Política de Anticorrupção
 - Violações da Política PLD/FT
 - Violações graves do Código de Conduta (corrupção, fraude, assédio)
-- Denúncias via canal confidencial (denuncia@grana.ai)
+- Denúncias via canal confidencial ({{WHISTLEBLOWING_EMAIL}})
 
 **Processo:**
 1. **Recebimento**: Denúncia recebida via canal oficial
@@ -598,7 +598,7 @@ Casos não previstos neste Regimento serão deliberados pelo Comitê e, se neces
 
 ### 10.4 Integração com Regimento Interno
 
-Este Regimento **complementa e detalha** a Seção 6.1 (Comitê de Compliance) do [Regimento Interno](../../internal-regulations.md) do Granaai.
+Este Regimento **complementa e detalha** a Seção 6.1 (Comitê de Compliance) do [Regimento Interno](../../internal-regulations.md) do {{COMPANY_NAME}}.
 
 ---
 
@@ -656,11 +656,11 @@ Este Regimento **complementa e detalha** a Seção 6.1 (Comitê de Compliance) d
 ## 📞 Contatos
 
 ### **Dúvidas sobre Este Regimento**
-- **Email:** compliance@grana.ai
-- **CISO:** ciso@grana.ai
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **CISO:** {{CISO_EMAIL}}
 
 ### **Canal de Denúncia (Confidencial)**
-- **Email:** denuncia@grana.ai
+- **Email:** {{WHISTLEBLOWING_EMAIL}}
 - **Anonimato:** Disponível via formulário web (quando implementado)
 
 ---

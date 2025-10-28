@@ -1,4 +1,4 @@
-# 🛡️ Compliance & Governance - Granaai
+# 🛡️ Compliance & Governance - {{COMPANY_NAME}}
 
 > **Documentação completa de Compliance, Segurança da Informação e Governança** para certificações, auditorias e due diligence.
 
@@ -8,7 +8,7 @@
 
 ## 🎯 Objetivo
 
-Este diretório centraliza toda a documentação de **Compliance e Governança** do Granaai, atendendo a requisitos de:
+Este diretório centraliza toda a documentação de **Compliance e Governança** do {{COMPANY_NAME}}, atendendo a requisitos de:
 
 -  **Certificações internacionais** (ISO 27001, ISO 22301, SOC2)
 -  **Due Diligence de clientes enterprise** (Serasa Experian e outros)

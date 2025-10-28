@@ -1,4 +1,4 @@
-# Política de Segurança da Informação - Granaai
+# Política de Segurança da Informação - {{COMPANY_NAME}}
 
 > **Framework:** ISO/IEC 27001:2022 - Cláusula 5.2  
 > **Versão:** 1.0  
@@ -12,9 +12,9 @@
 
 ### Propósito
 
-Esta Política de Segurança da Informação estabelece as diretrizes e responsabilidades para proteger os ativos de informação da **Granaai** contra ameaças internas e externas, garantindo **confidencialidade, integridade e disponibilidade**.
+Esta Política de Segurança da Informação estabelece as diretrizes e responsabilidades para proteger os ativos de informação da **{{COMPANY_NAME}}** contra ameaças internas e externas, garantindo **confidencialidade, integridade e disponibilidade**.
 
-Como uma **Infratech de Recebíveis** que processa R$ 20MM+/mês em transações financeiras, a Granaai reconhece que a segurança da informação é fundamental para:
+Como uma **Infratech de Recebíveis** que processa R$ 20MM+/mês em transações financeiras, a {{COMPANY_NAME}} reconhece que a segurança da informação é fundamental para:
 
 - **Confiança de clientes B2B** (Serasa Experian e outros parceiros enterprise)
 - **Conformidade regulatória** (BACEN, LGPD, PCI-DSS)
@@ -28,7 +28,7 @@ Esta política se aplica a:
 #### Pessoas
 - Todos os colaboradores (funcionários CLT, PJ, estagiários)
 - Terceirizados e consultores
-- Fornecedores com acesso a sistemas ou dados da Granaai
+- Fornecedores com acesso a sistemas ou dados da {{COMPANY_NAME}}
 - Parceiros de integração (APIs)
 
 #### Sistemas de Informação
@@ -210,7 +210,7 @@ Esta política se aplica a:
 
 **Responsabilidades:**
 -  Proteger credenciais de acesso (password + MFA)
--  Reportar incidentes de segurança **imediatamente** (security@grana.ai)
+-  Reportar incidentes de segurança **imediatamente** ({{SECURITY_EMAIL}})
 -  Completar treinamentos obrigatórios de segurança (100% compliance)
 -  Seguir **política de uso aceitável** de recursos
 -  Não compartilhar acesso a sistemas (contas individuais obrigatórias)
@@ -344,7 +344,7 @@ Total de Controles Annex A: 93
 ### Processo de Reporte
 
 **Canais de Reporte:**
-- **Email:** security@grana.ai (24/7, monitored)
+- **Email:** {{SECURITY_EMAIL}} (24/7, monitored)
 - **Slack:** #security-incidents (alertas automáticos)
 - **Telefone:** +55 11 XXXX-XXXX (emergências P0)
 
@@ -423,19 +423,19 @@ Total de Controles Annex A: 93
 ---
 
 **[Nome do CEO]**  
-CEO - Granaai  
+CEO - {{COMPANY_NAME}}  
 Data: 15 de Janeiro de 2025
 
 ---
 
 **[Nome do CTO]**  
-CTO - Granaai  
+CTO - {{COMPANY_NAME}}  
 Data: 15 de Janeiro de 2025
 
 ---
 
 **[Nome do CISO]**  
-CISO - Granaai  
+CISO - {{COMPANY_NAME}}  
 Data: 15 de Janeiro de 2025
 
 ---
@@ -443,18 +443,18 @@ Data: 15 de Janeiro de 2025
 ## 📞 **Contatos**
 
 ### Security Team
-- **Email:** security@grana.ai
+- **Email:** {{SECURITY_EMAIL}}
 - **Slack:** #security
 - **On-call:** PagerDuty (CISO)
 
 ### Incident Response
-- **Email:** security@grana.ai (24/7)
+- **Email:** {{SECURITY_EMAIL}} (24/7)
 - **Telefone:** +55 11 XXXX-XXXX (emergências)
 - **Slack:** #security-incidents
 
 ### Compliance
-- **Email:** compliance@grana.ai
-- **CISO:** ciso@grana.ai
+- **Email:** {{COMPLIANCE_EMAIL}}
+- **CISO:** {{CISO_EMAIL}}
 
 ---
 

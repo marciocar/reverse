@@ -1,4 +1,4 @@
-# Security Incident Response Plan - Granaai
+# Security Incident Response Plan - {{COMPANY_NAME}}
 
 > **Framework:** ISO 27001:2022 - Cláusula A.5.24 + ISO 27035:2023  
 > **Versão:** 1.0  
@@ -10,7 +10,7 @@
 
 ## 📋 **Executive Summary**
 
-Este documento estabelece os procedimentos de **Security Incident Response** (Resposta a Incidentes de Segurança) da Granaai, garantindo:
+Este documento estabelece os procedimentos de **Security Incident Response** (Resposta a Incidentes de Segurança) da {{COMPANY_NAME}}, garantindo:
 
 -  **Detection rápida:** MTTD < 15min (mean time to detect)
 -  **Response estruturado:** Runbooks para cenários comuns
@@ -73,7 +73,7 @@ Este documento estabelece os procedimentos de **Security Incident Response** (Re
 
 **Reporting Channels:**
 - **Urgent (P0/P1):** PagerDuty (triggers on-call SRE) + Slack #security-incidents
-- **Non-Urgent (P2/P3):** Email security@grana.ai ou Slack #security-incidents
+- **Non-Urgent (P2/P3):** Email {{SECURITY_EMAIL}} ou Slack #security-incidents
 
 **Initial Assessment (by On-Call SRE):**
 1. Validar se é incident real (não false positive)

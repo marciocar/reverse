@@ -7,7 +7,7 @@ policy_reference: "anti-corruption-policy.md"
 
 # CHECKLIST: DUE DILIGENCE DE TERCEIROS
 
-**GRANAAI - INFRATECH DE RECEBÍVEIS**
+**{{COMPANY_NAME}} - INFRATECH DE RECEBÍVEIS**
 
 **📋 Referência:** [Política de Anticorrupção - Seção 4.5](../../anti-corruption-policy.md#45-due-diligence-de-terceiros)
 
@@ -247,4 +247,4 @@ Qualquer um destes **BLOQUEIA aprovação** ou requer **escalação CEO**:
 
 **📋 Política de Referência:** [anti-corruption-policy.md](../../anti-corruption-policy.md)
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**

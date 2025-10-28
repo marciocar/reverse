@@ -9,7 +9,7 @@
 
 ## 📋 Visão Geral
 
-Este pacote contém os **5 documentos principais** de compliance corporativo e governança do Granaai, infratech de recebíveis de cartão de crédito e débito.
+Este pacote contém os **5 documentos principais** de compliance corporativo e governança do {{COMPANY_NAME}}, infratech de recebíveis de cartão de crédito e débito.
 
 **Objetivo**: Estabelecer framework robusto de governança corporativa, conformidade regulatória e ética empresarial.
 
@@ -29,7 +29,7 @@ Este pacote contém os **5 documentos principais** de compliance corporativo e g
 **Destaques:**
 - Matriz de limites para brindes/presentes (R$ 100-500)
 - Due diligence de terceiros (3 níveis: Simplificada, Padrão, Reforçada)
-- Canal de denúncia: denuncia@grana.ai
+- Canal de denúncia: {{WHISTLEBLOWING_EMAIL}}
 - Matriz de risco de corrupção
 - Sanções: Leve → Gravíssima
 
@@ -61,7 +61,7 @@ Este pacote contém os **5 documentos principais** de compliance corporativo e g
 - Valores: Integridade, Respeito, Inovação, Excelência, Responsabilidade, Sustentabilidade
 - ZERO TOLERÂNCIA: Assédio, discriminação, bullying, violência
 - Diversidade & Inclusão: Processos cegos, metas representatividade
-- Canal de denúncia: denuncia@grana.ai
+- Canal de denúncia: {{WHISTLEBLOWING_EMAIL}}
 - 5 dilemas éticos resolvidos
 - 5 FAQs respondidas
 
@@ -88,7 +88,7 @@ Este pacote contém os **5 documentos principais** de compliance corporativo e g
 **Arquivo:** [`internal-regulations.md`](./internal-regulations.md)  
 **Status:** ✅ Concluído (DRAFT - Aguardando preenchimento)  
 **Tamanho:** ~900 linhas / 13 seções + 5 anexos  
-**Base:** Código Civil, Lei das S.A., estrutura atual Granaai
+**Base:** Código Civil, Lei das S.A., estrutura atual {{COMPANY_NAME}}
 
 **Destaques:**
 - Template estrutural para fintech/infratech
@@ -110,7 +110,7 @@ Este pacote contém os **5 documentos principais** de compliance corporativo e g
 
 ### **Visão Geral**
 
-Além dos 5 documentos principais de governança, criamos **16 templates operacionais** prontos para uso pelos comitês de governança do Granaai.
+Além dos 5 documentos principais de governança, criamos **16 templates operacionais** prontos para uso pelos comitês de governança do {{COMPANY_NAME}}.
 
 ### **Comitês Ativos:**
 
@@ -198,7 +198,7 @@ Além dos 5 documentos principais de governança, criamos **16 templates operaci
 - 📝 **Linhas totais**: ~13.350 linhas (docs + templates)
 
 ### **Controles Implementados**
--  Canal de denúncia: denuncia@grana.ai
+-  Canal de denúncia: {{WHISTLEBLOWING_EMAIL}}
 -  Declaração anual conflito de interesses
 -  KYC 3 níveis (Simplificado, Padrão, Reforçado)
 -  Monitoramento operações atípicas (8 regras)
@@ -282,7 +282,7 @@ Este pacote está **100% integrado** com a documentação existente:
   - Declaração Anual de Conflito de Interesses
   - Formulário KYC PJ (Pessoa Jurídica)
   - Matriz de Risco PLD/FT
-- [ ] **Configurar canal de denúncia** (denuncia@grana.ai)
+- [ ] **Configurar canal de denúncia** ({{WHISTLEBLOWING_EMAIL}})
   - Processo de recebimento
   - Fluxo de investigação
   - Proteção ao denunciante
@@ -367,23 +367,23 @@ Data de vigência sugerida: **15 de janeiro de 2025** (após revisão e aprovaç
 ## 📞 Contatos
 
 ### **Dúvidas sobre Compliance**
-- 📧 **compliance@grana.ai**
-- 👤 **CISO**: ciso@grana.ai
+- 📧 **{{COMPLIANCE_EMAIL}}**
+- 👤 **CISO**: {{CISO_EMAIL}}
 
 ### **Denúncias (Confidencial/Anônimo)**
-- 📧 **denuncia@grana.ai**
+- 📧 **{{WHISTLEBLOWING_EMAIL}}**
 - 🔒 Confidencialidade garantida
 - 🙈 Anonimato permitido
 - ⚠️ Não retaliação (proteção ao denunciante)
 
 ### **Recursos Humanos**
-- 📧 **rh@grana.ai**
+- 📧 **rh@{{COMPANY_DOMAIN}}**
 - Questões trabalhistas, benefícios, onboarding
 
 ### **Liderança**
-- 👨‍💼 **CEO**: Thiago Karan (ceo@grana.ai)
-- 👨‍💼 **COO/CFO**: Carlos Gustavo Pulga (coo@grana.ai)
-- 👨‍💼 **CTO**: Marcio Carvalho (cto@grana.ai)
+- 👨‍💼 **CEO**: Thiago Karan (ceo@{{COMPANY_DOMAIN}})
+- 👨‍💼 **COO/CFO**: Carlos Gustavo Pulga (coo@{{COMPANY_DOMAIN}})
+- 👨‍💼 **CTO**: Marcio Carvalho ({{CTO_EMAIL}})
 
 ---
 
@@ -429,7 +429,7 @@ Data de vigência sugerida: **15 de janeiro de 2025** (após revisão e aprovaç
 
 ## 📄 Licença e Uso
 
-**Propriedade**: Granaai © 2025  
+**Propriedade**: {{COMPANY_NAME}} © 2025  
 **Classificação**: CONFIDENCIAL - USO INTERNO  
 **Distribuição**: Restrita a colaboradores, parceiros autorizados e auditorias
 
@@ -437,7 +437,7 @@ Data de vigência sugerida: **15 de janeiro de 2025** (após revisão e aprovaç
 
 ## 🏆 Certificações e Conformidade Preparadas
 
-Este pacote prepara o Granaai para:
+Este pacote prepara o {{COMPANY_NAME}} para:
 -  **ISO 27001:2022** (Segurança da Informação)
 -  **ISO 22301:2019** (Continuidade de Negócios)
 -  **ISO 37001** (Sistema de Gestão Antissuborno)
@@ -452,4 +452,4 @@ Este pacote prepara o Granaai para:
 
 **🏛️ Governança sólida, conformidade robusta, cultura de integridade.**
 
-**Granaai © 2025**
+**{{COMPANY_NAME}} © 2025**
