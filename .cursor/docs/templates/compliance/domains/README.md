@@ -1,113 +1,212 @@
-# 🛡️ Compliance & Governance - {{COMPANY_NAME}}
+# Templates de Compliance - Domínios
 
-> **Documentação completa de Compliance, Segurança da Informação e Governança** para certificações, auditorias e due diligence.
+Conjunto completo de templates **100% genéricos** para geração automática de documentação de compliance em qualquer organização.
 
-**📖 Acesse a documentação completa**: [index.md](index.md)
+## 📁 Estrutura
+
+```
+domains/
+├── security/              (Segurança da Informação)
+├── soc2/                  (Conformidade SOC 2)
+├── privacy/               (Proteção de Dados - LGPD)
+├── business-continuity/   (Continuidade de Negócios)
+├── ai-governance/         (Governança de IA)
+├── due-diligence/         (Avaliação de Riscos)
+└── governance/            (Estrutura de Compliance)
+```
+
+## 🎯 Usando os Templates
+
+### Aplicar um domínio completo
+
+```bash
+/docs/compliance/apply-template-set domain=security
+```
+
+Substitui todos os {{PLACEHOLDERS}} com dados de `.compliance-config.json` e gera `docs/security/`.
+
+### Aplicar um tipo específico de governance
+
+```bash
+/docs/compliance/use-governance-template type=formularios
+```
+
+Copia templates de `governance/templates/formularios/` com substituições.
+
+### Criar comitê (governance)
+
+```bash
+/docs/compliance/create-committee type=ia
+/docs/compliance/create-committee type=compliance
+```
+
+## 📝 Placeholders Disponíveis
+
+Todos os templates usam {{VARIABLE}} para máxima reutilização:
+
+### Organizacional
+```
+{{COMPANY_NAME}}
+{{COMPANY_DOMAIN}}
+{{INDUSTRY}}
+{{TEAM_SIZE}}
+{{REVENUE}}
+{{GROWTH_RATE}}
+```
+
+### Pessoas
+```
+{{CTO_NAME}}, {{CTO_EMAIL}}
+{{CISO_NAME}}, {{CISO_EMAIL}}
+{{COMPLIANCE_OFFICER_NAME}}, {{COMPLIANCE_OFFICER_EMAIL}}
+```
+
+### Infraestrutura
+```
+{{CLOUD_PROVIDER}}
+{{COMPUTE_SERVICE}}
+{{DATABASE_SERVICE}}
+{{CONTAINER_RUNTIME}}
+{{ORCHESTRATION_PLATFORM}}
+{{CI_CD_PLATFORM}}
+```
+
+### Compliance
+```
+{{REGULATIONS}}
+{{CERTIFICATIONS}}
+{{TIPOS_DADOS}}
+{{OPERACOES_CRITICAS}}
+```
+
+## ✅ Garantias de Qualidade
+
+- ✅ **Sem referências a empresas**: Nenhuma menção a Granaai, Serasa ou outras empresas
+- ✅ **100% genéricos**: Funcionam para startups e empresas grandes
+- ✅ **PT-BR**: Documentação em português com termos técnicos em inglês
+- ✅ **Reutilizáveis**: Templates prontos para qualquer organização
+
+## 🔄 Fluxo de Uso
+
+```
+1. Coletar dados da organização
+   /collect-organization-info
+   ↓ Cria .compliance-config.json
+
+2. Gerar contexto de negócio
+   /generate-business-context
+   ↓ Cria docs/business-context/
+
+3. Gerar contexto técnico
+   /generate-technical-context --analyze
+   ↓ Cria docs/technical-context/
+
+4. Aplicar templates de compliance
+   /apply-template-set domain=security
+   /apply-template-set domain=privacy
+   ... (mais domínios conforme necessário)
+   ↓ Cria docs/security/, docs/privacy/, etc
+
+5. Orquestração completa
+   build-compliance-docs
+```
+
+## 📊 Domínios Disponíveis
+
+### 🔒 Security (~15 templates)
+Segurança da informação, controle de acesso, criptografia, resposta a incidentes, backup.
+
+**Arquivos**: politica, matriz-permissoes, plano-resposta, risco-assessment.
 
 ---
 
-## 🎯 Objetivo
+### ✓ SOC2 (~12 templates)
+Conformidade com SOC 2 Type II (Security, Availability, Integrity, Confidentiality).
 
-Este diretório centraliza toda a documentação de **Compliance e Governança** do {{COMPANY_NAME}}, atendendo a requisitos de:
-
--  **Certificações internacionais** (ISO 27001, ISO 22301, SOC2)
--  **Due Diligence de clientes enterprise** ((Cliente Enterprise - {{CUSTOMER_NAME}}) e outros)
--  **Auditorias externas** (preparação para certificação)
--  **Conformidade regulatória** (BACEN, LGPD)
--  **Governança de IA** (AI Ethics, Bias Mitigation, Privacy-by-Design)
+**Arquivos**: security-controls, availability-controls, trust-services-criteria.
 
 ---
 
-## 📊 Maturidade de Compliance
+### 👤 Privacy (~14 templates)
+Proteção de dados (LGPD), consentimento, direitos do titular, DPIA.
 
-| Framework | Status | Documentação | Implementação |
-|-----------|--------|--------------|---------------|
-| **ISO 27001:2022** | 🟡 84% | ✅ Completo | 🔄 Em andamento |
-| **ISO 22301:2019** | 🟢 100% | ✅ Completo | ✅ Operacional |
-| **SOC2 Type II** | 🟡 93% | ✅ Completo | 🔄 Em validação |
-| **LGPD** | 🟢 95% | ✅ Completo | ✅ Operacional |
-| **AI Governance** | 🟢 100% | ✅ Completo | ✅ Implementado |
+**Arquivos**: data-mapping-inventory, politica-consentimento, etc.
 
 ---
 
-## 📂 Estrutura de Documentação
+### 🏢 Business-Continuity (~8 templates)
+RTO/RPO, backup, testes de recuperação, matriz de criticidade.
 
-### 🔐 **Security** (ISO 27001:2022)
-Sistema de Gestão de Segurança da Informação (ISMS)
-- [**Information Security Policy**](security/information-security-policy.md) - Política de Segurança da Informação
-- [**Risk Assessment**](security/risk-assessment.md) - Avaliação e Gestão de Riscos
-- [**Incident Response**](security/incident-response.md) - Resposta a Incidentes
-
-### 🔄 **Business Continuity** (ISO 22301:2019)
-Gestão de Continuidade de Negócios
-- [**Business Continuity Plan**](business-continuity/business-continuity-plan.md) - Plano de Continuidade
-- [**Disaster Recovery Plan**](business-continuity/disaster-recovery-plan.md) - Recuperação de Desastres
-- [**Crisis Management**](business-continuity/crisis-management.md) - Gestão de Crises
-- [**Resilience Testing**](business-continuity/resilience-testing.md) - Testes de Resiliência
-- [**Recovery Objectives**](business-continuity/recovery-objectives.md) - RTO/RPO/SLA
-
-### 🏆 **SOC2 Type II**
-Trust Services Criteria
-- [**Trust Services Criteria**](soc2/trust-services-criteria.md) - Critérios de Confiança
-- [**Security Controls**](soc2/security-controls.md) - Controles de Segurança
-- [**Availability Controls**](soc2/availability-controls.md) - Controles de Disponibilidade
-- [**Confidentiality Controls**](soc2/confidentiality-controls.md) - Controles de Confidencialidade
-
-### 🤖 **AI Governance**
-Governança de Inteligência Artificial
-- [**AI Governance Policy**](ai-governance/ai-governance-policy.md) - Política de Governança de IA
-
-### 🔒 **Privacy** (LGPD)
-Privacidade e Proteção de Dados
-- [**Data Mapping & Inventory**](privacy/data-mapping-inventory.md) - Mapeamento de Dados Pessoais
-
-### 📋 **Due Diligence**
-Respostas a processos de Due Diligence
-- [**(Cliente Enterprise - {{CUSTOMER_NAME}}) Checklist**](due-diligence/serasa-checklist.md) - Checklist de Requisitos
-- [**(Cliente Enterprise - {{CUSTOMER_NAME}}) Response**](due-diligence/serasa-experian-response.md) - Resposta Consolidada
-- [**(Cliente Enterprise - {{CUSTOMER_NAME}}) Compliance Summary**](due-diligence/serasa-compliance-summary.md) - Resumo de 43 Questões
+**Arquivos**: plano-continuidade, plano-recuperacao, resilience-testing.
 
 ---
 
-## 🚀 Como Usar Esta Documentação
+### 🤖 AI-Governance (~10 templates)
+Políticas de desenvolvimento, avaliação de risco, bias detection, auditoria.
 
-### **Para Auditorias**
-1. Comece pelo [index.md](index.md) para visão completa
-2. Navegue pelos documentos específicos de cada framework
-3. Use as matrizes de controles como checklist
-
-### **Para Due Diligence**
-1. Acesse [due-diligence/](due-diligence/) para templates de resposta
-2. Use [serasa-checklist.md](due-diligence/serasa-checklist.md) como guia prático
-3. Consulte [serasa-compliance-summary.md](due-diligence/serasa-compliance-summary.md) para gaps e ações
-
-### **Para Implementação**
-1. Revise os planos de ação em cada documento
-2. Priorize gaps críticos (marcados com ⚠️)
-3. Use os roadmaps de 90 dias fornecidos
-
-### **Para Certificação**
-1. Valide cobertura dos controles (matrizes no final de cada documento)
-2. Execute os testes de conformidade sugeridos
-3. Prepare evidências documentais conforme gaps identificados
+**Arquivos**: ai-governance-policy, matriz-risco, etc.
 
 ---
 
-## 🎯 Próximos Passos
+### 📋 Due-Diligence (~6 templates)
+Matriz de risco, avaliação de fornecedores, relatórios de conformidade.
 
-### **Prioridade ALTA** 🔴
-1. **ISO 27001**: Finalizar 16% restante (controles faltantes)
-2. **SOC2**: Validar 7% dos controles em teste
-3. **LGPD**: Finalizar 5% de conformidade operacional
-
-### **Roadmap 2025**
-- **Q4 2025**: Certificação ISO 27001
-- **Q1 2026**: Certificação ISO 22301
-- **Q2 2026**: SOC2 Type II Report
+**Arquivos**: checklist, matriz-risco, relatorio-avaliacao.
 
 ---
 
-**💡 Dica**: Esta documentação foi otimizada para auditorias externas, certificações internacionais e processos de due diligence de clientes enterprise.
+### 📚 Governance (~20+ templates)
+Políticas corporativas, comitês, código de conduta, treinamento, termos.
 
-📍 **Voltar para**: [Índice Principal](../INDEX.md)
+**Estrutura**:
+```
+governance/
+├── README.md
+├── aml-policy.md
+├── anti-corruption-policy.md
+├── code-of-conduct.md
+├── conflict-of-interest-policy.md
+├── internal-regulations.md
+└── templates/
+    ├── comites/
+    │   ├── 1-compliance/
+    │   └── 2-ia/
+    ├── ai-governance/
+    ├── calendarios/
+    ├── checklists/
+    ├── formularios/
+    ├── termos/
+    └── treinamento/
+```
+
+## 🔗 Integração
+
+Todos os templates são integrados pelos 6 comandos:
+
+1. **compliance-create-committee.md** - Criar comitês
+2. **compliance-use-governance-template.md** - Aplicar tipos específicos
+3. **compliance-apply-template-set.md** - Aplicar domínio completo
+4. **compliance-collect-organization-info.md** - Coletar dados
+5. **compliance-generate-business-context.md** - Gerar contexto
+6. **compliance-generate-technical-context.md** - Gerar contexto técnico
+
+## 📖 Convenções
+
+- **PT-BR**: Texto em português
+- **Termos técnicos**: Em inglês (AWS, LGPD, SOC2, etc)
+- **Placeholders**: {{UPPERCASE_WITH_UNDERSCORES}}
+- **Nomes de arquivos**: lowercase-com-hifen.md
+
+## 🚀 MVP Status
+
+- ✅ Todos os 7 domínios funcionais
+- ✅ Templates 100% genéricos
+- ✅ Sem referências a empresas
+- ✅ Integração com sistema de comandos
+- ✅ Pronto para produção
+
+---
+
+**Criado**: 28 de outubro de 2025  
+**Status**: Pronto para produção
 
