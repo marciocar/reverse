@@ -1,59 +1,38 @@
-# Technical Context Documentation
+# Contexto Técnico
 
-## 📋 Overview
+Este diretório contém documentação sobre a infraestrutura, arquitetura e contexto técnico da {{COMPANY_NAME}}.
 
-Este diretório contém documentação sobre o contexto técnico da organização. Inclui informações sobre arquitetura, infraestrutura, stack tecnológico e componentes críticos que devem ser considerados ao implementar controles de compliance e segurança.
+## 📚 Documentos
 
-**Objetivo**: Fornecer visão técnica clara para permitir que frameworks de compliance sejam implementados adequadamente.
+### 1. **Arquitetura** (`ARCHITECTURE.md`)
+Visão geral da arquitetura de sistemas:
+- Componentes principais e integração
+- Fluxos de dados
+- Padrões arquiteturais
+- Decisões técnicas
 
----
+### 2. **Visão Geral da Infraestrutura** (`infrastructure-overview.md`)
+Detalhes sobre a infraestrutura técnica:
+- Provedores de cloud
+- Ambientes (desenvolvimento, staging, produção)
+- Regiões e zonas de disponibilidade
+- Redes e segurança de infraestrutura
 
-## 📁 Estrutura de Documentos
-
-### 1. **ARCHITECTURE.md**
-Visão geral da arquitetura técnica:
-- Arquitetura de alto nível
-- Componentes principais
-- Fluxo de dados
-- Pontos críticos
-- Padrões de design utilizados
-
-### 2. **infrastructure-overview.md**
-Detalhes da infraestrutura:
-- Cloud provider: {{CLOUD_PROVIDER}}
-- Serviços utilizado (compute, storage, database, etc)
-- Network architecture
-- Disaster recovery setup
-- Backup strategy
-
-### 3. **stack-summary.md**
-Resumo do stack tecnológico:
+### 3. **Resumo do Stack Técnico** (`stack-summary.md`)
+Tecnologias e ferramentas utilizadas:
 - Linguagens de programação
-- Frameworks
-- Databases
-- Ferramentas de desenvolvimento
-- CI/CD infrastructure
+- Frameworks e bibliotecas
+- Bancos de dados
+- Ferramentas de CI/CD
+- Plataformas de monitoramento
+
+### 4. **Contexto Técnico Complementar** (referenciado em outras seções)
+Informações adicionais como:
+- Padrões de desenvolvimento
+- Processos de deploy
+- Estratégia de testes
+- Documentação de APIs
 
 ---
 
-## 🔄 Como Usar
-
-1. **Descrever arquitetura** com diagramas e explicações
-2. **Documentar infraestrutura** incluindo configurações de segurança
-3. **Listar stack** com versões e dependências
-4. **Referenciar nos controles** de compliance quando necessário
-
----
-
-## 📝 Placeholders Utilizados
-
-```
-{{CLOUD_PROVIDER}}      - Provedor de cloud (AWS, GCP, Azure)
-{{STACK_SUMMARY}}       - Resumo do stack
-{{TEAM_SIZE}}           - Tamanho da equipe técnica
-```
-
----
-
-**Last Updated**: 2025-10-28  
-**Status**: Template Structure Created
+**Nota**: Este contexto é essencial para compreender a implementação técnica de medidas de segurança e compliance. Os placeholders {{VARIABLE}} devem ser preenchidos com informações específicas da sua infraestrutura.

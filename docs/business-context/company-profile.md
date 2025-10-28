@@ -1,79 +1,93 @@
-# Company Profile
+# Perfil da Empresa - {{COMPANY_NAME}}
 
-## 📊 Basic Information
+## 📋 Informações Gerais
 
-**Company Name**: {{COMPANY_NAME}}  
-**Domain**: {{COMPANY_DOMAIN}}  
-**Industry**: {{INDUSTRY}}  
-**Founded**: [YEAR]  
-**Headquarters**: [LOCATION]
+| Campo | Descrição |
+|-------|-----------|
+| **Nome** | {{COMPANY_NAME}} |
+| **Domínio** | {{COMPANY_DOMAIN}} |
+| **Setor** | {{INDUSTRY}} |
+| **Tamanho da Equipe** | {{TEAM_SIZE}} colaboradores |
+
+## 🎯 Missão, Visão e Valores
+
+### Missão
+[DESCREVER A MISSÃO DA EMPRESA]
+
+### Visão
+[DESCREVER A VISÃO DE LONGO PRAZO]
+
+### Valores
+- [VALOR 1]
+- [VALOR 2]
+- [VALOR 3]
+- [VALOR 4]
+
+## 📈 Histórico e Evolução
+
+[DESCREVER BREVE HISTÓRICO DA EMPRESA, MARCOS IMPORTANTES, EVOLUÇÃO]
+
+**Marcos Importantes:**
+- [ANO]: [EVENTO IMPORTANTE]
+- [ANO]: [EVENTO IMPORTANTE]
+
+## 🏢 Estrutura Organizacional
+
+### Liderança
+- **CEO/Diretor Executivo**: [NOME]
+- **CTO (Chief Technology Officer)**: {{CTO_NAME}}
+- **CISO (Chief Information Security Officer)**: {{CISO_NAME}}
+- **Compliance Officer**: {{COMPLIANCE_OFFICER_NAME}}
+
+### Departamentos Principais
+- **Tecnologia**: [DESCRIÇÃO]
+- **Operações**: [DESCRIÇÃO]
+- **Negócios**: [DESCRIÇÃO]
+- **Compliance e Conformidade**: [DESCRIÇÃO]
+
+## 👥 Principais Clientes e Parceiros
+
+### Clientes Estratégicos
+[LISTAR CLIENTES PRINCIPAIS]
+
+### Parceiros Tecnológicos
+[LISTAR PARCEIROS PRINCIPAIS]
+
+## 💼 Linhas de Negócio
+
+[DESCREVER PRINCIPAIS PRODUTOS/SERVIÇOS]
+
+### Produto/Serviço 1
+- Descrição: [...]
+- Clientes: [...]
+- Faturamento: [...]
+
+### Produto/Serviço 2
+- Descrição: [...]
+- Clientes: [...]
+- Faturamento: [...]
+
+## 🌍 Presença Geográfica
+
+- **Sede**: [LOCALIZAÇÃO]
+- **Escritórios Adicionais**: [LOCALIDADES]
+- **Regiões Atendidas**: [REGIÕES]
+
+## 📊 Contexto Financeiro
+
+- **Faturamento Anual**: {{REVENUE}}
+- **Crescimento YoY**: {{GROWTH_RATE}}%
+- **Rentabilidade**: {{PROFITABILITY}}
+
+## 🎓 Conformidade e Certificações
+
+Certificações e conformidades que {{COMPANY_NAME}} possui ou busca:
+- [ ] ISO 27001 (Segurança da Informação)
+- [ ] ISO 22301 (Continuidade de Negócios)
+- [ ] SOC 2 Type II
+- [ ] [OUTRAS CERTIFICAÇÕES]
 
 ---
 
-## 👥 Organization Structure
-
-**Team Size**: {{TEAM_SIZE}} employees  
-**Main Departments**:
-- Engineering/Technology
-- Product
-- Sales
-- Operations
-- Compliance & Legal
-- Human Resources
-
-**Key Roles**:
-- CTO: {{CTO_NAME}} ({{CTO_EMAIL}})
-- CISO: {{CISO_NAME}} ({{CISO_EMAIL}})
-- Compliance Officer: {{COMPLIANCE_OFFICER_NAME}} ({{COMPLIANCE_EMAIL}})
-
----
-
-## 📍 Geographic Presence
-
-**Primary Markets**:
-- [List of countries/regions]
-
-**Data Residency**:
-- [Where data is stored/processed]
-
-**Regulatory Jurisdictions**:
-- [LGPD, GDPR, CCPA, etc.]
-
----
-
-## 💼 Business Model
-
-**Primary Services/Products**:
-- [List main offerings]
-
-**Main Customers**:
-- [Types of customers: B2B, B2C, Enterprise, etc.]
-
-**Revenue Model**:
-- [SaaS, Licensing, Services, etc.]
-
----
-
-## 🎯 Strategic Goals
-
-1. **Compliance Objectives**:
-   - [List compliance goals]
-
-2. **Growth Objectives**:
-   - [List growth goals]
-
-3. **Technology Objectives**:
-   - [List tech goals]
-
----
-
-## 🔗 Key Partnerships
-
-- **Cloud Provider**: {{CLOUD_PROVIDER}}
-- **Key Partners**: [List important partners]
-- **Critical Vendors**: [List critical vendors]
-
----
-
-**Template Created**: 2025-10-28  
-**Last Updated**: [Update date when filled]
+**Data de Atualização**: {{LAST_UPDATED}}  
+**Responsável**: {{BUSINESS_CONTEXT_OWNER}}

@@ -1,145 +1,154 @@
-# Stakeholder Map
+# Mapa de Stakeholders - {{COMPANY_NAME}}
 
-## 👥 Internal Stakeholders
+## 📊 Visão Geral
 
-### Executive Leadership
+Este documento mapeia as partes interessadas (stakeholders) da {{COMPANY_NAME}}, categorizadas por tipo e nível de influência.
 
-| Role | Name | Email | Responsibility |
-|------|------|-------|-----------------|
-| CEO | [NAME] | [EMAIL] | Overall governance & strategy |
-| CTO | {{CTO_NAME}} | {{CTO_EMAIL}} | Technical infrastructure |
-| CFO | [NAME] | [EMAIL] | Financial compliance |
-| CISO | {{CISO_NAME}} | {{CISO_EMAIL}} | Security & information protection |
+## 👥 Classificação de Stakeholders
 
-### Compliance & Legal
-
-| Role | Name | Email | Responsibility |
-|------|------|-------|-----------------|
-| Chief Compliance Officer | {{COMPLIANCE_OFFICER_NAME}} | {{COMPLIANCE_EMAIL}} | Overall compliance program |
-| Data Protection Officer (DPO) | [NAME] | [EMAIL] | LGPD/GDPR compliance |
-| Legal Counsel | [NAME] | [EMAIL] | Legal compliance & contracts |
-
-### Operations & Security
-
-| Role | Name | Email | Responsibility |
-|------|------|-------|-----------------|
-| Head of Security | [NAME] | {{SECURITY_EMAIL}} | Security incident response |
-| Infrastructure Lead | [NAME] | {{DEVOPS_EMAIL}} | System availability & backup |
-| HR Manager | [NAME] | {{HR_EMAIL}} | Personnel & training |
-
----
-
-## 🤝 External Stakeholders
-
-### Customers
-
-**Enterprise Clients**:
-- [Customer 1]: [Contact]
-- [Customer 2]: [Contact]
-
-**Key Customer Requirements**:
-- [Requirement 1]
-- [Requirement 2]
-
-**SLA Commitments**:
-- Uptime: [99.9%, 99.99%, etc.]
-- Response Time: [RTO Target]
-- Data Recovery: [RPO Target]
-
-### Regulators & Auditors
-
-| Type | Organization | Contact | Interaction |
-|------|---|---|---|
-| Regulatory Body | [Name] | [Contact] | Annual audit |
-| External Auditor | [Name] | [Contact] | ISO 27001 audit |
-| Customer Auditor | [Customer] | [Contact] | Ad-hoc requests |
-
-### Vendors & Partners
-
-| Category | Vendor | Critical? | Compliance Requirements |
-|----------|--------|-----------|----------------------|
-| Cloud Provider | {{CLOUD_PROVIDER}} | YES | [Requirements] |
-| Data Center | [Vendor] | YES | [Requirements] |
-| Security Tools | [Vendor] | YES | [Requirements] |
-| Payment Processor | [Vendor] | YES | [Requirements] |
-
----
-
-## 🏛️ Governance Structure
-
-### Compliance Committees
-
-**Compliance Committee**:
-- **Chair**: {{COMPLIANCE_OFFICER_NAME}}
-- **Members**: [List members]
-- **Frequency**: Monthly
-- **Responsibilities**: 
-  - Review compliance status
-  - Approve policies
-  - Handle incidents
-
-**Security Committee**:
-- **Chair**: {{CISO_NAME}}
-- **Members**: [List members]
-- **Frequency**: Bi-weekly
-- **Responsibilities**:
-  - Security incident response
-  - Risk assessment
-  - Security improvements
-
-### Escalation Path
+### Matriz de Influência vs. Interesse
 
 ```
-Incident Detected
-       ↓
-[Department Lead]
-       ↓
-[Security Lead] → {{SECURITY_EMAIL}}
-       ↓
-[CISO] → {{CISO_EMAIL}}
-       ↓
-[CEO] → [CEO Email]
+                    PODER/INFLUÊNCIA
+                          ↑
+                          |
+    ┌─────────────────────┼─────────────────────┐
+    |         MANTER       |    GERENCIAR        |
+    |      SATISFEITO      |   ATIVAMENTE        |
+    |                      |                     |
+    ├─────────────────────┼─────────────────────┤
+    |      MONITORAR      |    MANTER           |
+    |                      |    INFORMADO        |
+    |                      |                     |
+    └─────────────────────┼─────────────────────┘
+                          |
+                    INTERESSE →
 ```
 
+## 🎯 Stakeholders Principais
+
+### 1. Clientes e Usuários Finais
+
+| Stakeholder | Tipo | Influência | Interesse | Estratégia |
+|-------------|------|-----------|-----------|-----------|
+| Clientes Enterprise | Alto | Alto | Alto | Gerenciar ativamente |
+| Usuários Finais | Médio | Médio | Alto | Manter satisfeito |
+| Parceiros de Integração | Médio | Médio | Médio | Manter informado |
+
+**Detalhes:**
+- **Expectativas**: [LISTAR EXPECTATIVAS PRINCIPAIS]
+- **Necessidades**: [LISTAR NECESSIDADES]
+- **Pontos de Contato**: {{CONTACT_EMAIL}}
+
+### 2. Fornecedores e Parceiros Tecnológicos
+
+| Stakeholder | Tipo | Influência | Interesse | Estratégia |
+|-------------|------|-----------|-----------|-----------|
+| Provedor de Cloud | Alto | Alto | Médio | Gerenciar ativamente |
+| Fornecedores de Infraestrutura | Médio | Médio | Médio | Manter informado |
+| Parceiros de Consultoria | Médio | Médio | Médio | Monitorar |
+
+**Provedores Principais:**
+- **Cloud Provider**: {{CLOUD_PROVIDER}}
+- **Fornecedores Críticos**: [LISTAR]
+
+### 3. Órgãos Reguladores e Compliance
+
+| Stakeholder | Tipo | Influência | Interesse | Estratégia |
+|-------------|------|-----------|-----------|-----------|
+| LGPD - Agência Reguladora | Alto | Alto | Alto | Gerenciar ativamente |
+| Órgãos Certificadores ISO | Alto | Alto | Médio | Gerenciar ativamente |
+| Bancos/Instituições Financeiras | Alto | Alto | Alto | Gerenciar ativamente |
+
+**Contatos:**
+- **Compliance Officer**: {{COMPLIANCE_OFFICER_NAME}} ({{COMPLIANCE_EMAIL}})
+- **CISO**: {{CISO_NAME}} ({{CISO_EMAIL}})
+
+### 4. Comunidade Interna (Colaboradores)
+
+| Stakeholder | Tipo | Influência | Interesse | Estratégia |
+|-------------|------|-----------|-----------|-----------|
+| Liderança Executiva | Alto | Alto | Alto | Gerenciar ativamente |
+| Equipe Técnica | Médio | Médio | Alto | Manter satisfeito |
+| RH e Operações | Médio | Médio | Médio | Manter informado |
+
+**Contatos Principais:**
+- **CTO**: {{CTO_NAME}} ({{CTO_EMAIL}})
+- **HR**: {{HR_EMAIL}}
+
+### 5. Comunidade Externa
+
+| Stakeholder | Tipo | Influência | Interesse | Estratégia |
+|-------------|------|-----------|-----------|-----------|
+| Mídia e Imprensa | Médio | Médio | Baixo | Monitorar |
+| Comunidade Open Source | Baixo | Baixo | Baixo | Monitorar |
+| ONGs e Entidades Sociais | Baixo | Baixo | Baixo | Monitorar |
+
+## 🔄 Canais de Comunicação
+
+### Comunicação Interna
+- **Segurança**: {{SECURITY_EMAIL}}
+- **Compliance**: {{COMPLIANCE_EMAIL}}
+- **Denúncias/Whistleblowing**: {{WHISTLEBLOWING_EMAIL}}
+- **Contato Geral**: {{CONTACT_EMAIL}}
+
+### Comunicação Externa
+- **Website**: {{COMPANY_DOMAIN}}
+- **Suporte**: support@{{COMPANY_DOMAIN}}
+- **Público Geral**: contato@{{COMPANY_DOMAIN}}
+
+## 📋 Mapeamento de Interesses
+
+### Segurança da Informação
+**Quem se importa?**
+- Clientes Enterprise
+- Órgãos Reguladores
+- Liderança Executiva
+- Equipe Técnica
+
+**Por quê?**
+- [DESCREVER MOTIVAÇÕES]
+
+### Continuidade de Negócios
+**Quem se importa?**
+- Clientes Enterprise
+- Órgãos Reguladores
+- Equipe Técnica
+- Fornecedores Críticos
+
+**Por quê?**
+- [DESCREVER MOTIVAÇÕES]
+
+### Conformidade Regulatória
+**Quem se importa?**
+- Órgãos Reguladores
+- Clientes Bancários
+- Liderança Executiva
+- Compliance Officer
+
+**Por quê?**
+- [DESCREVER MOTIVAÇÕES]
+
+## 🎯 Plano de Engajamento
+
+### Por Grupo de Stakeholder
+
+#### Clientes
+- Frequência de Comunicação: Mensal/Trimestral
+- Formatos: Relatórios, Meetings, Portal
+- Responsável: {{CTO_NAME}}
+
+#### Órgãos Reguladores
+- Frequência de Comunicação: Conforme Necessário
+- Formatos: Relatórios Formais, Auditorias
+- Responsável: {{COMPLIANCE_OFFICER_NAME}}
+
+#### Equipe Interna
+- Frequência de Comunicação: Semanal/Mensal
+- Formatos: Meetings, Documentação, Treinamentos
+- Responsável: {{SECURITY_EMAIL}}
+
 ---
 
-## 📢 Communication Channels
-
-### Internal Channels
-
-- **Whistleblowing**: {{WHISTLEBLOWING_EMAIL}}
-- **Security Incidents**: {{SECURITY_EMAIL}}
-- **Compliance Questions**: {{COMPLIANCE_EMAIL}}
-- **General Contact**: {{CONTACT_EMAIL}}
-
-### External Channels
-
-- **Customer Support**: [Support email/phone]
-- **Legal/Audit Requests**: [Legal email]
-- **Data Subject Requests**: {{COMPLIANCE_EMAIL}}
-
----
-
-## 🎯 Key Responsibilities
-
-### By Role
-
-**CTO ({{CTO_NAME}})**:
-- Approve technical controls
-- Review SLA compliance
-- Budget technology initiatives
-
-**CISO ({{CISO_NAME}})**:
-- Implement security policies
-- Manage incident response
-- Lead security assessments
-
-**Compliance Officer ({{COMPLIANCE_OFFICER_NAME}})**:
-- Maintain compliance documentation
-- Coordinate audits
-- Train staff on policies
-
----
-
-**Template Created**: 2025-10-28  
-**Last Updated**: [Update date when filled]
+**Data de Atualização**: {{LAST_UPDATED}}  
+**Responsável**: {{STAKEHOLDER_MANAGER}}

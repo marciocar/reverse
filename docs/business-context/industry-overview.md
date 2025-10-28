@@ -1,85 +1,89 @@
-# Industry Overview
+# Análise da Indústria - {{INDUSTRY}}
 
-## 🏭 Sector Analysis
+## 📊 Visão Geral do Setor
 
-**Primary Sector**: {{INDUSTRY}}  
-**Sub-segments**: [List relevant sub-sectors]
+Descrição do setor em que {{COMPANY_NAME}} atua: {{INDUSTRY}}
+
+[DESCREVER O SETOR DE FORMA ABRANGENTE]
+
+## 🎯 Posicionamento de {{COMPANY_NAME}} no Mercado
+
+### Segmentação
+- **Mercado Alvo**: [DESCRIÇÃO]
+- **Nicho Específico**: [DESCRIÇÃO]
+- **Posicionamento**: [DESCRIÇÃO]
+
+### Proposta de Valor Única
+[DESCREVER O QUE DIFERENCIA {{COMPANY_NAME}} NO MERCADO]
+
+## 🏆 Análise Competitiva
+
+### Principais Concorrentes
+1. **Concorrente 1**: [ANÁLISE]
+2. **Concorrente 2**: [ANÁLISE]
+3. **Concorrente 3**: [ANÁLISE]
+
+### Vantagens Competitivas
+- [VANTAGEM 1]
+- [VANTAGEM 2]
+- [VANTAGEM 3]
+
+### Desvantagens/Desafios
+- [DESAFIO 1]
+- [DESAFIO 2]
+
+## 📈 Tendências do Setor
+
+### Tendências Positivas
+- [TENDÊNCIA 1]
+- [TENDÊNCIA 2]
+- [TENDÊNCIA 3]
+
+### Riscos e Ameaças
+- [RISCO 1]
+- [RISCO 2]
+
+## 💡 Oportunidades de Crescimento
+
+[DESCREVER OPORTUNIDADES ESTRATÉGICAS]
+
+## ⚖️ Regulamentação Aplicável
+
+### Marcos Regulatórios Principais
+- **LGPD (Lei Geral de Proteção de Dados)**: [IMPACTO]
+- **ISO 27001 (Segurança da Informação)**: [REQUISITOS]
+- **ISO 22301 (Continuidade de Negócios)**: [REQUISITOS]
+- **Regulamentações Específicas do Setor**: [ESPECIFICAR]
+
+### Órgãos Reguladores
+- [ÓRGÃO 1]
+- [ÓRGÃO 2]
+- [ÓRGÃO 3]
+
+### Conformidades Obrigatórias
+- [ ] [CONFORMIDADE 1]
+- [ ] [CONFORMIDADE 2]
+- [ ] [CONFORMIDADE 3]
+
+## 🌐 Contexto Global vs. Local
+
+### Presença Global
+- **Mercados Principais**: [MERCADOS]
+- **Estratégia Global**: [DESCRIÇÃO]
+
+### Presença Local (Brasil)
+- **Particularidades Locais**: [DESCRIÇÃO]
+- **Parcerias Locais**: [DESCRIÇÃO]
+
+## 🔮 Perspectivas Futuras
+
+### Médio Prazo (1-3 anos)
+[DESCRIÇÃO DAS PERSPECTIVAS]
+
+### Longo Prazo (3-5 anos)
+[DESCRIÇÃO DAS PERSPECTIVAS]
 
 ---
 
-## 📋 Regulatory Framework
-
-### Applicable Regulations
-
-| Regulation | Applicability | Impact | Status |
-|-----------|---|---|---|
-| LGPD (Brazil) | [YES/NO] | [High/Medium/Low] | [Compliant/In Progress] |
-| GDPR (EU) | [YES/NO] | [High/Medium/Low] | [Compliant/In Progress] |
-| CCPA (US) | [YES/NO] | [High/Medium/Low] | [Compliant/In Progress] |
-| HIPAA (Healthcare) | [YES/NO] | [High/Medium/Low] | [Compliant/In Progress] |
-| Industry-Specific | [YES/NO] | [High/Medium/Low] | [Compliant/In Progress] |
-
-### Compliance Requirements
-
-**Data Protection**:
-- [List data protection requirements]
-
-**Security Requirements**:
-- [List security requirements]
-
-**Availability Requirements**:
-- [List availability/uptime requirements]
-
-**Audit & Reporting**:
-- [List audit/reporting requirements]
-
----
-
-## 📈 Market Landscape
-
-### Competitors & Benchmarks
-
-**Key Competitors**:
-- [Competitor 1]: [Features/Strengths]
-- [Competitor 2]: [Features/Strengths]
-
-**Market Trends**:
-- [List relevant trends]
-
-**Customer Expectations**:
-- [List expectations re: compliance, security, uptime]
-
----
-
-## ⚠️ Key Risks & Challenges
-
-**Compliance Challenges**:
-- [Challenge 1]: [Impact]
-- [Challenge 2]: [Impact]
-
-**Security Threats**:
-- [Threat 1]: [Likelihood/Impact]
-- [Threat 2]: [Likelihood/Impact]
-
-**Operational Risks**:
-- [Risk 1]: [Likelihood/Impact]
-
----
-
-## 🎯 Strategic Implications for Compliance
-
-1. **Must-Have Certifications**:
-   - [ISO 27001, SOC2, etc.]
-
-2. **Nice-to-Have Certifications**:
-   - [Additional certifications for market advantage]
-
-3. **Compliance Roadmap**:
-   - Year 1: [Goals]
-   - Year 2: [Goals]
-   - Year 3: [Goals]
-
----
-
-**Template Created**: 2025-10-28  
-**Last Updated**: [Update date when filled]
+**Data de Atualização**: {{LAST_UPDATED}}  
+**Responsável**: {{INDUSTRY_ANALYST}}

@@ -1,191 +1,193 @@
-# Technology Stack Summary
+# Resumo do Stack Técnico - {{COMPANY_NAME}}
 
-## 📚 Overview
+## 🎯 Visão Geral do Stack
 
-{{STACK_SUMMARY}}
+Resumo das tecnologias e ferramentas utilizadas em {{COMPANY_NAME}}.
 
----
+## 💻 Frontend / Cliente
 
-## 💻 Backend
+### Web Application
+- **Framework**: {{FRONTEND_FRAMEWORK}}
+- **Linguagem**: {{FRONTEND_LANGUAGE}}
+- **Build Tool**: {{BUILD_TOOL}}
+- **Package Manager**: {{PACKAGE_MANAGER}}
 
-### Languages
+### Mobile Application (se aplicável)
+- **Platform**: {{MOBILE_PLATFORM}}
+- **Framework**: {{MOBILE_FRAMEWORK}}
+- **Linguagem**: {{MOBILE_LANGUAGE}}
 
-| Language | Version | Usage | Team Size |
-|----------|---------|-------|-----------|
-| [e.g., Node.js] | [Version] | [Purpose] | [Developers] |
-| [e.g., Python] | [Version] | [Purpose] | [Developers] |
-| [e.g., Go] | [Version] | [Purpose] | [Developers] |
+### Bibliotecas Frontend Principais
+- [LISTAR BIBLIOTECAS]
 
-### Frameworks
+## 🔧 Backend / API
 
-| Framework | Version | Purpose | Status |
-|-----------|---------|---------|--------|
-| [e.g., Express] | [Version] | API Framework | Active |
-| [e.g., Django] | [Version] | Web Framework | Active |
-| [e.g., Gin] | [Version] | API Framework | Active |
+### Linguagem(ns) Principais
+- **Linguagem 1**: {{BACKEND_LANGUAGE_1}} {{BACKEND_VERSION_1}}
+- **Linguagem 2**: {{BACKEND_LANGUAGE_2}} {{BACKEND_VERSION_2}}
 
-### Dependencies
+### Frameworks e Runtimes
+- **Framework Web**: {{WEB_FRAMEWORK}}
+- **API Framework**: {{API_FRAMEWORK}}
+- **Runtime**: {{RUNTIME}}
 
-- **Package Manager**: [npm, pip, Go modules, etc]
-- **Dependency Scanning**: [Dependabot, Snyk, etc]
-- **Update Strategy**: [Monthly/Quarterly/etc]
+### Bibliotecas Backend Principais
+- [LISTAR BIBLIOTECAS]
 
----
+## 💾 Dados e Storage
 
-## 🗄️ Databases
+### Banco de Dados Relacional
+- **Tecnologia**: {{RELATIONAL_DB}}
+- **Versão**: {{RELATIONAL_DB_VERSION}}
+- **Propósito**: Dados estruturados
 
-### Primary
-
-| Database | Version | Replication | HA |
-|----------|---------|-------------|-----|
-| [PostgreSQL/MySQL/MongoDB] | [Version] | [Method] | [Yes/No] |
+### Banco de Dados NoSQL (se aplicável)
+- **Tecnologia**: {{NOSQL_DB}}
+- **Versão**: {{NOSQL_DB_VERSION}}
+- **Propósito**: [DESCREVER]
 
 ### Cache
+- **Tecnologia**: {{CACHE_TECH}}
+- **Versão**: {{CACHE_VERSION}}
+- **Estratégia**: [LRU/TTL/OUTRO]
 
-| System | Version | Purpose | Replication |
-|--------|---------|---------|------------|
-| [Redis/Memcached] | [Version] | [Purpose] | [Method] |
+### Object Storage
+- **Serviço**: {{OBJECT_STORAGE_SERVICE}}
+- **Propósito**: [DESCREVER]
 
-### Search
+### Message Queue
+- **Tecnologia**: {{MESSAGE_QUEUE}}
+- **Versão**: {{MESSAGE_QUEUE_VERSION}}
+- **Padrão**: [PUBLISH-SUBSCRIBE/QUEUE/OUTRO]
 
-| Engine | Version | Purpose | Scaling |
-|--------|---------|---------|---------|
-| [Elasticsearch/Algolia] | [Version] | [Purpose] | [Method] |
+## 🐳 Containerização e Orquestração
 
----
+### Container Runtime
+- **Tecnologia**: {{CONTAINER_RUNTIME}}
+- **Imagens Base**: {{BASE_IMAGES}}
 
-## 🎨 Frontend
+### Orquestração
+- **Plataforma**: {{ORCHESTRATION_PLATFORM}}
+- **Versão**: {{ORCHESTRATION_VERSION}}
+- **Node Count**: {{NODE_COUNT}}
 
-### Frameworks
+### Container Registry
+- **Serviço**: {{CONTAINER_REGISTRY}}
+- **Políticas de Retenção**: [DESCREVER]
 
-| Framework | Version | Usage | Status |
-|-----------|---------|-------|--------|
-| [React/Vue/Angular] | [Version] | Web App | Active |
-| [React Native/Flutter] | [Version] | Mobile App | Active |
+## 🔄 CI/CD e DevOps
 
-### State Management
+### Controle de Versão
+- **Sistema**: {{VCS_SYSTEM}}
+- **Hospedagem**: {{VCS_HOSTING}}
 
-- **Solution**: [Redux/MobX/Vuex/etc]
-- **Version**: [Version]
-
-### Build & Bundling
-
-- **Build Tool**: [Webpack/Vite/Parcel/etc]
-- **Package Manager**: [npm/yarn/pnpm]
-
----
-
-## 🔧 DevOps & Infrastructure
-
-### Container Orchestration
-
-- **Platform**: [Kubernetes/Docker Swarm/ECS/etc]
-- **Version**: [Version]
-- **Node Count**: [Number]
-
-### CI/CD
-
-| Tool | Version | Purpose |
-|------|---------|---------|
-| [GitHub Actions/GitLab CI/Jenkins] | [Version] | Pipeline |
-| [ArgoCD/Flux] | [Version] | GitOps (if used) |
+### CI/CD Pipeline
+- **Plataforma**: {{CI_CD_PLATFORM}}
+- **Linguagem de Script**: {{PIPELINE_LANGUAGE}}
+- **Frequency**: [FREQUÊNCIA DE DEPLOY]
 
 ### Infrastructure as Code
+- **Ferramenta**: {{IaC_TOOL}}
+- **Linguagem**: {{IaC_LANGUAGE}}
 
-| Tool | Version | Purpose |
-|------|---------|---------|
-| [Terraform/CloudFormation/Pulumi] | [Version] | IaC |
+### Gerenciamento de Configuração
+- **Ferramenta**: {{CONFIG_TOOL}} (se aplicável)
+- **Estratégia**: [DESCREVER]
+
+## 📊 Monitoramento e Observabilidade
+
+### Coleta de Métricas
+- **Plataforma**: {{METRICS_PLATFORM}}
+- **Agente**: {{METRICS_AGENT}}
+- **Intervalo**: {{METRICS_INTERVAL}}
+
+### Logging Centralizado
+- **Plataforma**: {{LOGGING_PLATFORM}}
+- **Retenção**: {{LOGGING_RETENTION}}
+- **Indexação**: [SIM/NÃO]
+
+### Tracing Distribuído
+- **Plataforma**: {{TRACING_PLATFORM}} (se aplicável)
+- **Sampling**: {{TRACING_SAMPLING}}
+
+### Alertas
+- **Plataforma**: {{ALERTING_PLATFORM}}
+- **Canais**: [DESCREVER - EMAIL, SLACK, ETC]
+
+## 🔐 Segurança e Identidade
+
+### Autenticação
+- **Método**: {{AUTH_METHOD}}
+- **Protocolo**: {{AUTH_PROTOCOL}}
+- **MFA**: [SIM/NÃO]
+
+### Autorização
+- **Sistema**: {{AUTHZ_SYSTEM}}
+- **Padrão**: [RBAC/ABAC/OUTRO]
+
+### Secrets Management
+- **Solução**: {{SECRETS_MANAGER}}
+- **Rotação**: {{SECRETS_ROTATION}}
+
+### Cryptografia
+- **Biblioteca**: {{CRYPTO_LIBRARY}}
+- **Algoritmos**: [DESCREVER]
+
+## 🧪 Testes e Qualidade
+
+### Framework de Testes
+- **Testes Unitários**: {{UNIT_TEST_FRAMEWORK}}
+- **Testes de Integração**: {{INTEGRATION_TEST_FRAMEWORK}}
+- **Testes E2E**: {{E2E_TEST_FRAMEWORK}}
+
+### Análise de Código
+- **Linter**: {{LINTER}}
+- **Code Analysis**: {{CODE_ANALYSIS_TOOL}}
+- **Coverage Target**: {{TEST_COVERAGE_TARGET}}%
+
+### Documentação
+- **Ferramenta**: {{DOCUMENTATION_TOOL}}
+- **Hospedagem**: {{DOCS_HOSTING}}
+
+## 📦 Dependências Críticas
+
+| Dependência | Versão | Razão Crítica | EOL |
+|-------------|--------|---------------|-----|
+| {{DEP_1}} | {{VER_1}} | [RAZÃO] | {{EOL_1}} |
+| {{DEP_2}} | {{VER_2}} | [RAZÃO] | {{EOL_2}} |
+| {{DEP_3}} | {{VER_3}} | [RAZÃO] | {{EOL_3}} |
+
+## 🔄 Estratégia de Atualizações
+
+### Política de Versioning
+- **Frontend**: {{FRONTEND_VERSIONING_POLICY}}
+- **Backend**: {{BACKEND_VERSIONING_POLICY}}
+- **Infraestrutura**: {{INFRA_VERSIONING_POLICY}}
+
+### Calendário de Atualizações
+- **Frequência**: [DESCREVER]
+- **Janelas de Manutenção**: {{MAINTENANCE_WINDOW}}
+- **Teste antes da Produção**: [SIM/NÃO]
+
+## 📋 Matriz de Compatibilidade
+
+| Componente | Versão Suportada | Status | Próxima Atualização |
+|------------|------------------|--------|-------------------|
+| {{COMP_1}} | {{SUPP_VER_1}} | {{STATUS_1}} | {{NEXT_UPDATE_1}} |
+| {{COMP_2}} | {{SUPP_VER_2}} | {{STATUS_2}} | {{NEXT_UPDATE_2}} |
+
+## 🚀 Roadmap Técnico
+
+### Próximas Migrações Planejadas
+- [DESCREVER MIGRAÇÕES]
+
+### Tecnologias a Avaliar
+- [DESCREVER AVALIAÇÕES]
+
+### Deprecações Planejadas
+- [DESCREVER]
 
 ---
 
-## 🛡️ Security & Monitoring
-
-### Security Scanning
-
-| Tool | Version | Purpose | Frequency |
-|------|---------|---------|-----------|
-| [Trivy/Aqua] | [Version] | Container scanning | Per build |
-| [SAST Tool] | [Version] | Code scanning | Per commit |
-| [DAST Tool] | [Version] | Security testing | Weekly |
-
-### Monitoring & Observability
-
-| Tool | Version | Purpose |
-|------|---------|---------|
-| [Prometheus/DataDog] | [Version] | Metrics |
-| [ELK/Splunk] | [Version] | Logging |
-| [Jaeger/Datadog] | [Version] | Tracing |
-
-### Secret Management
-
-- **Solution**: [AWS Secrets Manager/Vault/etc]
-- **Rotation Policy**: [Frequency]
-
----
-
-## 📦 Other Services
-
-### Message Queues
-
-| Service | Version | Purpose | Partitions |
-|---------|---------|---------|-----------|
-| [Kafka/RabbitMQ/SQS] | [Version] | [Purpose] | [Number] |
-
-### Third-party APIs
-
-| Service | Version | Purpose | Integration |
-|---------|---------|---------|------------|
-| [Payment Gateway] | [Version] | Payments | [Method] |
-| [Email Service] | [Version] | Notifications | [Method] |
-| [Analytics] | [Version] | Tracking | [Method] |
-
----
-
-## 📊 Development Practices
-
-### Languages & Standards
-
-- **Code Standard**: [ESLint/Pylint/etc]
-- **Formatting**: [Prettier/Black/etc]
-- **Testing Framework**: [Jest/pytest/unittest]
-- **Coverage Target**: [X%]
-
-### Documentation
-
-- **API Documentation**: [Swagger/OpenAPI]
-- **Code Comments**: [Required/Optional]
-- **README Standard**: [Link to template]
-
----
-
-## 🚀 Deployment & Release
-
-### Versioning
-
-- **Strategy**: [Semantic Versioning/CalVer]
-- **Release Frequency**: [Weekly/Bi-weekly/Monthly]
-
-### Deployment Strategy
-
-- **Primary**: [Blue-green/Canary/Rolling]
-- **Rollback Procedure**: [Automated/Manual]
-- **Zero-downtime**: [Yes/No]
-
----
-
-## 📈 Growth Roadmap
-
-### Next 6 months
-
-- [Technology 1: Add/Upgrade/Replace]
-- [Technology 2: Add/Upgrade/Replace]
-
-### Next 12 months
-
-- [Technology 1: Add/Upgrade/Replace]
-- [Technology 2: Add/Upgrade/Replace]
-
----
-
-**Template Created**: 2025-10-28  
-**Last Updated**: [Update date when filled]
+**Data de Atualização**: {{LAST_UPDATED}}  
+**Responsável**: {{TECH_LEAD}}

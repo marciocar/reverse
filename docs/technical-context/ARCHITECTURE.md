@@ -1,137 +1,159 @@
-# System Architecture
+# Arquitetura de Sistemas - {{COMPANY_NAME}}
 
-## 🏗️ High-Level Overview
+## 🏛️ Visão Geral da Arquitetura
 
-### Before (Current State)
-```
-[Describe current architecture]
-```
-
-### After (Target State)
-```
-[Describe target architecture with compliance controls]
-```
-
----
-
-## 📊 Main Components
-
-### Core Services
-
-| Service | Technology | Purpose | Scaling |
-|---------|-----------|---------|---------|
-| API | [Technology] | [Purpose] | [Scaling strategy] |
-| Database | [Technology] | [Purpose] | [Scaling strategy] |
-| Cache | [Technology] | [Purpose] | [Scaling strategy] |
-| Storage | [Technology] | [Purpose] | [Scaling strategy] |
-
-### Data Flow
+Descrição de alto nível da arquitetura técnica de {{COMPANY_NAME}}.
 
 ```
-[User/External System]
-        ↓
-    [API Gateway]
-        ↓
-   [Services Layer]
-        ↓
-  [Data Layer / DBs]
-        ↓
-   [Storage/Cache]
+[INSERIR DIAGRAMA ASCII OU DESCRIÇÃO DE ALTO NÍVEL]
+
+┌──────────────────────────────────────────────┐
+│         Usuários / Clientes                  │
+└─────────────────┬──────────────────────────┘
+                  │
+       ┌──────────┴──────────┐
+       │                     │
+┌──────▼──────┐      ┌──────▼──────┐
+│  Frontend   │      │   Mobile    │
+│  (Web)      │      │   App       │
+└──────┬──────┘      └──────┬──────┘
+       │                     │
+       └──────────┬──────────┘
+                  │
+       ┌──────────▼──────────┐
+       │   API Gateway       │
+       │   / Load Balancer   │
+       └──────────┬──────────┘
+                  │
+       ┌──────────▼──────────┐
+       │  Serviços Backend   │
+       │  - Autenticação     │
+       │  - Negócio          │
+       │  - Dados            │
+       └──────────┬──────────┘
+                  │
+       ┌──────────┴──────────┐
+       │                     │
+┌──────▼──────┐      ┌──────▼──────┐
+│ Banco de    │      │ Cache /     │
+│ Dados       │      │ Storage     │
+└─────────────┘      └─────────────┘
 ```
 
----
+## 🔧 Componentes Principais
 
-## 🔐 Security Architecture
+### 1. Camada de Apresentação (Frontend)
+- **Web Application**: {{FRONTEND_STACK}}
+- **Mobile Application**: {{MOBILE_STACK}}
+- **Responsabilidades**: Interface com usuário, validações de entrada, renderização
 
-### Access Control
+### 2. Camada de API e Integração
+- **API Gateway**: [DESCRIÇÃO]
+- **Load Balancer**: [DESCRIÇÃO]
+- **Protocolo**: REST / GraphQL / [OUTRO]
+- **Autenticação**: {{AUTH_METHOD}}
 
-- **Authentication**: [Method: OAuth, JWT, etc]
-- **Authorization**: [Method: RBAC, ABAC, etc]
-- **API Security**: [Method: Rate limiting, API keys, etc]
+### 3. Camada de Serviços (Backend)
+- **Serviço de Autenticação**: {{AUTHENTICATION_STACK}}
+- **Serviço de Negócio**: {{BUSINESS_LOGIC_STACK}}
+- **Serviço de Dados**: {{DATA_STACK}}
+- **Serviços Adicionais**: [LISTAR]
 
-### Data Protection
+### 4. Camada de Dados
+- **Banco de Dados Principal**: {{DATABASE_PRIMARY}}
+- **Banco de Dados Secundário**: {{DATABASE_SECONDARY}}
+- **Cache**: {{CACHE_TECHNOLOGY}}
+- **Object Storage**: {{OBJECT_STORAGE}}
 
-- **Encryption in Transit**: [TLS version]
-- **Encryption at Rest**: [Algorithm]
-- **Key Management**: [HSM, AWS KMS, etc]
+### 5. Integrações Externas
+- **Provedores de Pagamento**: [LISTAR]
+- **APIs de Terceiros**: [LISTAR]
+- **Integrações B2B**: [LISTAR]
 
-### Network Security
+## 📊 Fluxos de Dados Principais
 
-- **VPC/Network Isolation**: [Configuration]
-- **WAF**: [Enabled/Configuration]
-- **DDoS Protection**: [Method]
+### Fluxo de Autenticação
+1. Usuário faz login
+2. Validação de credenciais
+3. Geração de token
+4. Retorno de token ao cliente
+5. Utilização de token em requisições futuras
 
----
+### Fluxo de Transação/Operação
+1. Requisição do cliente
+2. Validação no API Gateway
+3. Processamento pelo serviço backend
+4. Persistência em banco de dados
+5. Retorno de resposta ao cliente
 
-## ⚡ Reliability & Performance
+## 🏗️ Padrões Arquiteturais
 
-### High Availability
+### Padrões Utilizados
+- **Microserviços**: [SIM/NÃO - DESCREVER]
+- **Event-Driven**: [SIM/NÃO - DESCREVER]
+- **CQRS**: [SIM/NÃO - DESCREVER]
+- **Serverless**: [SIM/NÃO - DESCREVER]
 
-- **Load Balancing**: [Method]
-- **Auto-scaling**: [Configuration]
-- **Failover Strategy**: [Method]
+### Decisões Técnicas Importantes
 
-### Disaster Recovery
+| Decisão | Opção Escolhida | Justificativa |
+|---------|-----------------|---------------|
+| Containerização | {{CONTAINER_TECH}} | [RAZÃO] |
+| Orquestração | {{ORCHESTRATION}} | [RAZÃO] |
+| Message Queue | {{MESSAGE_QUEUE}} | [RAZÃO] |
+| Versionamento de API | [VERSÃO] | [RAZÃO] |
 
-- **RTO (Recovery Time Objective)**: [Duration]
-- **RPO (Recovery Point Objective)**: [Duration]
-- **Backup Strategy**: [Frequency/Location]
-- **DR Testing**: [Frequency]
+## 🔐 Segurança Arquitetural
 
----
+### Princípios de Segurança
+- **Defesa em Profundidade**: [DESCREVER]
+- **Menor Privilégio**: [DESCREVER]
+- **Criptografia em Trânsito**: {{ENCRYPTION_TLS}}
+- **Criptografia em Repouso**: {{ENCRYPTION_AT_REST}}
 
-## 🔧 Critical Components
+### Componentes de Segurança
+- **WAF (Web Application Firewall)**: [SIM/NÃO]
+- **DDoS Protection**: [SIM/NÃO]
+- **Intrusion Detection**: [SIM/NÃO]
+- **Segmentation de Rede**: [SIM/NÃO]
 
-### Must-Have Controls
+## 🔄 Continuidade e Disponibilidade
 
-- [ ] Monitoring & Alerting
-- [ ] Logging & Auditing
-- [ ] Backup & Restore
-- [ ] Incident Response
-- [ ] Security Patching
+### Estratégia de Backup
+- Frequência: {{BACKUP_FREQUENCY}}
+- Retenção: {{BACKUP_RETENTION}}
+- Localização: [DESCREVER]
+- RTO: {{RTO}} minutos
+- RPO: {{RPO}} minutos
 
-### Risk Areas
+### Redundância e Failover
+- **Regiões**: {{REGIONS_COUNT}} regiões
+- **Zonas de Disponibilidade**: {{AZ_COUNT}} por região
+- **Failover Automático**: [SIM/NÃO]
+- **SLA Alvo**: {{TARGET_SLA}}%
 
-| Component | Risk | Mitigation | Status |
-|-----------|------|-----------|--------|
-| [Component] | [Risk] | [Mitigation] | [Status] |
+## 📈 Escalabilidade
 
----
+### Estratégia de Scaling
+- **Horizontal Scaling**: {{HORIZONTAL_SCALING}}
+- **Vertical Scaling**: {{VERTICAL_SCALING}}
+- **Auto-Scaling**: [SIM/NÃO - CRITÉRIOS]
+- **Limites Conhecidos**: [DESCREVER]
 
-## 📈 Capacity & Planning
+## 🛠️ Desenvolvimento e Deploy
 
-### Current Capacity
-
-- **Users**: [Number]
-- **Transactions/sec**: [Rate]
-- **Storage**: [Size]
-- **Bandwidth**: [Rate]
-
-### Growth Projections
-
-- **Year 1**: [Growth]
-- **Year 2**: [Growth]
-- **Year 3**: [Growth]
-
----
-
-## 🚀 Deployment Architecture
-
-### Environments
-
-| Environment | Purpose | Availability | Backup |
-|-----------|---------|---|---|
-| Production | [Purpose] | [SLA] | [Backup frequency] |
-| Staging | [Purpose] | [SLA] | [Backup frequency] |
-| Development | [Purpose] | [SLA] | [Backup frequency] |
+### Ambientes
+- **Desenvolvimento**: [DESCRIÇÃO]
+- **Staging**: [DESCRIÇÃO]
+- **Produção**: [DESCRIÇÃO]
 
 ### CI/CD Pipeline
-
-```
-Code Push → Build → Test → Staging → Approval → Production
-```
+- **Ferramenta**: {{CI_CD_TOOL}}
+- **Frequência de Deploy**: [FREQUÊNCIA]
+- **Testes Automatizados**: [COBERTURA %]
+- **Tempo de Deploy**: [TEMPO MÉDIO]
 
 ---
 
-**Template Created**: 2025-10-28  
-**Last Updated**: [Update date when filled]
+**Data de Atualização**: {{LAST_UPDATED}}  
+**Responsável**: {{ARCHITECTURE_OWNER}}
