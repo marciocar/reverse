@@ -232,11 +232,11 @@ curl -X POST https://hooks.slack.com/services/xxx/yyy/zzz \
 
 **Documentação:**
 - Runbook execution log: `docs/tests/dr-simulation-2025-06-10.md`
-- Video recording (Zoom): `s3://granaai-compliance/tests/dr-2025-06-10.mp4`
-- Screenshots (key steps): `s3://granaai-compliance/tests/dr-2025-06-10-screenshots/`
+- Video recording (Zoom): `s3://{{S3_COMPLIANCE_BUCKET}}/tests/dr-2025-06-10.mp4`
+- Screenshots (key steps): `s3://{{S3_COMPLIANCE_BUCKET}}/tests/dr-2025-06-10-screenshots/`
 
 **Métricas:**
-- CloudWatch metrics export: `s3://granaai-compliance/tests/dr-2025-06-10-metrics.json`
+- CloudWatch metrics export: `s3://{{S3_COMPLIANCE_BUCKET}}/tests/dr-2025-06-10-metrics.json`
 - Grafana dashboard snapshot: https://grafana.{{COMPANY_DOMAIN}}/d/dr-test-2025-06-10
 
 **Comunicações:**
@@ -510,11 +510,11 @@ Simular resposta a cenários de crise em formato de discussão (sem execução t
 
 ### Evidências de Testes (Últimos 12 meses)
 
-**Armazenamento:** AWS S3 bucket `s3://granaai-compliance/tests/` (retention: 7 anos)
+**Armazenamento:** AWS S3 bucket `s3://{{S3_COMPLIANCE_BUCKET}}/tests/` (retention: 7 anos)
 
 **Estrutura:**
 ```
-s3://granaai-compliance/tests/
+s3://{{S3_COMPLIANCE_BUCKET}}/tests/
 ├── backup-restore/
 │   ├── 2025-10-01-pitr-test.log
 │   ├── 2025-09-24-pitr-test.log

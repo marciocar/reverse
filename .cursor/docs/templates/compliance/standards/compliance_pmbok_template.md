@@ -620,7 +620,7 @@ pnpm nx deploy web --configuration=production --version=v1.2.3
 [Descrição do problema de negócio que o projeto resolve]
 
 **Exemplo:**
-Clientes enterprise (Serasa, Bradesco) estão solicitando autenticação SSO (Single Sign-On) via SAML/OAuth. Atualmente, apenas login com email/senha é suportado, o que não atende requisitos de compliance de grandes corporações.
+Clientes enterprise ({{CLIENT_ENTERPRISE_NAME}}, etc.) estão solicitando autenticação SSO (Single Sign-On) via SAML/OAuth. Atualmente, apenas login com email/senha é suportado, o que não atende requisitos de compliance de grandes corporações.
 
 ### Oportunidade
 [Descrição da oportunidade de negócio]
@@ -674,7 +674,7 @@ Payback Period: 2 meses
 | [CTO Nome] | Sponsor | Alto | Alto | Weekly 1:1 updates |
 | [Product Manager] | Product Owner | Alto | Alto | Daily collaboration |
 | [Eng Manager] | Project Manager | Alto | Médio | Condutor do projeto |
-| [Cliente Serasa] | External Stakeholder | Alto | Alto | Bi-weekly demos |
+| {{CLIENT_ENTERPRISE_NAME}} | External Stakeholder | Alto | Alto | Bi-weekly demos |
 | [Security Team] | Technical Reviewer | Médio | Médio | Security review antes de deploy |
 | [Customer Success] | User Advocate | Médio | Baixo | Informed via email updates |
 
@@ -793,7 +793,7 @@ Implementaremos SSO usando **Passport.js** com estratégias SAML e OAuth2. Arqui
 - Violação de compliance (alguns clientes exigem SSO)
 
 ### Problema
-Clientes enterprise (Serasa, Bradesco, etc.) precisam de SSO para:
+Clientes enterprise ({{CLIENT_ENTERPRISE_NAME}}, etc.) precisam de SSO para:
 - Compliance (política interna de não manter senhas externas)
 - Segurança (centralized identity management)
 - UX (single login para todas ferramentas)
@@ -970,8 +970,8 @@ sequenceDiagram
 ```json
 {
   "sub": "user_123abc",         // User ID interno
-  "email": "joao@serasa.com",
-  "orgId": "org_serasa",
+  "email": "joao@{{CLIENT_ENTERPRISE_DOMAIN}}",
+  "orgId": "org_{{CLIENT_ENTERPRISE_NAME_LOWER}}",
   "ssoProvider": "saml-okta",   // Origem do login
   "ssoSubject": "okta_user_456", // ID do usuário no IdP
   "roles": ["user", "admin"],
@@ -1102,7 +1102,7 @@ sequenceDiagram
 - Fix bugs encontrados
 
 ### Phase 2: Pilot (Sprint 6)
-- 2 clientes piloto (Serasa + 1 outro)
+- 2 clientes piloto ({{CLIENT_ENTERPRISE_NAME}} + 1 outro)
 - Monitoring intensivo
 - Feedback loop curto
 
@@ -1191,11 +1191,11 @@ sequenceDiagram
 Adicionar suporte a **Just-in-Time (JIT) Provisioning** ao SSO. Quando um novo usuário faz login via SSO pela primeira vez, criar conta automaticamente (ao invés de exigir convite manual prévio).
 
 ### Justificativa
-Cliente Serasa tem 500+ usuários. Criar contas manualmente seria operacionalmente inviável. JIT provisioning permite que qualquer funcionário da Serasa faça login automaticamente se estiver no IdP deles.
+Cliente {{CLIENT_ENTERPRISE_NAME}} tem 500+ usuários. Criar contas manualmente seria operacionalmente inviável. JIT provisioning permite que qualquer funcionário do cliente enterprise faça login automaticamente se estiver no IdP deles.
 
 ### Contexto
 - Originalmente, JIT provisioning estava planejado para Phase 2 (fora do escopo inicial)
-- Cliente Serasa está solicitando como requisito para go-live
+- Cliente {{CLIENT_ENTERPRISE_NAME}} está solicitando como requisito para go-live
 - Sem JIT, precisaríamos criar 500 contas manualmente
 
 ---
@@ -1267,16 +1267,16 @@ Cliente Serasa tem 500+ usuários. Criar contas manualmente seria operacionalmen
 - Sem custo adicional
 
 **Contras:**
-- Cliente Serasa não pode fazer go-live (blocker)
+- Cliente {{CLIENT_ENTERPRISE_NAME}} não pode fazer go-live (blocker)
 - Operacionalmente inviável (500 contas manuais)
 
 **Decisão:** Não viável (blocker de negócio)
 
 ---
 
-### Alt 2: Implementar JIT Manualmente Apenas para Serasa
+### Alt 2: Implementar JIT Manualmente Apenas para Cliente Específico
 **Prós:**
-- Resolve problema do Serasa
+- Resolve problema do cliente enterprise específico
 - Menos escopo que JIT genérico
 
 **Contras:**
@@ -1315,16 +1315,16 @@ Cliente Serasa tem 500+ usuários. Criar contas manualmente seria operacionalmen
 ## Stakeholder Feedback
 
 ### Product Manager
-**Feedback:** Fortemente a favor. JIT é requisito de 3 outros clientes também (não só Serasa). ROI é alto.
+**Feedback:** Fortemente a favor. JIT é requisito de 3 outros clientes também (não só {{CLIENT_ENTERPRISE_NAME}}). ROI é alto.
 
 ### CTO
 **Feedback:** Aprovado, desde que timeline de 2 semanas seja respeitado (hard deadline 2025-09-15).
 
-### Cliente Serasa
+### Cliente Enterprise
 **Feedback:** Requisito mandatório para go-live. Dispostos a esperar 2 semanas extras.
 
 ### CFO
-**Feedback:** Aprovado aumento de budget (+R$ 33K), desde que contrato Serasa seja assinado (garante ROI).
+**Feedback:** Aprovado aumento de budget (+R$ 33K), desde que contrato {{CLIENT_ENTERPRISE_NAME}} seja assinado (garante ROI).
 
 ---
 

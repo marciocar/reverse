@@ -454,7 +454,7 @@ Detection → Containment → Eradication → Recovery → Post-Mortem
 ### Estrutura de Evidências (S3)
 
 ```
-s3://granaai-compliance/soc2-evidence/
+s3://{{S3_COMPLIANCE_BUCKET}}/soc2-evidence/
 ├── policies/ (15 policies, PDF assinados)
 ├── risk-assessment/ (annual reports, risk register)
 ├── access-reviews/ (trimestral, approvals)

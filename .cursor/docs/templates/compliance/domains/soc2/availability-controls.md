@@ -127,7 +127,7 @@ Uptime = (43.200 - 22) / 43.200 × 100 = 99.95% ✅
 **SLA Report:**
 - Enviado mensalmente para contato (Cliente Enterprise - {{CUSTOMER_NAME}}) (até dia 5 do mês seguinte)
 - Formato: PDF com métricas, incidentes, uptime %
-- Canal: Email (am-granaai@serasaexperian.com.br)
+- Canal: Email ({{CLIENT_ENTERPRISE_CONTACT_EMAIL}})
 
 ---
 
@@ -584,15 +584,15 @@ CPU Stress: Stress 1 node (valida auto-scaling)
 **CloudWatch Logs:**
 - Retention: 90 dias (online), 7 anos (archived to S3 Glacier)
 - Tipos: Application logs, access logs, error logs, audit logs
-- Armazenamento: `s3://granaai-compliance/logs/` (read-only para auditores)
+- Armazenamento: `s3://{{S3_COMPLIANCE_BUCKET}}/logs/` (read-only para auditores)
 
 **Grafana Dashboards:**
-- Snapshots mensais: `s3://granaai-compliance/dashboards/`
+- Snapshots mensais: `s3://{{S3_COMPLIANCE_BUCKET}}/dashboards/`
 - Availability %, incident timeline, MTTR trends
 - Access: Auditores têm read-only account
 
 **PagerDuty Incident History:**
-- Export mensal: `s3://granaai-compliance/incidents/`
+- Export mensal: `s3://{{S3_COMPLIANCE_BUCKET}}/incidents/`
 - Formato: JSON com timestamps, severity, resolution time, owner
 - Audit trail: Quem foi notificado, quando, acknowledgement times
 
@@ -603,25 +603,25 @@ CPU Stress: Stress 1 node (valida auto-scaling)
 **Backup Restoration Tests:**
 - Frequência: Semanal (52 testes/ano)
 - Evidence: Script logs, screenshots, CloudWatch metrics
-- Location: `s3://granaai-compliance/tests/backup-restore/`
+- Location: `s3://{{S3_COMPLIANCE_BUCKET}}/tests/backup-restore/`
 - Success rate (2025): 100% (52/52)
 
 **DR Simulation Tests:**
 - Frequência: Mensal (12 testes/ano)
 - Evidence: Runbook execution logs, video recordings, metrics
-- Location: `s3://granaai-compliance/tests/dr-simulation/`
+- Location: `s3://{{S3_COMPLIANCE_BUCKET}}/tests/dr-simulation/`
 - Success rate (2025): 100% (RTO/RPO atingidos)
 
 **Full DR Tests:**
 - Frequência: Semestral (2 testes/ano)
 - Evidence: Comprehensive reports, customer notifications, RTO/RPO data
-- Location: `s3://granaai-compliance/tests/dr-full/`
+- Location: `s3://{{S3_COMPLIANCE_BUCKET}}/tests/dr-full/`
 - Success rate (2025): 100% (1/1, próximo: Dez 2025)
 
 **Load Tests:**
 - Frequência: Mensal (12 testes/ano)
 - Evidence: k6 test results, Grafana dashboards, performance metrics
-- Location: `s3://granaai-compliance/tests/load-tests/`
+- Location: `s3://{{S3_COMPLIANCE_BUCKET}}/tests/load-tests/`
 
 ---
 
@@ -638,7 +638,7 @@ CPU Stress: Stress 1 node (valida auto-scaling)
 - Generated automatically via script
 - Format: PDF (uptime %, incidents, downtime breakdown)
 - Distribution: Email (monthly, by 5th of following month)
-- Archive: `s3://granaai-compliance/sla-reports/`
+- Archive: `s3://{{S3_COMPLIANCE_BUCKET}}/sla-reports/`
 
 ---
 

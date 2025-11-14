@@ -15,22 +15,22 @@ Guiar a geração de documentação completa de controles SOC2 que atenda aos Tr
 - SaaS companies, fintechs, cloud providers
 - Empresas B2B que lidam com dados de clientes
 - Organizações que precisam demonstrar confiabilidade para clientes enterprise
-- Resposta a requisitos de Due Diligence (ex: Serasa Experian)
+- Resposta a requisitos de Due Diligence de clientes enterprise
 - Preparação para auditoria SOC2 Type II
 
 ---
 
-## 🎯 **Mapeamento Due Diligence Serasa Experian**
+## 🎯 **Mapeamento Due Diligence Cliente Enterprise**
 
-**CRÍTICO:** Este template mapeia **3 de 8 requisitos** da solicitação Serasa Experian:
+**CRÍTICO:** Este template mapeia **3 de 8 requisitos** típicos de solicitações de Due Diligence de clientes enterprise:
 
-| # | Requisito Serasa | Documento SOC2 | Status |
+| # | Requisito Due Diligence | Documento SOC2 | Status |
 |---|------------------|----------------|--------|
 | 6 | Certificado/Relatório SOC2 | → Auditoria completa | 🔄 |
 | 7 | Confirmação SLAs de Disponibilidade | `availability-controls.md` | ✅ |
 | 8 | Documentação Contratual SLAs | `availability-controls.md` | ✅ |
 
-**Cobertura Serasa (SOC2):** 3/3 requisitos SOC2 ✅
+**Cobertura Due Diligence (SOC2):** 3/3 requisitos SOC2 ✅
 
 ---
 
@@ -54,7 +54,7 @@ SOC2 é baseado em **5 Trust Services Principles:**
 
 O specialist agent `@soc2-specialist` deve gerar **5 documentos principais**:
 
-| # | Documento | Arquivo | TSC Principle | Requisito Serasa |
+| # | Documento | Arquivo | TSC Principle | Requisito Due Diligence |
 |---|-----------|---------|---------------|------------------|
 | 1 | Trust Services Criteria Overview | `trust-services-criteria.md` | Todos | - |
 | 2 | Security Controls | `security-controls.md` | Security | - |
@@ -114,7 +114,7 @@ Informação e sistemas estão disponíveis para operação e uso conforme compr
 **SLA Comprometido:** 99.9% uptime  
 **Uptime Atual (Q2 2025):** 99.95%
 
-**Documentação:** `availability-controls.md` + Mapeia Serasa Req #7, #8
+**Documentação:** `availability-controls.md` + Mapeia Due Diligence Req #7, #8
 
 ---
 
@@ -341,8 +341,8 @@ Documentar controles de Security (TSC 1) implementados pela organização.
 ### Objetivo
 Documentar controles de Availability (TSC 2) e SLAs oferecidos aos clientes.
 
-**Responde:** ✅ **Serasa Req #7** - "Confirmação dos SLAs de Disponibilidade"  
-**Responde:** ✅ **Serasa Req #8** - "Documentação Contratual dos SLAs"
+**Responde:** ✅ **Due Diligence Req #7** - "Confirmação dos SLAs de Disponibilidade"  
+**Responde:** ✅ **Due Diligence Req #8** - "Documentação Contratual dos SLAs"
 
 ### Seções Obrigatórias
 
@@ -385,22 +385,22 @@ Uptime % = (Total Minutos no Mês - Downtime) / Total Minutos no Mês × 100
 
 ---
 
-### 📋 Confirmação de SLAs (Serasa Experian)
+### 📋 Confirmação de SLAs (Cliente Enterprise)
 
-**CRÍTICO:** Resposta ao requisito Serasa #7
+**CRÍTICO:** Resposta ao requisito Due Diligence #7
 
 **Confirmação Formal:**
 ```
 Data: 2025-06-03
 
-Para: [Serasa Experian - Equipe de Continuidade de Negócios]
+Para: {{CLIENT_ENTERPRISE_CONTACT_EMAIL}}
 De: [Nome da Empresa - CTO]
 
 Assunto: Confirmação de Service Level Agreements (SLAs)
 
 Prezados,
 
-Confirmamos que os SLAs de disponibilidade oferecidos pela [Empresa] atendem aos requisitos da Serasa Experian, conforme segue:
+Confirmamos que os SLAs de disponibilidade oferecidos pela {{COMPANY_NAME}} atendem aos requisitos do cliente enterprise, conforme segue:
 
 APIs de Integração Core:
 - SLA: 99.9% uptime mensal
@@ -423,7 +423,7 @@ Atenciosamente,
 CTO - [Empresa]
 ```
 
-**Documento:** `docs/compliance/due-diligence/serasa-sla-confirmation.pdf`
+**Documento:** `docs/compliance/due-diligence/{{CLIENT_ENTERPRISE_NAME}}-sla-confirmation.pdf`
 ```
 
 #### 3.2 Availability Controls (PT-BR)
@@ -489,11 +489,11 @@ CTO - [Empresa]
 - Budget approvals
 ```
 
-#### 3.3 Documentação Contratual de SLAs (Serasa Req #8)
+#### 3.3 Documentação Contratual de SLAs (Due Diligence Req #8)
 ```markdown
 ## Documentação Contratual de SLAs
 
-**CRÍTICO:** Resposta ao requisito Serasa #8
+**CRÍTICO:** Resposta ao requisito Due Diligence #8
 
 ### Trecho do Contrato de Serviço
 
@@ -537,7 +537,7 @@ Para incidentes críticos:
 **Assinatura:**
 - Data: [Data do Contrato]
 - FORNECEDOR: [Nome da Empresa - CTO]
-- CLIENTE: [Serasa Experian - Representante Legal]
+- CLIENTE: {{CLIENT_ENTERPRISE_NAME}} - Representante Legal
 ```
 
 ### Guidelines de Conteúdo
@@ -749,5 +749,5 @@ Para preparação para auditoria SOC2 Type II:
 **Última Atualização do Template:** 2025-06-03  
 **Versão:** 1.0 (SOC2 Type II - AICPA TSC 2017)  
 **Mantido por:** @soc2-specialist  
-**CRÍTICO:** ✅ Mapeia 3/3 requisitos SOC2 da Serasa Experian
+**CRÍTICO:** ✅ Mapeia 3/3 requisitos SOC2 típicos de Due Diligence enterprise
 

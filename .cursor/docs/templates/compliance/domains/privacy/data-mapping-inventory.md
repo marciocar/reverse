@@ -258,7 +258,7 @@ Identificação (automated monthly job):
      ↓
 Anonymization (após grace period):
 ├── Nome → "User_[hash]"
-├── Email → "deleted_[hash]@granaai.local"
+├── Email → "deleted_[hash]@{{COMPANY_DOMAIN}}.local"
 ├── CPF → "000.000.000-00"
 ├── Telefone → NULL
 └── Endereço → NULL

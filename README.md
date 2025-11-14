@@ -36,11 +36,15 @@ reverse/
 ├── .cursor/                    # Configurações e agentes de IA
 │   ├── agents/                # Agentes especializados
 │   │   └── development/       # Especialistas em desenvolvimento
-│   ├── commands/              # Comandos customizados
+│   ├── commands/              # Comandos customizados (APENAS comandos executáveis)
 │   │   ├── docs/             # Comandos de documentação
 │   │   └── meta/             # Meta-comandos
 │   ├── docs/                  # Documentação de templates
 │   │   └── templates/        # Templates de documentos
+│   │       ├── compliance/   # Templates de compliance
+│   │       │   ├── standards/# Templates de padrões (ISO, SOC2, PMBOK)
+│   │       │   └── domains/  # Templates por domínio
+│   │       └── [outros]/     # Outros templates
 │   └── rules/                 # Regras do workspace
 └── README.md                  # Este arquivo
 ```
@@ -73,6 +77,46 @@ reverse/
 - **Reference Template**: Documentação de referência
 - **Solution Template**: Documentação de soluções
 
+## 🏛️ Modelo de Governança e Compliance
+
+Este projeto inclui um **sistema completo de Governança e Compliance** baseado nas principais certificações e frameworks internacionais:
+
+### Frameworks Suportados
+
+#### 🔒 ISO/IEC 27001:2022 (ISMS)
+- Sistema de Gestão de Segurança da Informação
+- Controles de segurança, acesso, criptografia
+- Gestão de riscos e resposta a incidentes
+
+#### 🏢 ISO 22301:2019 (BCMS)
+- Sistema de Gestão de Continuidade de Negócios
+- Planos de continuidade e recuperação de desastres
+- Gerenciamento de crise e testes de resiliência
+
+#### ✓ SOC 2 Type II (AICPA)
+- Trust Services Criteria (Security, Availability, Confidentiality)
+- Controles de serviço auditáveis
+- Evidências para auditoria externa
+
+#### 📋 PMBOK Guide
+- Governança de projetos e processos
+- Gestão de mudanças e qualidade
+- Estruturação de entregas
+
+#### 👤 LGPD (Lei Geral de Proteção de Dados)
+- Mapeamento de dados pessoais
+- Políticas de privacidade e consentimento
+- Direitos dos titulares
+
+### Características do Modelo
+
+- ✅ **100% Genérico**: Templates reutilizáveis para qualquer organização
+- ✅ **Baseado em Padrões**: Alinhado com certificações internacionais
+- ✅ **Automatizado**: Agentes especializados geram documentação completa
+- ✅ **Auditável**: Estrutura preparada para auditorias e certificações
+- ✅ **Due Diligence Ready**: Responde requisitos de clientes enterprise
+- ✅ **Multi-Framework**: Integração entre diferentes padrões de compliance
+
 ## 🎓 Aprendizados
 
 Este projeto demonstra:
@@ -80,6 +124,9 @@ Este projeto demonstra:
 2. Utilização de agentes especializados para diferentes tarefas
 3. Automação de documentação e análise de código
 4. Padrões de organização para projetos assistidos por IA
+5. **Modelo completo de Governança e Compliance** baseado em certificações internacionais
+6. Integração de múltiplos frameworks de compliance em uma estrutura unificada
+7. Geração automatizada de documentação auditável e pronta para certificação
 
 ## 📖 Como Usar
 

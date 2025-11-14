@@ -81,7 +81,7 @@ Todos os templates usam {{VARIABLE}} para máxima reutilização:
 
 ## ✅ Garantias de Qualidade
 
-- ✅ **Sem referências a empresas**: Nenhuma menção a Granaai, Serasa ou outras empresas
+- ✅ **Sem referências a empresas**: Templates 100% genéricos sem menções a empresas específicas
 - ✅ **100% genéricos**: Funcionam para startups e empresas grandes
 - ✅ **PT-BR**: Documentação em português com termos técnicos em inglês
 - ✅ **Reutilizáveis**: Templates prontos para qualquer organização

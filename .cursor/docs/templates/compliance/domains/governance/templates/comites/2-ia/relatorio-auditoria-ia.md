@@ -469,7 +469,7 @@ classification: "CONFIDENCIAL - USO INTERNO"
 
 ---
 
-## 🎯 SEÇÃO 7: EVIDÊNCIAS PARA SERASA DUE DILIGENCE
+## 🎯 SEÇÃO 7: EVIDÊNCIAS PARA DUE DILIGENCE ENTERPRISE
 
 **Base:** Due Diligence de Cliente Enterprise - Seção VIII (Inteligência Artificial)
 

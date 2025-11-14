@@ -47,9 +47,9 @@ docs/compliance/
 │   └── data-mapping-inventory.md ✅
 │
 ├── due-diligence/               # Respostas a Due Diligence de clientes
-│   ├── serasa-checklist.md ✅
-│   ├── serasa-experian-response.md ✅
-│   ├── serasa-compliance-summary.md ✅
+│   ├── due-diligence-checklist.md ✅
+│   ├── due-diligence-response.md ✅
+│   ├── compliance-summary.md ✅
 │   └── templates/
 │
 └── governance/ ⭐               # Governança Corporativa (26 documentos) - NOVO
@@ -251,7 +251,7 @@ docs/compliance/
 | 7 | Confirmação SLAs | SOC2 | [availability-controls.md](./soc2/availability-controls.md) | ✅ |
 | 8 | Documentação Contratual SLAs | SOC2 | [availability-controls.md](./soc2/availability-controls.md) | ✅ |
 
-**Resposta Completa:** [`due-diligence/serasa-experian-response.md`](./due-diligence/serasa-experian-response.md)
+**Resposta Completa:** [`due-diligence/due-diligence-response.md`](./due-diligence/due-diligence-response.md)
 
 ---
 
@@ -272,7 +272,7 @@ docs/compliance/
 → SLA 99.9%, Uptime atual 99.95%, Documentação contratual
 
 #### 📝 **Responder Due Diligence de cliente?**
-→ Vá para [`due-diligence/serasa-experian-response.md`](./due-diligence/serasa-experian-response.md)  
+→ Vá para [`due-diligence/due-diligence-response.md`](./due-diligence/due-diligence-response.md)  
 → Template completo com todos os 8 requisitos
 
 #### ⭐ **Governança Corporativa?** (NOVO)
@@ -498,7 +498,7 @@ SOC2 Type II
 - **Total Anual:** USD $45K - $100K
 
 ### **5. Como responder Due Diligence de novos clientes?**
-Use o template: [`due-diligence/serasa-experian-response.md`](./due-diligence/serasa-experian-response.md)  
+Use o template: [`due-diligence/due-diligence-response.md`](./due-diligence/due-diligence-response.md)  
 Customize conforme requisitos específicos do cliente.
 
 ### **⭐ 6. Quanto tempo leva para implementar Governança Corporativa?** (NOVO)

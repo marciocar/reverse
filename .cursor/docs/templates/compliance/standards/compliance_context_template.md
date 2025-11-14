@@ -301,7 +301,7 @@ Este template genérico **referencia** 4 templates específicos por framework:
 ## 🔗 Due Diligence e Integrações
 
 ### Requisitos Atendidos
-✅ **Serasa Experian** (8/8 requisitos):
+✅ **Due Diligence Enterprise** (8/8 requisitos típicos):
 - Plano de Continuidade de Negócios (ISO 22301)
 - Plano de Recuperação de Desastres (ISO 22301)
 - Plano de Gerenciamento de Crise (ISO 22301)

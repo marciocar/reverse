@@ -114,8 +114,12 @@ Estabelecer padrões consistentes de idioma e documentação em todo o projeto, 
 .cursor/                        # Documentação de desenvolvimento
 ├── docs/                       # Documentação de processo e workflow
 │   ├── templates/              # Templates reutilizáveis
+│   │   ├── compliance/         # Templates de compliance
+│   │   │   ├── standards/      # Templates de padrões (ISO, SOC2, PMBOK)
+│   │   │   └── domains/        # Templates por domínio
+│   │   └── [outros]/           # Outros templates
 │   └── guides/                 # Guias específicos
-├── commands/                   # Comandos Cursor
+├── commands/                   # Comandos Cursor (APENAS comandos executáveis)
 │   ├── meta/                   # Comandos meta (criar comandos, etc)
 │   ├── development/            # Comandos de desenvolvimento
 │   └── docs/                   # Comandos de documentação

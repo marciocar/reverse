@@ -137,9 +137,9 @@ Confirma frameworks: ISO 22301 + SOC2 + ISO 27001?
 [C] Custom selection
 ```
 
-**Exemplo Real (Serasa Experian):**
+**Exemplo Real (Due Diligence Enterprise):**
 ```markdown
-Checklist Serasa (8 requisitos):
+Checklist Due Diligence (8 requisitos típicos):
 1. Plano de Continuidade de Negócios
 2. Plano de Recuperação de Desastres
 3. Plano de Gerenciamento de Crise
@@ -176,7 +176,7 @@ Resultado: ISO 22301 + SOC2 (8/8 requisitos cobertos ✅)
 
 Inferências:
 - Fintech + dados sensíveis → ISO 27001 (recomendado)
-- Clientes enterprise (Serasa, bancos) → SOC2 (recomendado)
+- Clientes enterprise (grandes corporações, bancos) → SOC2 (recomendado)
 - Infraestrutura distribuída crítica → ISO 22301 (recomendado)
 - NX monorepo + múltiplos projetos → PMBOK (opcional)
 ```
@@ -189,7 +189,7 @@ Baseado na documentação existente:
 
 📊 PERFIL DETECTADO:
 - Setor: Fintech (marketplace de resíduos)
-- Clientes: Enterprise (Serasa Experian mencionada)
+- Clientes: Enterprise (clientes enterprise mencionados)
 - Stack: React Native + NX Monorepo + AWS
 - Dados: Sensíveis (transações, usuários, conformidade FEPAM/MTR)
 
@@ -204,7 +204,7 @@ Baseado na documentação existente:
    Benefício: Resiliência, DR plan documentado
 
 ✅ SOC2 Type II - RECOMENDADO
-   Justificativa: Requisito comum de clientes enterprise (Serasa)
+   Justificativa: Requisito comum de clientes enterprise
    Benefício: Desbloqueio de contratos, confiança
 
 ⚪ PMBOK (Governança) - OPCIONAL
@@ -271,7 +271,7 @@ Antes de delegar, consolidar contexto do projeto:
 
 **Clientes:**
 - Perfil: [B2B enterprise, B2C, B2B2C]
-- Exemplos: [Serasa Experian, grandes bancos]
+- Exemplos: [clientes enterprise, grandes bancos]
 - Requisitos de compliance: [SOC2, ISO, due diligence]
 
 **Objetivos de Compliance:**
@@ -307,7 +307,7 @@ Antes de delegar, consolidar contexto do projeto:
 
 **Idioma:** PT-BR (preservando termos: Risk Assessment, Access Control, ISMS, BIA, SoA)
 
-**Template:** Leia e siga `.cursor/commands/common/templates/compliance_iso27001_template.md`
+**Template:** Leia e siga `.cursor/docs/templates/compliance/standards/compliance_iso27001_template.md`
 
 Confirme quando concluir para eu consolidar no index.md.
 ```
@@ -336,9 +336,9 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: BCP, DRP, RTO, RPO, BIA, MTPD)
 
-**Template:** Leia e siga `.cursor/commands/common/templates/compliance_iso22301_template.md`
+**Template:** Leia e siga `.cursor/docs/templates/compliance/standards/compliance_iso22301_template.md`
 
-🚨 **SERASA MAPPING**: Este framework mapeia 5 de 8 requisitos da Serasa Experian. Garanta que:
+🚨 **DUE DILIGENCE MAPPING**: Este framework mapeia 5 de 8 requisitos típicos de Due Diligence enterprise. Garanta que:
 - Req #1: Plano de Continuidade → business-continuity-plan.md ✅
 - Req #2: Plano de Recuperação → disaster-recovery-plan.md ✅
 - Req #3: Gerenciamento de Crise → crisis-management.md ✅
@@ -372,7 +372,7 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: Project Charter, RFC, Change Management, Quality Management, etc.)
 
-**Template:** Leia e siga `.cursor/commands/common/templates/compliance_pmbok_template.md`
+**Template:** Leia e siga `.cursor/docs/templates/compliance/standards/compliance_pmbok_template.md`
 
 **Integração Crítica:**
 - Referenciar NX monorepo (CODEOWNERS, dependency graph, module boundaries)
@@ -405,9 +405,9 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: Trust Services Criteria, Type II, Control Environment, TSC, etc.)
 
-**Template:** Leia e siga `.cursor/commands/common/templates/compliance_soc2_template.md`
+**Template:** Leia e siga `.cursor/docs/templates/compliance/standards/compliance_soc2_template.md`
 
-🚨 **SERASA MAPPING**: Este framework mapeia 3 de 8 requisitos da Serasa Experian. Garanta que:
+🚨 **DUE DILIGENCE MAPPING**: Este framework mapeia 3 de 8 requisitos típicos de Due Diligence enterprise. Garanta que:
 - Req #6: Certificado/Relatório SOC2 → trust-services-criteria.md ✅
 - Req #7: Confirmação SLAs → availability-controls.md ✅
 - Req #8: Documentação SLAs → availability-controls.md ✅
@@ -651,7 +651,7 @@ Documentos Gerados:
 **1. Template não encontrado**
 ```markdown
 ❌ ERRO: Template não encontrado
-Template esperado: .cursor/commands/common/templates/compliance_iso27001_template.md
+Template esperado: .cursor/docs/templates/compliance/standards/compliance_iso27001_template.md
 Ação: Verificar se Phase 1 foi concluída. Templates devem existir antes de usar este agente.
 ```
 
@@ -673,7 +673,7 @@ Alternativa: Gerar documentação manualmente seguindo template
 ```markdown
 ❌ ERRO: Checklist não encontrado: path/to/checklist.md
 Ação: Verificar path relativo ao workspace root
-Exemplo correto: docs/due-diligence/serasa-requirements.md
+Exemplo correto: docs/due-diligence/due-diligence-requirements.md
 ```
 
 ---
@@ -698,9 +698,9 @@ docs/compliance/
 Tempo: ~2 minutos
 ```
 
-### Exemplo 2: Modo Due Diligence (Serasa)
+### Exemplo 2: Modo Due Diligence (Cliente Enterprise)
 ```bash
-Usuário: /docs/build-compliance due-diligence="docs/due-diligence/serasa-requirements.md"
+Usuário: /docs/build-compliance due-diligence="docs/due-diligence/due-diligence-requirements.md"
 
 Detecção automática:
 Keywords: continuidade (3x), disaster recovery (2x), rto (2x), rpo (2x), testes (1x), soc2 (1x), sla (2x)
@@ -713,9 +713,9 @@ docs/compliance/
 ├── business-continuity/ (5 docs)
 ├── soc2/ (5 docs)
 └── due-diligence/
-    └── serasa-experian-response.md (resposta estruturada)
+    └── due-diligence-response.md (resposta estruturada)
 
-Cobertura: 8/8 requisitos Serasa ✅
+Cobertura: 8/8 requisitos Due Diligence ✅
 Tempo: ~3 minutos
 ```
 

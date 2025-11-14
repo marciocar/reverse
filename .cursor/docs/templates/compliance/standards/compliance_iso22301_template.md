@@ -15,16 +15,16 @@ Guiar a geração de documentação completa de BCMS que atenda aos requisitos d
 - Organizações com processos críticos de negócio
 - Fintechs, SaaS, Healthcare, infraestrutura crítica
 - Empresas que precisam demonstrar resiliência para clientes/parceiros
-- Resposta a requisitos de Due Diligence (ex: Serasa Experian)
+- Resposta a requisitos de Due Diligence de clientes enterprise
 - Preparação para certificação ISO 22301
 
 ---
 
-## 🎯 **Mapeamento Due Diligence Serasa Experian**
+## 🎯 **Mapeamento Due Diligence Cliente Enterprise**
 
-**CRÍTICO:** Este template mapeia **5 de 8 requisitos** da solicitação Serasa Experian:
+**CRÍTICO:** Este template mapeia **5 de 8 requisitos** típicos de solicitações de Due Diligence de clientes enterprise:
 
-| # | Requisito Serasa | Documento ISO 22301 | Status |
+| # | Requisito Due Diligence | Documento ISO 22301 | Status |
 |---|------------------|---------------------|--------|
 | 1 | Plano de Continuidade de Negócios | `business-continuity-plan.md` | ✅ |
 | 2 | Plano de Recuperação de Desastres | `disaster-recovery-plan.md` | ✅ |
@@ -35,7 +35,7 @@ Guiar a geração de documentação completa de BCMS que atenda aos requisitos d
 | 7 | Confirmação SLAs | → SOC2 Template | - |
 | 8 | Documentação Contratual SLAs | → SOC2 Template | - |
 
-**Cobertura Serasa:** 5/5 requisitos de BC/DR ✅
+**Cobertura Due Diligence:** 5/5 requisitos de BC/DR ✅
 
 ---
 
@@ -43,7 +43,7 @@ Guiar a geração de documentação completa de BCMS que atenda aos requisitos d
 
 O specialist agent `@iso-22301-specialist` deve gerar **5 documentos principais**:
 
-| # | Documento | Arquivo | Seção ISO 22301 | Requisito Serasa |
+| # | Documento | Arquivo | Seção ISO 22301 | Requisito Due Diligence |
 |---|-----------|---------|-----------------|------------------|
 | 1 | Business Continuity Plan (BCP) | `business-continuity-plan.md` | Cláusula 8.4 | ✅ Req #1 |
 | 2 | Disaster Recovery Plan (DRP) | `disaster-recovery-plan.md` | Cláusula 8.4.3 | ✅ Req #2 |
@@ -60,7 +60,7 @@ O specialist agent `@iso-22301-specialist` deve gerar **5 documentos principais*
 ### Objetivo
 Documentar o Business Continuity Plan (BCP) da organização conforme ISO 22301:2019 Cláusula 8.4, estabelecendo estratégias e procedimentos para manter operações críticas durante e após eventos disruptivos.
 
-**Responde:** ✅ **Serasa Req #1** - "Plano de Continuidade de Negócios: ênfase nos processos que sustentam nosso contrato"
+**Responde:** ✅ **Due Diligence Req #1** - "Plano de Continuidade de Negócios: ênfase nos processos que sustentam nosso contrato"
 
 ### Seções Obrigatórias
 
@@ -71,7 +71,7 @@ Documentar o Business Continuity Plan (BCP) da organização conforme ISO 22301:
 ## Escopo
 
 ### Processos Críticos Cobertos
-Este BCP cobre os seguintes processos críticos que sustentam operações com clientes enterprise (incluindo Serasa Experian):
+Este BCP cobre os seguintes processos críticos que sustentam operações com clientes enterprise (incluindo {{CLIENT_ENTERPRISE_NAME}}):
 
 1. **Processamento de Transações Financeiras**
    - Escopo: APIs de pagamento, autorização, liquidação
@@ -276,7 +276,7 @@ Baseado no tipo de incidente:
 ### Objetivo
 Documentar o Disaster Recovery Plan (DRP) conforme ISO 22301:2019 Cláusula 8.4.3, especificando procedimentos técnicos detalhados para restaurar infraestrutura e sistemas críticos após um desastre.
 
-**Responde:** ✅ **Serasa Req #2** - "Plano de Recuperação de Desastres: ênfase no ambiente tecnológico que sustenta nosso contrato"
+**Responde:** ✅ **Due Diligence Req #2** - "Plano de Recuperação de Desastres: ênfase no ambiente tecnológico que sustenta nosso contrato"
 
 ### Seções Obrigatórias
 
@@ -422,7 +422,7 @@ aws route53 change-resource-record-sets \
 # - Auth flow: login, token refresh
 # - Payment processing: transaction end-to-end
 # - Database connectivity: read + write
-# - External integrations: Stripe, Auth0, Serasa APIs
+# - External integrations: Stripe, Auth0, {{CLIENT_ENTERPRISE_NAME}} APIs
 
 # Validar métricas:
 # - Latency < 200ms (p95)
@@ -580,7 +580,7 @@ kubectl scale deployment/api --replicas=10
 ### Objetivo
 Documentar o Plano de Gerenciamento de Crise conforme ISO 22301:2019 Cláusula 8.4.4, estabelecendo estrutura de comando, comunicação e coordenação durante crises que impactam continuidade de negócio.
 
-**Responde:** ✅ **Serasa Req #3** - "Plano de Gerenciamento de Crise: indicando canais de atuação e pontos de contato da Serasa Experian"
+**Responde:** ✅ **Due Diligence Req #3** - "Plano de Gerenciamento de Crise: indicando canais de atuação e pontos de contato do cliente enterprise"
 
 ### Seções Obrigatórias
 
@@ -632,7 +632,7 @@ Documentar o Plano de Gerenciamento de Crise conforme ISO 22301:2019 Cláusula 8
 - Gerenciar comunicação externa (clientes, parceiros)
 - Atualizar status page e redes sociais
 - Coordenar comunicados oficiais
-- Interface com Serasa e outros clientes enterprise
+- Interface com {{CLIENT_ENTERPRISE_NAME}} e outros clientes enterprise
 
 **Contato:**
 - Celular: +55 11 ZZZZ-ZZZZ
@@ -704,26 +704,26 @@ Atenciosamente,
 
 ---
 
-### 🔗 Pontos de Contato Serasa Experian (Due Diligence)
+### 🔗 Pontos de Contato Cliente Enterprise (Due Diligence)
 
-**CRÍTICO:** Canais específicos para comunicação com Serasa durante crise:
+**CRÍTICO:** Canais específicos para comunicação com cliente enterprise durante crise:
 
-| Tipo de Comunicação | Contato Empresa | Contato Serasa (Exemplo) |
-|---------------------|-----------------|--------------------------|
-| **Incident Notification** | crisis@empresa.com | [email-serasa-bc@serasaexperian.com] |
-| **Emergency Phone** | +55 11 XXXX-XXXX (CTO) | [+55 11 contato-serasa] |
-| **Status Updates** | status.empresa.com | Portal do Cliente Serasa |
-| **Post-Incident Report** | cto@empresa.com | [account-manager@serasa] |
+| Tipo de Comunicação | Contato Empresa | Contato Cliente Enterprise |
+|---------------------|-----------------|----------------------------|
+| **Incident Notification** | crisis@{{COMPANY_DOMAIN}} | {{CLIENT_ENTERPRISE_CONTACT_EMAIL}} |
+| **Emergency Phone** | {{CTO_PHONE}} | {{CLIENT_ENTERPRISE_PHONE}} |
+| **Status Updates** | status.{{COMPANY_DOMAIN}} | {{CLIENT_ENTERPRISE_PORTAL_URL}} |
+| **Post-Incident Report** | {{CTO_EMAIL}} | {{CLIENT_ENTERPRISE_ACCOUNT_MANAGER_EMAIL}} |
 
-**Processo de Notificação Serasa:**
-1. **Declaração de Crise:** Notificar Serasa dentro de 1 hora se serviços impactados
+**Processo de Notificação Cliente Enterprise:**
+1. **Declaração de Crise:** Notificar cliente enterprise dentro de 1 hora se serviços impactados
 2. **Updates Regulares:** A cada 2 horas até resolução
 3. **Post-Incident Report:** Enviar relatório completo dentro de 48h após resolução
 
 **Template de Notificação:**
 ```
-Para: [contato-bc@serasaexperian.com]
-CC: [account-manager@serasa], cto@empresa.com
+Para: {{CLIENT_ENTERPRISE_CONTACT_EMAIL}}
+CC: {{CLIENT_ENTERPRISE_ACCOUNT_MANAGER_EMAIL}}, {{CTO_EMAIL}}
 Assunto: [CRISE] Notificação de Incidente - [Empresa] - [Data/Hora]
 
 Prezados,
@@ -793,7 +793,7 @@ graph TD
 
 ### Guidelines de Conteúdo
 - **Idioma:** Crisis Management (termo técnico), procedimentos em PT-BR
-- **CRÍTICO:** Incluir contatos específicos de clientes enterprise (Serasa)
+- **CRÍTICO:** Incluir contatos específicos de clientes enterprise ({{CLIENT_ENTERPRISE_NAME}})
 - **Atualização:** Trimestral ou quando houver mudança de stakeholders
 - **Responsável:** CTO + Communications Lead
 
@@ -804,7 +804,7 @@ graph TD
 ### Objetivo
 Documentar testes de resiliência conforme ISO 22301:2019 Cláusula 8.5, evidenciando execução de exercícios, resultados e melhorias implementadas.
 
-**Responde:** ✅ **Serasa Req #4** - "Evidências da divulgação de Workshops e/ou treinamentos internos sobre Resiliência + Evidência de testes anuais dos Planos de Continuidade e Recuperação de Desastres"
+**Responde:** ✅ **Due Diligence Req #4** - "Evidências da divulgação de Workshops e/ou treinamentos internos sobre Resiliência + Evidência de testes anuais dos Planos de Continuidade e Recuperação de Desastres"
 
 ### Seções Obrigatórias
 
@@ -1018,7 +1018,7 @@ Primary AWS region (us-east-1) sofre outage prolongado. Necessário failover par
 ### Objetivo
 Documentar Recovery Time Objectives (RTOs) e Recovery Point Objectives (RPOs) conforme ISO 22301:2019 Cláusula 8.2.3, estabelecendo tolerâncias de indisponibilidade e perda de dados.
 
-**Responde:** ✅ **Serasa Req #5** - "Política de backup/restauração: documentação baseada em objetivos de Tempo de Recuperação (RTOs) e Objetivos de Ponto de Recuperação (RPOs)"
+**Responde:** ✅ **Due Diligence Req #5** - "Política de backup/restauração: documentação baseada em objetivos de Tempo de Recuperação (RTOs) e Objetivos de Ponto de Recuperação (RPOs)"
 
 ### Seções Obrigatórias
 
@@ -1036,7 +1036,7 @@ Documentar Recovery Time Objectives (RTOs) e Recovery Point Objectives (RPOs) co
 |------------------|-----|---------------|------------|
 | **Processamento de Transações** | 1 hora | Impacto financeiro R$ 500K/h | Multi-AZ HA |
 | **Autenticação de Usuários** | 30 minutos | Zero funcionalidade sem login | Auth0 SaaS 99.99% |
-| **APIs Core de Integração** | 2 horas | SLAs contratuais (Serasa) | Multi-AZ + DR |
+| **APIs Core de Integração** | 2 horas | SLAs contratuais ({{CLIENT_ENTERPRISE_NAME}}) | Multi-AZ + DR |
 | **Analytics/Dashboards** | 8 horas | Não-crítico, reporting pode atrasar | Warm standby DR |
 | **Admin/Backoffice** | 24 horas | Uso interno, workarounds manuais | Backup restore |
 
@@ -1272,5 +1272,5 @@ Para preparação para certificação ISO 22301:
 **Última Atualização do Template:** 2025-06-03  
 **Versão:** 1.0 (ISO 22301:2019)  
 **Mantido por:** @iso-22301-specialist  
-**CRÍTICO:** ✅ Mapeia 5/8 requisitos Serasa Experian
+**CRÍTICO:** ✅ Mapeia 5/8 requisitos típicos de Due Diligence enterprise
 
